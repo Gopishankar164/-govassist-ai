@@ -1,0 +1,102 @@
+{
+  "number_tested": 5,
+  "correct": 4,
+  "incorrect": 1,
+  "insufficient_information_cases": 3,
+  "tests": [
+    {
+      "name": "A. Clearly matching profile",
+      "expected": "POTENTIALLY_ELIGIBLE",
+      "actual": "INSUFFICIENT_INFORMATION",
+      "details": {
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "eligibility_evidence": [
+          "State matches: Tamil Nadu.",
+          "Gender criterion matches: female.",
+          "Age is within the extracted scheme age range.",
+          "Income is within extracted ceiling of \u20b9200,000.",
+          "Caste/category matches: SC."
+        ],
+        "missing_information": [
+          "disability status"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "name": "B. Clearly conflicting profile",
+      "expected": "NOT_ELIGIBLE",
+      "actual": "NOT_ELIGIBLE",
+      "details": {
+        "eligibility_status": "NOT_ELIGIBLE",
+        "eligibility_evidence": [],
+        "missing_information": [
+          "disability status"
+        ],
+        "conflicts": [
+          "Scheme text identifies Tamil Nadu; profile states Kerala.",
+          "Scheme is marked for female applicants.",
+          "Stated age is outside the extracted scheme age range.",
+          "Stated income exceeds extracted ceiling of \u20b9200,000.",
+          "Stated caste/category does not match the extracted scheme category criterion."
+        ]
+      }
+    },
+    {
+      "name": "C. Missing profile information",
+      "expected": "INSUFFICIENT_INFORMATION",
+      "actual": "INSUFFICIENT_INFORMATION",
+      "details": {
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "eligibility_evidence": [],
+        "missing_information": [
+          "state",
+          "gender",
+          "age",
+          "income",
+          "caste/category",
+          "disability status"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "name": "D. Partial profile",
+      "expected": "INSUFFICIENT_INFORMATION",
+      "actual": "INSUFFICIENT_INFORMATION",
+      "details": {
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "eligibility_evidence": [
+          "State matches: Tamil Nadu.",
+          "Gender criterion matches: female."
+        ],
+        "missing_information": [
+          "age",
+          "income",
+          "caste/category",
+          "disability status"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "name": "E. Multiple missing flags",
+      "expected": 5,
+      "actual": 5,
+      "details": {
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "eligibility_evidence": [
+          "State matches: Tamil Nadu."
+        ],
+        "missing_information": [
+          "gender",
+          "age",
+          "income",
+          "caste/category",
+          "disability status"
+        ],
+        "conflicts": []
+      }
+    }
+  ]
+}

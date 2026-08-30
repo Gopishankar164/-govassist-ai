@@ -1,0 +1,150 @@
+[
+  {
+    "turn": 1,
+    "input": "I am a student looking for scholarships in Delhi.",
+    "extracted_profile": {
+      "state": "Delhi",
+      "education": "student",
+      "location": "Delhi"
+    },
+    "generated_response": "Based on what you've shared, I found several education-related schemes that may be relevant to you.\n\nI can confirm that you are a student from Delhi, but I still need some information such as your income and caste/category before determining whether you meet every eligibility requirement.",
+    "latency_ms": 189.86272811889648,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Higher Education And Skill Development Guarantee Scheme",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Delhi.",
+        "benefits": "**Benefits**\n\n - The maximum amount of education loan guaranteed under this scheme is up to \u20b9 10 Lakhs Only.\n\n<br>",
+        "documents": "List of the required documents Aadhaar Card (Student) Pan Card (Student) 10th certificate (Passed from Delhi), For courses for which the qualifying examination is class X. 12th certificate (Passed from Delhi), For courses for which the qualifying examination is class XII. Employer\u2019s Certificate (Students who are children of employees of Govt. of NCT of Delhi or Officials/government servants who are posted with the Govt. of NCT of Delhi are also eligible under this scheme.) Declaration (With Photo & Signature with Date) Photograph. Certificate Only the Central /State Govt. Universities /Institutions located outside Delhi, and within India, are covered under this scheme. Certificate: is mandatory at the time of application/sanction of education loan only for the meritorious students for pursuing a recognized degree or diploma level courses or skill development courses from Central /State Govt. Universities /Institutions located outside Delhi, within India. Note PAN No: is not mandatory at the time of application/sanction of education loan however, students shall have to furnish details of PAN before releasing the second instalment.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Education Loan Scheme - Delhi",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "- Need-based finance with a ceiling of \u20b97,50,000/- for studies in India.\n- Need-based finance with a ceiling of \u20b915,00,000/- for studies abroad.\n\n_*No promoter\u2019s contribution required for loans up to \u20b94,00,000/-._\n_*For loans above \u20b94,00,000/-, 5% contribution is required for studies in India and 15% for studies abroad._\n_*Loan repayment period is up to 10 years after the commencement of repayment or until the date of employment, whichever is earlier._\n_*The applicant has the option to repay the loan earlier if desired._",
+        "documents": "Pre-Sanction/With Application Copy of Aadhaar Card of Borrower (Applicant), Co-Borrower (Parents/Guardian), and Guarantor. Copy of Income Certificate issued by the Office of the SDM Concerned or Copy of Form No. 16 of Co-Borrower. Copy of Mark Sheet of the Last Examination on the Basis of Which the Applicant Has Obtained Admission in the Present/Particular Course. Four Passport Size Photographs of the Borrower, Co-Borrower, and Guarantor, and One Full-Size Photograph of the Borrower (In Case the Applicant Belongs to PwD Category). Copy of Birth Certificate/Age Proof. Copy of Caste Certificate for SC/ST/OBC Issued by the Concerned Area SDM/DC and Affidavit in Case of Minority Category. For PwD Category, a Disability Certificate (40% or More) Issued by the Medical Board of a Government Hospital, Delhi, is Required. Affidavit Stating That No Loan Has Been Availed from Any Government Agency for the Same Purpose. Copies of Letter Confirming Scholarship, Freeship, Studentship, If Any. Proof of Admission to the Recognized Course/Institute. Copy of Schedule of Payment for the Courses or Demand Notice from the Institution/University. Copies of Foreign Expenses Permit (If Applicable). Statement of Bank Account for the Last Six Months of the Borrower and Co-Borrower. Signature Identification of Borrower and Co-Borrower from the Bank. Statement of Assets and Liabilities of Borrower/Co-Borrower. Post-Sanction Copy of Acceptance of Sanction-Cum Agreement Letter. Execution of Guarantee Deed. Execution of Hypothecation Deed. Affidavit of Legal Heir. Affidavit of Personal Guarantee by Borrower and Co-Borrower. ECS (Electronic Clearing Service)/Post-Dated Cheques. Processing Fee of \u20b9350/-. Two Witnesses Along with Copy of ID Proof. Copy of Last Year Result of Student. Undertaking for Non-Closing of Bank Account Till the Completion of Repayment. Documents Required in Respect of the Guarantor: Copy of Aadhaar Card/Election Card/Passport. Copy of Identity Card from Employer. Original Latest Pay Slip and Form 16. Copy of Age Proof of Guarantor(s). 04 Passport Size Photographs. Affidavit of Guarantor(s). 5 Post-Dated Cheques (PDC) from the Guarantor(s) in Case the Loan is Above \u20b92,00,000/-. Copy of Guarantor(s) Undertaking to Stand as Guarantor/Surety. OR Original Collateral Security in the Shape of NSC (National Savings Certificate)/KVP (Kisan Vikas Patra)/FDR (Fixed Deposit Receipt) and Letter of Lien in Favour of DSFDC. OR Original Documents of Property for Mortgage, in Case the Applicant Wishes to Give Collateral Security of Property, with Complete Chain of Documents.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Financial Assistance to SC Students for Pursuing Higher Studies Abroad",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "Financial assistance of \u20b95,00,000/- per annum, up to a maximum of \u20b920,00,000/- for Ph.D. (4 years) and \u20b910,00,000/- for Masters (2 years).\n> **Funds are Disbursed in Installments**\n\n- First installment after admission confirmation.\n- Subsequent installments every six months/one year based on progress reports.\n\nCovers tuition and living expenses at accredited foreign universities.\n> **Conditions**\n\n- Recipients must return to India after completion and stay for at least 5 years.\n- Violations may require refund of the entire amount with 15% compound interest.",
+        "documents": "Matriculation Certificate. Degree/Diploma Mark Sheets and Certificates. Income Certificate. Caste Certificate. Offer Letter From Accredited Foreign University. Admission Details (University, Course, Expenses). Aadhaar Card. Undertaking/Self-Declaration (Annexure-I). For Employed Candidates: No Objection Certificate (NOC) from Employer.",
+        "official_url": null
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "input": "Tell me more about the first scheme.",
+    "extracted_profile": {
+      "state": "Delhi",
+      "education": "student",
+      "location": "Delhi"
+    },
+    "generated_response": "Based on what you've shared, I found several government schemes that may be relevant to you.\n\nI can confirm that you are a student from Delhi, but I still need some information such as your income and caste/category before determining whether you meet every eligibility requirement.",
+    "latency_ms": 146.44503593444824,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Higher Education And Skill Development Guarantee Scheme",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Delhi.",
+        "benefits": "**Benefits**\n\n - The maximum amount of education loan guaranteed under this scheme is up to \u20b9 10 Lakhs Only.\n\n<br>",
+        "documents": "List of the required documents Aadhaar Card (Student) Pan Card (Student) 10th certificate (Passed from Delhi), For courses for which the qualifying examination is class X. 12th certificate (Passed from Delhi), For courses for which the qualifying examination is class XII. Employer\u2019s Certificate (Students who are children of employees of Govt. of NCT of Delhi or Officials/government servants who are posted with the Govt. of NCT of Delhi are also eligible under this scheme.) Declaration (With Photo & Signature with Date) Photograph. Certificate Only the Central /State Govt. Universities /Institutions located outside Delhi, and within India, are covered under this scheme. Certificate: is mandatory at the time of application/sanction of education loan only for the meritorious students for pursuing a recognized degree or diploma level courses or skill development courses from Central /State Govt. Universities /Institutions located outside Delhi, within India. Note PAN No: is not mandatory at the time of application/sanction of education loan however, students shall have to furnish details of PAN before releasing the second instalment.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Education Loan Scheme - Delhi",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "- Need-based finance with a ceiling of \u20b97,50,000/- for studies in India.\n- Need-based finance with a ceiling of \u20b915,00,000/- for studies abroad.\n\n_*No promoter\u2019s contribution required for loans up to \u20b94,00,000/-._\n_*For loans above \u20b94,00,000/-, 5% contribution is required for studies in India and 15% for studies abroad._\n_*Loan repayment period is up to 10 years after the commencement of repayment or until the date of employment, whichever is earlier._\n_*The applicant has the option to repay the loan earlier if desired._",
+        "documents": "Pre-Sanction/With Application Copy of Aadhaar Card of Borrower (Applicant), Co-Borrower (Parents/Guardian), and Guarantor. Copy of Income Certificate issued by the Office of the SDM Concerned or Copy of Form No. 16 of Co-Borrower. Copy of Mark Sheet of the Last Examination on the Basis of Which the Applicant Has Obtained Admission in the Present/Particular Course. Four Passport Size Photographs of the Borrower, Co-Borrower, and Guarantor, and One Full-Size Photograph of the Borrower (In Case the Applicant Belongs to PwD Category). Copy of Birth Certificate/Age Proof. Copy of Caste Certificate for SC/ST/OBC Issued by the Concerned Area SDM/DC and Affidavit in Case of Minority Category. For PwD Category, a Disability Certificate (40% or More) Issued by the Medical Board of a Government Hospital, Delhi, is Required. Affidavit Stating That No Loan Has Been Availed from Any Government Agency for the Same Purpose. Copies of Letter Confirming Scholarship, Freeship, Studentship, If Any. Proof of Admission to the Recognized Course/Institute. Copy of Schedule of Payment for the Courses or Demand Notice from the Institution/University. Copies of Foreign Expenses Permit (If Applicable). Statement of Bank Account for the Last Six Months of the Borrower and Co-Borrower. Signature Identification of Borrower and Co-Borrower from the Bank. Statement of Assets and Liabilities of Borrower/Co-Borrower. Post-Sanction Copy of Acceptance of Sanction-Cum Agreement Letter. Execution of Guarantee Deed. Execution of Hypothecation Deed. Affidavit of Legal Heir. Affidavit of Personal Guarantee by Borrower and Co-Borrower. ECS (Electronic Clearing Service)/Post-Dated Cheques. Processing Fee of \u20b9350/-. Two Witnesses Along with Copy of ID Proof. Copy of Last Year Result of Student. Undertaking for Non-Closing of Bank Account Till the Completion of Repayment. Documents Required in Respect of the Guarantor: Copy of Aadhaar Card/Election Card/Passport. Copy of Identity Card from Employer. Original Latest Pay Slip and Form 16. Copy of Age Proof of Guarantor(s). 04 Passport Size Photographs. Affidavit of Guarantor(s). 5 Post-Dated Cheques (PDC) from the Guarantor(s) in Case the Loan is Above \u20b92,00,000/-. Copy of Guarantor(s) Undertaking to Stand as Guarantor/Surety. OR Original Collateral Security in the Shape of NSC (National Savings Certificate)/KVP (Kisan Vikas Patra)/FDR (Fixed Deposit Receipt) and Letter of Lien in Favour of DSFDC. OR Original Documents of Property for Mortgage, in Case the Applicant Wishes to Give Collateral Security of Property, with Complete Chain of Documents.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Financial Support Scheme",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "<br>\n\n**S. No.****Family income (in \u20b9) per annum****Fee waiver (percentage)****Remarks**Category 1Less than or equal to \u20b9 4,00,000/Up to 100%Actual fee or up to a maximum of \u20b9 15000/-Category 2Between \u20b9 4,00,000/- and \u20b9 8,00,000/-Up to 50%Actual fee or up to a maximum of \u20b9 10,000/-<br>",
+        "documents": "Copy of EWS/OBC-NCL Certificate or Annual Family Income Certificate issued by competent authority. (Income Certificate signed by a notary will not be accepted). Self-attested copies of latest income Tax Returns (2022-23) of the following family members: Father, Mother, Sister(s)(Unmarried), Brother(s) (Unmarried and below 25 years of age), Copy of PAN card(s) of all the above. Signed copy of the Undertaking Form. Copy of Bonafide Certificate signed by the Head/Director of the Centre/Department/ Institute. Copy of the mark sheet of the last exam passed. Copy of the latest Fee Receipt. Copy of Bank Pass Book showing the student's name, Account number and IFSC code or a cancelled cheque.",
+        "official_url": null
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "input": "How do I apply?",
+    "extracted_profile": {
+      "state": "Delhi",
+      "education": "student",
+      "location": "Delhi"
+    },
+    "generated_response": "The official application link/process for 'Higher Education And Skill Development Guarantee Scheme' is:\n[Online]\nApplication Process\nStudents need to visit the official site.\nAt bottom of the page, click on Apply now or access the official site of edistrict. \nStudents have to register himself/herself at the same site.\nOnly online applications will be accepted and hard copy of the application filled online along with uploaded documents is required to be submitted to the concerned Bank/Branch.\nThe list of approved member banks of Delhi is available on website of the student loan.",
+    "latency_ms": 43.00260543823242,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Higher Education And Skill Development Guarantee Scheme",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Delhi.",
+        "benefits": "**Benefits**\n\n - The maximum amount of education loan guaranteed under this scheme is up to \u20b9 10 Lakhs Only.\n\n<br>",
+        "documents": "List of the required documents Aadhaar Card (Student) Pan Card (Student) 10th certificate (Passed from Delhi), For courses for which the qualifying examination is class X. 12th certificate (Passed from Delhi), For courses for which the qualifying examination is class XII. Employer\u2019s Certificate (Students who are children of employees of Govt. of NCT of Delhi or Officials/government servants who are posted with the Govt. of NCT of Delhi are also eligible under this scheme.) Declaration (With Photo & Signature with Date) Photograph. Certificate Only the Central /State Govt. Universities /Institutions located outside Delhi, and within India, are covered under this scheme. Certificate: is mandatory at the time of application/sanction of education loan only for the meritorious students for pursuing a recognized degree or diploma level courses or skill development courses from Central /State Govt. Universities /Institutions located outside Delhi, within India. Note PAN No: is not mandatory at the time of application/sanction of education loan however, students shall have to furnish details of PAN before releasing the second instalment.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Education Loan Scheme - Delhi",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "- Need-based finance with a ceiling of \u20b97,50,000/- for studies in India.\n- Need-based finance with a ceiling of \u20b915,00,000/- for studies abroad.\n\n_*No promoter\u2019s contribution required for loans up to \u20b94,00,000/-._\n_*For loans above \u20b94,00,000/-, 5% contribution is required for studies in India and 15% for studies abroad._\n_*Loan repayment period is up to 10 years after the commencement of repayment or until the date of employment, whichever is earlier._\n_*The applicant has the option to repay the loan earlier if desired._",
+        "documents": "Pre-Sanction/With Application Copy of Aadhaar Card of Borrower (Applicant), Co-Borrower (Parents/Guardian), and Guarantor. Copy of Income Certificate issued by the Office of the SDM Concerned or Copy of Form No. 16 of Co-Borrower. Copy of Mark Sheet of the Last Examination on the Basis of Which the Applicant Has Obtained Admission in the Present/Particular Course. Four Passport Size Photographs of the Borrower, Co-Borrower, and Guarantor, and One Full-Size Photograph of the Borrower (In Case the Applicant Belongs to PwD Category). Copy of Birth Certificate/Age Proof. Copy of Caste Certificate for SC/ST/OBC Issued by the Concerned Area SDM/DC and Affidavit in Case of Minority Category. For PwD Category, a Disability Certificate (40% or More) Issued by the Medical Board of a Government Hospital, Delhi, is Required. Affidavit Stating That No Loan Has Been Availed from Any Government Agency for the Same Purpose. Copies of Letter Confirming Scholarship, Freeship, Studentship, If Any. Proof of Admission to the Recognized Course/Institute. Copy of Schedule of Payment for the Courses or Demand Notice from the Institution/University. Copies of Foreign Expenses Permit (If Applicable). Statement of Bank Account for the Last Six Months of the Borrower and Co-Borrower. Signature Identification of Borrower and Co-Borrower from the Bank. Statement of Assets and Liabilities of Borrower/Co-Borrower. Post-Sanction Copy of Acceptance of Sanction-Cum Agreement Letter. Execution of Guarantee Deed. Execution of Hypothecation Deed. Affidavit of Legal Heir. Affidavit of Personal Guarantee by Borrower and Co-Borrower. ECS (Electronic Clearing Service)/Post-Dated Cheques. Processing Fee of \u20b9350/-. Two Witnesses Along with Copy of ID Proof. Copy of Last Year Result of Student. Undertaking for Non-Closing of Bank Account Till the Completion of Repayment. Documents Required in Respect of the Guarantor: Copy of Aadhaar Card/Election Card/Passport. Copy of Identity Card from Employer. Original Latest Pay Slip and Form 16. Copy of Age Proof of Guarantor(s). 04 Passport Size Photographs. Affidavit of Guarantor(s). 5 Post-Dated Cheques (PDC) from the Guarantor(s) in Case the Loan is Above \u20b92,00,000/-. Copy of Guarantor(s) Undertaking to Stand as Guarantor/Surety. OR Original Collateral Security in the Shape of NSC (National Savings Certificate)/KVP (Kisan Vikas Patra)/FDR (Fixed Deposit Receipt) and Letter of Lien in Favour of DSFDC. OR Original Documents of Property for Mortgage, in Case the Applicant Wishes to Give Collateral Security of Property, with Complete Chain of Documents.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Financial Support Scheme",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "<br>\n\n**S. No.****Family income (in \u20b9) per annum****Fee waiver (percentage)****Remarks**Category 1Less than or equal to \u20b9 4,00,000/Up to 100%Actual fee or up to a maximum of \u20b9 15000/-Category 2Between \u20b9 4,00,000/- and \u20b9 8,00,000/-Up to 50%Actual fee or up to a maximum of \u20b9 10,000/-<br>",
+        "documents": "Copy of EWS/OBC-NCL Certificate or Annual Family Income Certificate issued by competent authority. (Income Certificate signed by a notary will not be accepted). Self-attested copies of latest income Tax Returns (2022-23) of the following family members: Father, Mother, Sister(s)(Unmarried), Brother(s) (Unmarried and below 25 years of age), Copy of PAN card(s) of all the above. Signed copy of the Undertaking Form. Copy of Bonafide Certificate signed by the Head/Director of the Centre/Department/ Institute. Copy of the mark sheet of the last exam passed. Copy of the latest Fee Receipt. Copy of Bank Pass Book showing the student's name, Account number and IFSC code or a cancelled cheque.",
+        "official_url": null
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "input": "Is there an official website?",
+    "extracted_profile": {
+      "state": "Delhi",
+      "education": "student",
+      "location": "Delhi"
+    },
+    "generated_response": "Based on what you've shared, I found several government schemes that may be relevant to you.\n\nI can confirm that you are a student from Delhi, but I still need some information such as your caste/category before determining whether you meet every eligibility requirement.",
+    "latency_ms": 145.42150497436523,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Free Supply of Text Books",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Delhi.",
+        "benefits": "> **Cash Subsidy for Textbooks and Writing Materials**\n\n- Class 1st to 5th: \u20b9550/- per annum.\n- Class 6th, 7th, 11th, and 12th (Without Math): \u20b9800/- per annum.\n- Class 8th, 11th, and 12th (With Math): \u20b9830/- per annum.\n- Class 5th: \u20b9630/- per annum.\n- Class 10th: \u20b9730/- per annum.\n\n> **Additional Support**\n\nCash subsidy of \u20b930/- per student for classes VIII, IX, and X, and for students of classes XI and XII who opt for Mathematics, for purchasing a Geometry Box.\n**Mode of Disbursement**\n\n- For Cash Subsidies: The amount is transferred directly to the student\u2019s/parent\u2019s bank account.\n- For Textbooks: The school distributes the books to eligible students.",
+        "documents": "Admission Proof (Fee Receipt or School ID Card) Class-wise Enrollment Details Bank Account Details",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Subsidy for School Uniforms to the Students",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Delhi.",
+        "benefits": "> **Cash Subsidy Amounts**\n\n- Nursery to Class 5th: \u20b91,100/- per annum.\n- Class 6th to 8th: \u20b91,400/- per annum.\n- Class 9th to 12th: \u20b91,500/- per annum.\n\n> **Disbursement**\n\n**Mode:** Direct cash subsidy, disbursed annually to students or their guardians.\n**Validity:** Applicable for the academic year in which the subsidy is disbursed.",
+        "documents": "School Admission/Enrollment Proof (Fee Receipt or School ID Card) Class-wise Enrollment Details Bank Account Details",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Financial Assistance For Purchase Of Stationery To SC/ST/OBC/Minorities Students",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Delhi.",
+        "benefits": "**The amount of financial assistance is as followed:**\n\n1. I to VIII class \u2013 Rs. 1000/- P.A.\n1. IX to XII class \u2013 Rs. 2000/- P.A.\n\n<br>",
+        "documents": "List of the required documents Aadhaar Card. Caste Certificate. Residence Proof. Income Certificate. Previous class mark sheet. Verification letter (for outside Delhi application). One passport size photo of applicant.",
+        "official_url": "https://edistrict.delhigovt.nic.in/"
+      }
+    ]
+  }
+]

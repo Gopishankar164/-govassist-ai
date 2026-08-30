@@ -1,0 +1,51 @@
+{
+  "query": "Engineering student looking for scholarships in Karnataka.",
+  "what_i_understood": {
+    "state": "Karnataka",
+    "education": "engineering, student",
+    "location": "Karnataka"
+  },
+  "recommendations": [
+    {
+      "scheme_id": "fatlclnbsmec",
+      "scheme_name": "Financial Assistance to the Teachers/Lecturers Children who taken loan from Nationalised Banks for studying Medical/Engineering Courses",
+      "similarity_score": 0.7885982394218445,
+      "eligibility_status": "POTENTIALLY_ELIGIBLE",
+      "why_recommended": "State matches: Karnataka.",
+      "missing_information": [],
+      "benefits": "- **One-time financial assistance up to \u20b950,000/- covers the interest component of educational loans availed from nationalized banks.**\n\n> Note: The sanctioned amount is directly transferred to the borrower&#39;s bank account.",
+      "description": "The \u201cFinancial Assistance to the Teachers/Lecturers Children who taken loan from Nationalised Banks for studying Medical/Engineering Courses\u201d aims to provide financial assistance to the children of teachers/lecturers working in government and aided primary, secondary, graduate, and post-graduate institutions. This assistance helps reduce the financial burden on families by covering interest charges on educational loans for vocational courses in medicine and engineering, including postgraduate courses.",
+      "eligibility": "1. The applicant parent should be a teacher/lecturer working in a government or aided institution with life membership of the Welfare Fund. \n1. The student must have passed each year or semester of the course on the first attempt.\n1. The student should have studied from 1st to 10th standard in government or aided schools in Karnataka.1. The applicant should have availed educational loan from a nationalized bank for professional education in medicine or engineering.\n1. The educational loan should be taken for courses within India.\n1. Only one child per family can avail of the financial assistance.\n1. Assistance is only available for final-year students in vocational medical, engineering, or postgraduate programs.",
+      "application": "[Offline]\nStep-1: Download the prescribed application form the official website. \nStep-2: Fill in the student and teacher's details in the application form.\nStep-3: Attach the required documents (certified mark sheets, loan details, teacher's HRMS copy, proof of schooling, etc.).\nStep-4: Get the proposal recommended by the Controlling Officer and the head of the concerned institution.\nStep-5: Submit the complete application along with all certified documents to the Karnataka State Teachers' Welfare Fund office.\nStep-6: Request a receipt or acknowledgment from the Karnataka State Teachers' Welfare Fund office to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
+      "documents": "Certified Mark Sheets of all years/semesters. Proof of Educational Loan (availed from a nationalized bank) Fee Payment Receipt Teacher\u2019s life membership (LMS) card attested by the head of the institution. Proof of school attendance (from 1st to 10th standard) certified by the head of the school and Taluk Constituent Education Officer. HRMS Copy or recruitment approval for teachers from aided institutions. Bank Passbook (Attested by a notary) Loan Details (including loan account number and interest paid)",
+      "category": "Education & Learning",
+      "level": "State",
+      "source_url": null
+    },
+    {
+      "scheme_id": "vfas",
+      "scheme_name": "Vidyasiri food And Accommodation Scholarship Scheme",
+      "similarity_score": 0.745124340057373,
+      "eligibility_status": "POTENTIALLY_ELIGIBLE",
+      "why_recommended": "State matches: Karnataka.",
+      "missing_information": [],
+      "benefits": "1. Financial assistance for food and accommodation expenses.\n 1. Monthly stipend of Rs. 1,500 for 10 months per academic year.\n 1. Support for students belonging to backward classes.\n 1. Direct crediting of funds to the students&amp;#39; bank accounts.\n 1. Promotes access to higher education for eligible students.\n 1. Encourages academic performance through the eligibility criteria.\n 1. Reduces the financial burden on students pursuing post-matric courses.",
+      "description": "Vidyasiri-Food and Accommodation Scholarship Scheme (VFAS) is specifically designed for students from backward classes pursuing post-matric courses in government, local, aided, and recognized private institutions affiliated with statutory universities in Karnataka. The scheme requires students to link their Aadhaar number to their bank account. To be eligible for the scheme, students must be citizens of India and permanent residents of Karnataka. They should belong to backward classes listed by the Government of India or the State Government. Students who have not secured admission in any departmental or government-funded student hostel and are studying in post-matric courses are eligible to apply. The scheme provides a monthly stipend of Rs. 1,500 for 10 months, totaling Rs. 15,000 per annum, which is directly credited to the students' bank accounts. The income of the student's family should fall within specific limits based on the category they belong to. The eligibility criteria also include minimum marks required in the previous year's annual examination for fresh and renewal students.",
+      "eligibility": "1. Students must be citizens of India and permanent residents of Karnataka.\n 1. Students should belong to backward classes listed by the Government of India or the State Government.\n 1. Students must be pursuing post-matric courses in government, local, aided, or recognized private institutions affiliated with statutory universities in Karnataka.\n 1. Students who have not secured admission in any departmental or government-funded student hostel are eligible.\n 1. The annual income of the student&amp;#39;s family should fall within the specified limits based on their category.",
+      "application": "[Online]\nVisit the official portal designated for the scholarship scheme.\nFill out the application form online through the SSP (Student Scholarship Portal) software.\nProvide accurate personal and academic details as required in the application form.\nUpload the necessary documents, such as Aadhaar card, bank account details, caste certificate, income certificate, and previous year's marks card.\nAfter students complete the online application, please take a printout of the filled application form.\nGather all the required documents as specified in the application process and submit the hard copies of the application form and supporting documents to your respective college.\nCollege principals and inspection officers will review the application and documents submitted by the student.\nThey will verify the information provided and ensure that all required documents are in order.\nThe Taluk Backward Classes Welfare Officer will further review and verify the application and documents. \nThe officer will confirm the details provided and verify the eligibility of the student.\nThe District Backward Classes Welfare Officer will check the information the Taluk Welfare Officer provided.\nThey will ensure the application's compliance with the scheme's guidelines and regulations.\nThe college principal will provide information about the selected student's attendance, confirming that it meets the minimum requirement of 75%.\nThis attendance information will be uploaded by the Taluk Backward Classes Welfare Officer through the online portal.\nBased on the respective year's budget, the qualified students will be approved at the taluk level for the Vidyasiri-Food and Accommodation Scholarship.\nGrants will be allocated according to category-wise reservations and the Merit cum Means criteria.",
+      "documents": "Aadhaar card Bank account details (account number and IFSC code) Caste certificate Income certificate Previous year's marks card Medical certificate (if applicable)",
+      "category": "Social welfare & Empowerment, Education & Learning",
+      "level": "State",
+      "source_url": null
+    }
+  ],
+  "grounded_answer": "Based on what you've shared, I found several education-related schemes that may be relevant to you.\n\nI've tailored these results because I know you are an engineering, student from Karnataka.",
+  "disclaimer": "This information is based on the verified dataset. Please verify all details on the official government portals.",
+  "trace": [
+    {
+      "rewritten_query": "Engineering student looking for scholarships in Karnataka. higher education student financial assistance scholarship state: Karnataka education: engineering, student",
+      "retrieval_latency_ms": 46.10599996522069,
+      "retrieved_candidate_count": 10
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "number_tested": 9,
+  "passed": 9,
+  "failed": 0,
+  "details": [
+    {
+      "query": "student scholarship",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "farmer assistance in Maharashtra",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "MSME loan for business",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "employment skill development",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "housing scheme",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "women welfare program",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "healthcare assistance",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "disability welfare pension",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    },
+    {
+      "query": "social welfare",
+      "passed": true,
+      "has_answer": true,
+      "num_recommendations": 2
+    }
+  ]
+}

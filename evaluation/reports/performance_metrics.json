@@ -1,0 +1,10 @@
+{
+  "model_load_ms": 1211.0979557037354,
+  "faiss_load_ms": 1008.2395076751709,
+  "embedding_ms": 141.47377014160156,
+  "search_ms": 1.8084049224853516,
+  "eligibility_ms": 0.48804283142089844,
+  "generation_ms": 0.059604644775390625,
+  "total_inference_ms": 143.8298225402832,
+  "bottleneck": "Embedding"
+}

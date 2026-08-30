@@ -1,0 +1,113 @@
+[
+  {
+    "turn": 1,
+    "input": "I am 25 years old and from Tamil Nadu.",
+    "extracted_profile": {
+      "age": 25,
+      "state": "Tamil Nadu",
+      "location": "Tamil Nadu"
+    },
+    "generated_response": "Based on what you've shared, I found several government schemes that may be relevant to you.\n\nI've tailored these results because I know you are a resident of Tamil Nadu (25 years old).",
+    "latency_ms": 190.9470558166504,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Child Adoption - Tamil Nadu",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "- Accommodation, food, and health care to the babies till they are given in adoption.\n- A family to the destitute child and a child to childless parents.\n\n> **Special concessions are given to female government employees to adopt children:**\n\n- Special adoption leave of 270 days is extended to female government servants of the state government who adopt a child below one year. The leave is eligible only from the date of legalization of adoption.",
+        "documents": "PAN Card/Passport.\nProof of Residence (Aadhaar Card/Voter ID card/Passport /Driving License/ Electricity Card).\nProof of Income of Last Year (Pay Bill/ Income Tax Certificate).\nCopy of Marriage Certificate & Photograph.\nCopy of Birth Certificate of the Prospective Adoptive Parents.\nMedical Certificate. \nLetter of Identification (from their friends/relatives).",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Gen Next Competition",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "- Cash Prize of \u20b92,000/-.\n- Silver Medal. \n- Certificate.",
+        "documents": "Two Passport-size Photograph.\nBirth Certificate.\nEducational Certificate.\nAddress Proof (Family Card / Voter ID Card / Driving License). \nAadhaar Card. \nBank Account Book with Photo.\nArtisan's Affidavit on \u20b920/- Stamp Paper, attested by a First Class Criminal Judge or Notary Public.\nRecommendation Certificate, attested by any of the Managers of Poombucar Outlets and Manufacturing Plants / the respective Area Assistant Directors (Handicrafts / Craft Council (Tamil Nadu/India/World) under the Office of the Development Commissioner, New Delhi.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Poompuhar State Award",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "- Cash Prize of \u20b950,000/-.\n- 4-gram Gold Medal.\n- Thamirapathiram.\n- Certificate.\n- Monthly Pension of \u20b93,500/- to the economically backward awardee.",
+        "documents": "Passport-size Photograph. Address Proof. Aadhaar Card. Front Page of Passbook. Craftsman Service photograph. Certificate of Any Person (Well-wisher/Personally aware). Artisan's Affidavit on \u20b920/- Stamp Paper, attested by a First Class Criminal Judge or Notary Public. Recommendation Certificate, attested by any of the Managers of Poombucar Outlets and Manufacturing Plants / the respective Area Assistant Directors (Handicrafts / Craft Council (Tamil Nadu/India/World) under the Office of the Development Commissioner, New Delhi. Photograph of the applicant at each stage of production of the product for the award/Video.",
+        "official_url": null
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "input": "Actually, I am 30 years old.",
+    "extracted_profile": {
+      "age": 30,
+      "state": "Tamil Nadu",
+      "location": "Tamil Nadu"
+    },
+    "generated_response": "Based on what you've shared, I found several government schemes that may be relevant to you.\n\nI can confirm that you are a resident of Tamil Nadu (30 years old), but I still need some information such as your gender before determining whether you meet every eligibility requirement.",
+    "latency_ms": 159.54041481018066,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Child Adoption - Tamil Nadu",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "- Accommodation, food, and health care to the babies till they are given in adoption.\n- A family to the destitute child and a child to childless parents.\n\n> **Special concessions are given to female government employees to adopt children:**\n\n- Special adoption leave of 270 days is extended to female government servants of the state government who adopt a child below one year. The leave is eligible only from the date of legalization of adoption.",
+        "documents": "PAN Card/Passport.\nProof of Residence (Aadhaar Card/Voter ID card/Passport /Driving License/ Electricity Card).\nProof of Income of Last Year (Pay Bill/ Income Tax Certificate).\nCopy of Marriage Certificate & Photograph.\nCopy of Birth Certificate of the Prospective Adoptive Parents.\nMedical Certificate. \nLetter of Identification (from their friends/relatives).",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Old Age Homes - Tamil Nadu",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "**NGO:**\n\n- The State Government is providing \u20b95,60,000/- as grant-in-aid per home for a capacity of 40 inmates. \n- The institutions are required to contribute \u20b91,12,000/- as their share.&quot;\n\n<br>\n\n**Senior Citizens:**\n\n- Food, Shelter, Medical care, and Recreation facilities.\n\n<br>",
+        "documents": "NGO Registration Certificate (under Societies Act / Trust Act / Company Act).\nNGO Maintenance Certificate (under Tamil Nadu Maintenance and Welfare of Parents and Senior Citizens Rules, 2009). \nAny Other Document If Required.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Old Age Pension Scheme under Chief Minister\u2019s Uzhavar Padhukappu Thittam",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "**Pension:** \n\n- \u20b91,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free dhoti to a male pensioner.\n- One free saree to a female pensioner.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meal.\n- 4kg/month to those who are not taking nutritious meal.",
+        "documents": "Applicant's Photo. Aadhaar Card. Proof of Age. Aadhaar Consent Form. Smart Ration Card or Any Address Proof. Membership Card under CMPUT. Self\u2013declaration of Applicant. Any Identity Proof (Voter ID Card, Passport, PAN Card, Driving License). Bank Passbook.",
+        "official_url": null
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "input": "What schemes are suitable for me?",
+    "extracted_profile": {
+      "age": 30,
+      "state": "Tamil Nadu",
+      "location": "Tamil Nadu"
+    },
+    "generated_response": "Based on what you've shared, I found several government schemes that may be relevant to you.\n\nI can confirm that you are a resident of Tamil Nadu (30 years old), but I still need some information such as your income before determining whether you meet every eligibility requirement.",
+    "latency_ms": 125.26679039001465,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Generator Subsidy",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "Subsidy of 25% on the cost of generator purchased (up to 320 KVA capacity), subject to a maximum of \u20b9 5,00,000.",
+        "documents": "Copy of Udyog Aadhaar Memorandum. *The file type should be PDF (.pdf). *The file size should be less than 200 kb.",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Power Tiller",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "- **Access to Loan:** Up to 90% of the cost of a power tiller. - **Interest Rate:** 11% to 12.25% (subject to change).\n&lt;br&gt;",
+        "documents": "Identity proof (Aadhaar, PAN card, etc.). Address proof. Proof of Farming (if required). Any other documents (if required).",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Scheme for Meritorious Students to Pursue Higher Secondary Education in the Best Schools of Tamil Nadu",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Tamil Nadu.",
+        "benefits": "- **Financial Assistance:** Full financial assistance for pursuing higher secondary education in reputed private schools.",
+        "documents": "Proof of identity (Aadhar card or any other document as directed by the authority). Caste certificate (BC/MBC/DNC). 10th Grade Marksheet. Proof of Income (parental annual income should be less than \u20b91,00,000/-). Any other documents (if required).",
+        "official_url": null
+      }
+    ]
+  }
+]

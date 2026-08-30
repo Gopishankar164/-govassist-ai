@@ -1,0 +1,39 @@
+[
+  {
+    "turn": 1,
+    "input": "I am a 60 year old widow from Kerala with zero income.",
+    "extracted_profile": {
+      "age": 60,
+      "state": "Kerala",
+      "location": "Kerala"
+    },
+    "generated_response": "Based on what you've shared, I found several social_welfare-related schemes that may be relevant to you.\n\nI can confirm that you are a resident of Kerala (60 years old), but I still need some information such as your gender, income and caste/category before determining whether you meet every eligibility requirement.",
+    "latency_ms": 183.73584747314453,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Self-Employment loan scheme for Minority Widows, Divorcees / Abandoned Women",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "Age is within the extracted scheme age range.",
+        "benefits": "- Financial assistance of up to \u20b91,00,000/- as a government subsidy.\n- Maximum loan amount of \u20b95,00,000/-.\n- The interest rate on the loan amount (excluding subsidy) is 6%.\n\n<br>\n\n> **Conditions/Criteria Associated with Benefits:**\n\nA 20% subsidy (maximum \u20b91,00,000/-) is provided on the loan amount.\n\n- For a loan amount of \u20b91,00,000/-, the subsidy is \u20b920,000/-.\n- For a loan amount of \u20b92,00,000/-, the subsidy is \u20b940,000/-.\n- For a loan amount of \u20b93,00,000/-, the subsidy is \u20b960,000/-.\n- For a loan amount of \u20b94,00,000/-, the subsidy is \u20b980,000.\n- For a loan amount of \u20b95,00,000/-, the subsidy is \u20b91,00,000/-.\n\n_*At each stage of disbursement, photos and bills must be submitted._\n_*Direct inspection will be conducted at each stage of disbursement._\n_*An additional interest of 6% will be charged for misuse of funds._\n<br>",
+        "documents": "1. For Initial Application (Copies to be submitted with the application):\nIncome Certificate from the Village/Tahsildar.\nCaste/Age Certificate (Copy of School Certificate).\nCertificate proving the applicant is a widow, divorced, or abandoned woman.\n2. For Interview (Originals to be presented):\nRation Card.\nAadhaar Card.\nCaste/Age Certificate (Copy of School Certificate).\nIncome Certificate.\nCertificate proving the applicant is a widow, divorced, or abandoned woman.\nPermanent Residency Certificate.\nCopies of the above documents (if not submitted previously).\nDocuments required after the loan amount is decided during the interview:\n1. For Officer Guarantee (if applicable):\nSalary Certificate of employees (working in government, quasi-government/public sector undertakings/panchayats/municipalities/universities/co-operative banks/aided schools/colleges).\nNon-objection certificate (for employees on deputation, from the parent department).\nEmployment certificate (salary certificate) (only for those providing a guarantee).\n2. For property guarantee (if applicable):\nOriginal deed of the property.\nAdiadharam/Pattayam.\nProperty tax receipt for the current financial year.\nPossession certificate (from village office).\nNon-attachment certificate (from village office).\nProperty valuation certificate (from village office).\nProperty location map.\nLocation certificate (from village office).\nKudikkadam certificate for 14 years (from sub-registrar office).\nOther required documents (if advised by the advocate).\nLatest Kudikkadam certificate (after signing the agreement, up to the agreement date).",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Mangalya Scheme For Widow Remarriage",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Kerala.",
+        "benefits": "1. Under the scheme, financial assistance of \u20b925000/- is provided to eligible widows and divorced women to remarry.",
+        "documents": "The following particulars should be attached to the application form: 1. Identity proof 2. Proof of remarriage/remarriage certificate 3. Death Certificate of the first Husband 4. Legal document of divorce (For divorced women) 5. Proof of BPL/Priority Category 6. Proof of age in the form of a school leaving certificate or certificate issued by the competent authority 7. Certificate from Village officer showing that husband has deserted the woman for over 7 years (for such applicant) 8. Copy of bank passbook",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Abhayakiranam Scheme-Financial Assistance To Destitute Widows",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Kerala.",
+        "benefits": "1. Financial assistance of \u20b91000/- per month will be provided to the close relatives of destitute widows who provide protection and shelter to them.",
+        "documents": "Passport size photo Attested copy of SSLC certificate/Election ID card/ Aadhaar card for age proof. Certificate from the concerned Village officer showing that the applicant is a widow and is under the protection of a relative. Attested copy of Ration card/Income certificate from Village office/BPL certificate Bank account details",
+        "official_url": null
+      }
+    ]
+  }
+]

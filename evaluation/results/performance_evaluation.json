@@ -1,0 +1,5 @@
+{
+  "startup_latency_ms": 16550.313499988988,
+  "first_query_latency_ms": 101.90149999107234,
+  "mean_subsequent_latency_ms": 59.095059998799115
+}

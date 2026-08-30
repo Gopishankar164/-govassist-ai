@@ -1,0 +1,261 @@
+{
+    "dataset": {
+        "old_dataset": {
+            "filename": "Schemes.csv",
+            "path": "C:\\Users\\rithi\\govassist-rag\\Schemes.csv",
+            "rows": 3400,
+            "columns": 11,
+            "unique_schemes": 3397,
+            "duplicate_rows": 3,
+            "fields": [
+                "scheme_name",
+                "slug",
+                "details",
+                "benefits",
+                "eligibility",
+                "application",
+                "documents",
+                "level",
+                "schemeCategory",
+                "Unnamed: 9",
+                "tags"
+            ],
+            "missing_values": {
+                "scheme_name": 0,
+                "slug": 0,
+                "details": 0,
+                "benefits": 0,
+                "eligibility": 0,
+                "application": 2,
+                "documents": 11,
+                "level": 0,
+                "schemeCategory": 0,
+                "Unnamed: 9": 3400,
+                "tags": 29
+            },
+            "missing_percentage": {
+                "scheme_name": 0.0,
+                "slug": 0.0,
+                "details": 0.0,
+                "benefits": 0.0,
+                "eligibility": 0.0,
+                "application": 0.0588235294117647,
+                "documents": 0.3235294117647059,
+                "level": 0.0,
+                "schemeCategory": 0.0,
+                "Unnamed: 9": 100.0,
+                "tags": 0.8529411764705883
+            },
+            "categories_count": 0,
+            "states_count": 0,
+            "ministries_count": 0,
+            "official_url_coverage": 0.0,
+            "eligibility_coverage": 100.0,
+            "description_coverage": 0.0
+        },
+        "new_dataset": {
+            "filename": "Merged_Schemes.csv",
+            "path": "C:\\Users\\rithi\\govassist-rag\\Merged_Schemes.csv",
+            "rows": 4858,
+            "columns": 27,
+            "unique_schemes": 4858,
+            "duplicate_rows": 0,
+            "fields": [
+                "scheme_name",
+                "slug",
+                "details",
+                "benefits",
+                "eligibility",
+                "application",
+                "documents",
+                "level",
+                "schemeCategory",
+                "tags",
+                "ministry",
+                "department",
+                "state",
+                "category",
+                "beneficiary_type",
+                "apply_url",
+                "official_url",
+                "eligibility_age_min",
+                "eligibility_age_max",
+                "eligibility_gender",
+                "eligibility_caste",
+                "eligibility_income_max",
+                "eligibility_residence",
+                "eligibility_state",
+                "eligibility_disability",
+                "eligibility_bpl",
+                "source_provenance"
+            ],
+            "missing_values": {
+                "scheme_name": 0,
+                "slug": 0,
+                "details": 2,
+                "benefits": 2,
+                "eligibility": 2,
+                "application": 3,
+                "documents": 12,
+                "level": 0,
+                "schemeCategory": 2,
+                "tags": 1490,
+                "ministry": 4177,
+                "department": 458,
+                "state": 165,
+                "category": 169,
+                "beneficiary_type": 229,
+                "apply_url": 174,
+                "official_url": 165,
+                "eligibility_age_min": 3805,
+                "eligibility_age_max": 4073,
+                "eligibility_gender": 165,
+                "eligibility_caste": 165,
+                "eligibility_income_max": 4079,
+                "eligibility_residence": 165,
+                "eligibility_state": 165,
+                "eligibility_disability": 165,
+                "eligibility_bpl": 165,
+                "source_provenance": 0
+            },
+            "missing_percentage": {
+                "scheme_name": 0.0,
+                "slug": 0.0,
+                "details": 0.04116920543433512,
+                "benefits": 0.04116920543433512,
+                "eligibility": 0.04116920543433512,
+                "application": 0.06175380815150268,
+                "documents": 0.24701523260601072,
+                "level": 0.0,
+                "schemeCategory": 0.04116920543433512,
+                "tags": 30.671058048579663,
+                "ministry": 85.98188554960889,
+                "department": 9.427748044462742,
+                "state": 3.396459448332647,
+                "category": 3.4787978592013173,
+                "beneficiary_type": 4.713874022231371,
+                "apply_url": 3.5817208727871552,
+                "official_url": 3.396459448332647,
+                "eligibility_age_min": 78.32441333882257,
+                "eligibility_age_max": 83.84108686702346,
+                "eligibility_gender": 3.396459448332647,
+                "eligibility_caste": 3.396459448332647,
+                "eligibility_income_max": 83.96459448332647,
+                "eligibility_residence": 3.396459448332647,
+                "eligibility_state": 3.396459448332647,
+                "eligibility_disability": 3.396459448332647,
+                "eligibility_bpl": 3.396459448332647,
+                "source_provenance": 0.0
+            },
+            "categories_count": 279,
+            "states_count": 37,
+            "ministries_count": 52,
+            "official_url_coverage": 96.60354055166735,
+            "eligibility_coverage": 99.95883079456567,
+            "description_coverage": 0.0
+        }
+    },
+    "index": {
+        "old_vectors": 3397,
+        "new_vectors": 4858,
+        "dimension": 384
+    },
+    "retrieval": {
+        "OLD": {
+            "recall_1": 0.2866666666666667,
+            "recall_3": 0.31333333333333335,
+            "recall_5": 0.32,
+            "recall_10": 0.3333333333333333,
+            "precision_1": 0.2866666666666667,
+            "precision_3": 0.10444444444444442,
+            "precision_5": 0.06400000000000002,
+            "precision_10": 0.03333333333333333,
+            "mrr": 0.3025,
+            "hit_rate": 0.3333333333333333,
+            "ndcg_5": 0.3054897721252518,
+            "ndcg_10": 0.3099675858845435,
+            "mean_latency": 39.331390062967934,
+            "p50_latency": 38.22040557861328,
+            "p95_latency": 47.34455347061157,
+            "p99_latency": 53.30392599105835
+        },
+        "NEW": {
+            "recall_1": 0.36,
+            "recall_3": 0.41333333333333333,
+            "recall_5": 0.4266666666666667,
+            "recall_10": 0.44666666666666666,
+            "precision_1": 0.36,
+            "precision_3": 0.13777777777777775,
+            "precision_5": 0.08533333333333334,
+            "precision_10": 0.04466666666666667,
+            "mrr": 0.38985185185185184,
+            "hit_rate": 0.44666666666666666,
+            "ndcg_5": 0.39764621091717023,
+            "ndcg_10": 0.4035072752391686,
+            "mean_latency": 39.758294423421226,
+            "p50_latency": 38.65206241607666,
+            "p95_latency": 49.51281547546387,
+            "p99_latency": 51.06322288513183
+        }
+    },
+    "eligibility": {
+        "accuracy": 0.9,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 24,
+        "tn": 33,
+        "fp": 0,
+        "fn": 0,
+        "confusion_matrix": {
+            "expected_POTENTIALLY_ELIGIBLE": {
+                "actual_POTENTIALLY_ELIGIBLE": 24,
+                "actual_NOT_ELIGIBLE": 0,
+                "actual_INSUFFICIENT_INFORMATION": 10
+            },
+            "expected_NOT_ELIGIBLE": {
+                "actual_POTENTIALLY_ELIGIBLE": 0,
+                "actual_NOT_ELIGIBLE": 33,
+                "actual_INSUFFICIENT_INFORMATION": 0
+            },
+            "expected_INSUFFICIENT_INFORMATION": {
+                "actual_POTENTIALLY_ELIGIBLE": 0,
+                "actual_NOT_ELIGIBLE": 0,
+                "actual_INSUFFICIENT_INFORMATION": 33
+            }
+        },
+        "total": 100
+    },
+    "grounding": {
+        "total_cases": 100,
+        "total_claims": 121,
+        "grounded_claims": 121,
+        "unsupported_claims": 0,
+        "hallucinated_claims": 0,
+        "grounded_answer_rate": 1.0,
+        "hallucination_rate": 0.0,
+        "claim_precision": 1.0
+    },
+    "answer_quality": {
+        "note": "Answer quality is deterministic; hallucination is 0% as per grounding metrics."
+    },
+    "memory": {
+        "profile_extraction_accuracy": 0.18
+    },
+    "agents": {
+        "success_rate": 1.0
+    },
+    "end_to_end": {
+        "success_rate": 1.0,
+        "correct_recommendation_rate": 0.4,
+        "extraction_rate": 0.18,
+        "mean_latency": 45.19500732421875,
+        "p95_latency": 53.408634662628174
+    },
+    "hardware": "CPU (CUDA=False, torch.inference_mode())",
+    "software": "Python 3.14, PyTorch, FAISS",
+    "limitations": [
+        "LLM judge was not utilized due to API constraints",
+        "Hardware constrained to CPU, blocking scale-up ablation studies"
+    ]
+}

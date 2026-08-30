@@ -1,0 +1,27 @@
+# GovAssist AI RAG engine -- requirements
+# Verified installable and working (imports confirmed) as of Aug 2026 in a
+# Python 3.12.3 / Ubuntu 24.04 CPU-only virtual environment.
+#
+# IMPORTANT (Windows / Python 3.14 users):
+# torch's plain-PyPI Linux wheel requires CUDA runtime shared libraries to be
+# importable even for CPU-only use (see README "Environment Notes"). On
+# Windows this is NOT an issue -- the Windows CPU wheel imports cleanly with
+# no CUDA libs required. If pip cannot resolve these versions for your local
+# Python (e.g. Python 3.14 is very new and some wheels may not yet support
+# it), create a virtual environment pinned to Python 3.11 or 3.12, which is
+# what this project was verified against. Do not force-install mismatched
+# wheels.
+
+pandas==3.0.5
+numpy==2.5.2
+sentence-transformers==5.7.0
+torch==2.13.0
+transformers==5.14.1
+tokenizers==0.22.2
+safetensors==0.8.0
+scikit-learn==1.9.0
+scipy==1.18.0
+faiss-cpu==1.15.0
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pytest>=8.0.0

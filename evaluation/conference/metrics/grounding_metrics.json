@@ -1,0 +1,10 @@
+{
+    "total_cases": 100,
+    "total_claims": 121,
+    "grounded_claims": 121,
+    "unsupported_claims": 0,
+    "hallucinated_claims": 0,
+    "grounded_answer_rate": 1.0,
+    "hallucination_rate": 0.0,
+    "claim_precision": 1.0
+}

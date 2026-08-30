@@ -1,0 +1,7 @@
+{
+    "success_rate": 1.0,
+    "correct_recommendation_rate": 0.4,
+    "extraction_rate": 0.18,
+    "mean_latency": 45.19500732421875,
+    "p95_latency": 53.408634662628174
+}

@@ -1,0 +1,82 @@
+=== ELIGIBILITY EVALUATION ===
+
+Profile: STUDENT {'occupation': 'student', 'age': 20, 'state': 'Tamil Nadu', 'income': 100000}
+  -> Scheme: TN Scholarship | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['State matches: Tamil Nadu.', 'Age is within the extracted scheme age range.', 'Income is within extracted ceiling of ₹200,000.']
+  -> Scheme: Kisan Samman | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['No structured eligibility conflict was extracted; verify the full eligibility text.']
+  -> Scheme: Women Biz Fund | Status: INSUFFICIENT_INFORMATION
+     Missing: ['gender']
+  -> Scheme: Old Age Pension Kerala | Status: NOT_ELIGIBLE
+     Conflicts: ['Scheme text identifies Kerala; profile states Tamil Nadu.', 'Stated age is outside the extracted scheme age range.', 'Stated income exceeds extracted ceiling of ₹10,000.']
+
+Profile: FARMER {'occupation': 'farmer', 'age': 45, 'state': 'Maharashtra', 'income': 50000}
+  -> Scheme: TN Scholarship | Status: NOT_ELIGIBLE
+     Evidence: ['Income is within extracted ceiling of ₹200,000.']
+     Conflicts: ['Scheme text identifies Tamil Nadu; profile states Maharashtra.', 'Stated age is outside the extracted scheme age range.']
+  -> Scheme: Kisan Samman | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['No structured eligibility conflict was extracted; verify the full eligibility text.']
+  -> Scheme: Women Biz Fund | Status: INSUFFICIENT_INFORMATION
+     Missing: ['gender']
+  -> Scheme: Old Age Pension Kerala | Status: NOT_ELIGIBLE
+     Conflicts: ['Scheme text identifies Kerala; profile states Maharashtra.', 'Stated age is outside the extracted scheme age range.', 'Stated income exceeds extracted ceiling of ₹10,000.']
+
+Profile: UNEMPLOYED {'occupation': 'unemployed', 'age': 25, 'state': 'Delhi'}
+  -> Scheme: TN Scholarship | Status: NOT_ELIGIBLE
+     Evidence: ['Age is within the extracted scheme age range.']
+     Conflicts: ['Scheme text identifies Tamil Nadu; profile states Delhi.']
+     Missing: ['income']
+  -> Scheme: Kisan Samman | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['No structured eligibility conflict was extracted; verify the full eligibility text.']
+  -> Scheme: Women Biz Fund | Status: INSUFFICIENT_INFORMATION
+     Missing: ['gender']
+  -> Scheme: Old Age Pension Kerala | Status: NOT_ELIGIBLE
+     Conflicts: ['Scheme text identifies Kerala; profile states Delhi.', 'Stated age is outside the extracted scheme age range.']
+     Missing: ['income']
+
+Profile: WOMAN_ENTREPRENEUR {'occupation': 'entrepreneur', 'gender': 'female', 'age': 35}
+  -> Scheme: TN Scholarship | Status: NOT_ELIGIBLE
+     Conflicts: ['Stated age is outside the extracted scheme age range.']
+     Missing: ['state', 'income']
+  -> Scheme: Kisan Samman | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['No structured eligibility conflict was extracted; verify the full eligibility text.']
+  -> Scheme: Women Biz Fund | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['Gender criterion matches: female.']
+  -> Scheme: Old Age Pension Kerala | Status: NOT_ELIGIBLE
+     Conflicts: ['Stated age is outside the extracted scheme age range.']
+     Missing: ['state', 'income']
+
+Profile: SENIOR_CITIZEN {'age': 70, 'income': 0, 'state': 'Kerala'}
+  -> Scheme: TN Scholarship | Status: NOT_ELIGIBLE
+     Evidence: ['Income is within extracted ceiling of ₹200,000.']
+     Conflicts: ['Scheme text identifies Tamil Nadu; profile states Kerala.', 'Stated age is outside the extracted scheme age range.']
+  -> Scheme: Kisan Samman | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['No structured eligibility conflict was extracted; verify the full eligibility text.']
+  -> Scheme: Women Biz Fund | Status: INSUFFICIENT_INFORMATION
+     Missing: ['gender']
+  -> Scheme: Old Age Pension Kerala | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['State matches: Kerala.', 'Age is within the extracted scheme age range.', 'Income is within extracted ceiling of ₹10,000.']
+
+Profile: LOW_INCOME {'income': 15000}
+  -> Scheme: TN Scholarship | Status: INSUFFICIENT_INFORMATION
+     Evidence: ['Income is within extracted ceiling of ₹200,000.']
+     Missing: ['state', 'age']
+  -> Scheme: Kisan Samman | Status: POTENTIALLY_ELIGIBLE
+     Evidence: ['No structured eligibility conflict was extracted; verify the full eligibility text.']
+  -> Scheme: Women Biz Fund | Status: INSUFFICIENT_INFORMATION
+     Missing: ['gender']
+  -> Scheme: Old Age Pension Kerala | Status: NOT_ELIGIBLE
+     Conflicts: ['Stated income exceeds extracted ceiling of ₹10,000.']
+     Missing: ['state', 'age']
+
+=== METRICS ===
+Total Evaluated: 24
+True Positives: 9
+True Negatives: 9
+False Positives: 0
+False Negatives: 0
+Unknown (Insufficient Info): 6
+Accuracy: 1.00
+Precision: 1.00
+Recall: 1.00
+F1 Score: 1.00

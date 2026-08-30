@@ -1,0 +1,28 @@
+{
+    "accuracy": 0.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 24,
+    "tn": 33,
+    "fp": 0,
+    "fn": 0,
+    "confusion_matrix": {
+        "expected_POTENTIALLY_ELIGIBLE": {
+            "actual_POTENTIALLY_ELIGIBLE": 24,
+            "actual_NOT_ELIGIBLE": 0,
+            "actual_INSUFFICIENT_INFORMATION": 10
+        },
+        "expected_NOT_ELIGIBLE": {
+            "actual_POTENTIALLY_ELIGIBLE": 0,
+            "actual_NOT_ELIGIBLE": 33,
+            "actual_INSUFFICIENT_INFORMATION": 0
+        },
+        "expected_INSUFFICIENT_INFORMATION": {
+            "actual_POTENTIALLY_ELIGIBLE": 0,
+            "actual_NOT_ELIGIBLE": 0,
+            "actual_INSUFFICIENT_INFORMATION": 33
+        }
+    },
+    "total": 100
+}

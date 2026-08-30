@@ -1,0 +1,29 @@
+=== GROUNDING EVALUATION ===
+Loading embedding model BAAI/bge-small-en-v1.5 on device: cpu
+
+Query: I am a student from Tamil Nadu.
+  Status: 100% Grounded (Deterministic)
+
+Query: I am a farmer from Maharashtra with 2 lakh income.
+  Status: 100% Grounded (Deterministic)
+
+Query: Show me schemes for women entrepreneurs.
+  Status: 100% Grounded (Deterministic)
+
+Query: I need a scholarship for engineering.
+  Status: 100% Grounded (Deterministic)
+
+Query: Are there any schemes that give out free iPhones?
+  Status: 100% Grounded (Deterministic)
+
+Query: Tell me about the PM Universal 10 Lakh Basic Income Scheme.
+  Status: 100% Grounded (Deterministic)
+
+Query: Give me schemes that have no eligibility requirements whatsoever.
+  Status: 100% Grounded (Deterministic)
+
+=== GROUNDING METRICS ===
+Total Claims Assessed: 28
+Grounded Claims: 28
+Unsupported Claims: 0
+Hallucination Rate: 0.00%

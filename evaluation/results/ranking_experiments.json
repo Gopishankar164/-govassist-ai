@@ -1,0 +1,3881 @@
+{
+  "generated_at_utc": "2026-08-15T03:26:01.841824+00:00",
+  "baseline_path": "C:\\Users\\rithi\\govassist-rag\\evaluation\\results\\baseline.json",
+  "baseline_preserved": true,
+  "query_count": 30,
+  "baseline_metrics": {
+    "precision_at_1": 0.5,
+    "precision_at_3": 0.2222222222222222,
+    "precision_at_5": 0.15333333333333335,
+    "precision_at_10": 0.09333333333333334,
+    "recall_at_3": 0.6666666666666666,
+    "recall_at_5": 0.7666666666666667,
+    "recall_at_10": 0.9333333333333333,
+    "mrr": 0.6222619047619048,
+    "hit_rate_at_1": 0.5,
+    "hit_rate_at_3": 0.6666666666666666,
+    "hit_rate_at_5": 0.7666666666666667,
+    "hit_rate_at_10": 0.9333333333333333,
+    "latency_ms": {
+      "mean": 76.45724999795978,
+      "median": 74.29150000098161,
+      "p95": 108.84776498714919
+    }
+  },
+  "methods": [
+    {
+      "name": "Raw query, BGE + FAISS (K=10)",
+      "query_mode": "raw",
+      "candidate_k": 10,
+      "existing_reranker_applied": false,
+      "metrics": {
+        "precision_at_1": 0.6333333333333333,
+        "precision_at_3": 0.23333333333333334,
+        "precision_at_5": 0.16666666666666666,
+        "precision_at_10": 0.09333333333333334,
+        "precision_at_20": 0.04666666666666667,
+        "recall_at_1": 0.6333333333333333,
+        "recall_at_3": 0.7,
+        "recall_at_5": 0.8333333333333334,
+        "recall_at_10": 0.9333333333333333,
+        "recall_at_20": 0.9333333333333333,
+        "hit_rate_at_1": 0.6333333333333333,
+        "hit_rate_at_3": 0.7,
+        "hit_rate_at_5": 0.8333333333333334,
+        "hit_rate_at_10": 0.9333333333333333,
+        "hit_rate_at_20": 0.9333333333333333,
+        "mrr": 0.7108730158730159,
+        "latency_ms": {
+          "mean": 81.36962666661323,
+          "median": 74.68589999189135,
+          "p95": 126.35111498530017
+        }
+      },
+      "per_query": [
+        {
+          "query": "I am in class 8 and need a scholarship as a backward class student.",
+          "query_representation": "I am in class 8 and need a scholarship as a backward class student.",
+          "expected_scheme_ids": [
+            "pmsfbcs"
+          ],
+          "retrieved_scheme_ids": [
+            "pmrs",
+            "stss",
+            "sgbcs",
+            "bcfsss",
+            "pmsfbcs",
+            "apmsoebcs",
+            "smstomsssfc",
+            "sitviiisbwodap",
+            "csspremsobcsi",
+            "jsbcpmss-3"
+          ],
+          "latency_ms": 147.16350001981482,
+          "first_relevant_rank": 5,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "I am an engineering student seeking support to attend an academic event.",
+          "query_representation": "I am an engineering student seeking support to attend an academic event.",
+          "expected_scheme_ids": [
+            "ai-tgses"
+          ],
+          "retrieved_scheme_ids": [
+            "ai-tgses",
+            "sfspbbc",
+            "fascssmedcpei",
+            "patss",
+            "sfacohcssefc",
+            "essstj",
+            "goc",
+            "fatlclnbsmec",
+            "bplsws",
+            "smile-scholarship"
+          ],
+          "latency_ms": 95.40570000535809,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a student who needs the AICTE Swanath scholarship.",
+          "query_representation": "I am a student who needs the AICTE Swanath scholarship.",
+          "expected_scheme_ids": [
+            "aicte-ssss"
+          ],
+          "retrieved_scheme_ids": [
+            "aicte-ssss",
+            "sak-deg",
+            "sak-dip",
+            "psgs-deg",
+            "pgssgategpatqsaicte",
+            "sitviiisbwodap",
+            "psgs-dip",
+            "pmatcs",
+            "am-gris",
+            "saviiisbwodap"
+          ],
+          "latency_ms": 78.69729999219999,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a differently abled degree student looking for an AICTE scholarship.",
+          "query_representation": "I am a differently abled degree student looking for an AICTE scholarship.",
+          "expected_scheme_ids": [
+            "sak-deg"
+          ],
+          "retrieved_scheme_ids": [
+            "sak-deg",
+            "sitviiisbwodap",
+            "sak-dip",
+            "saviiisbwodap",
+            "asdaps",
+            "sdas",
+            "aicte-ssss",
+            "sdsspd",
+            "ssddap",
+            "psgs-deg"
+          ],
+          "latency_ms": 77.13359998888336,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I grow paddy and need an investment subsidy for my crop.",
+          "query_representation": "I grow paddy and need an investment subsidy for my crop.",
+          "expected_scheme_ids": [
+            "beispgccpts"
+          ],
+          "retrieved_scheme_ids": [
+            "beispgccpts",
+            "qpsd",
+            "ssieemaf",
+            "infs-mesifai",
+            "domoppe",
+            "scfc-cpt",
+            "ssiemafsc",
+            "cis5aciskr-mesifai",
+            "ssiemafst",
+            "islaaa"
+          ],
+          "latency_ms": 81.78700000280514,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a farmer and need assistance to purchase a tractor.",
+          "query_representation": "I am a farmer and need assistance to purchase a tractor.",
+          "expected_scheme_ids": [
+            "agr50s-apt"
+          ],
+          "retrieved_scheme_ids": [
+            "afphfe",
+            "agr50s-apt",
+            "pcardftc",
+            "ky",
+            "spfasae",
+            "sapsf",
+            "pmtaispttshgosc",
+            "sams",
+            "dtu-cmsguy",
+            "aems"
+          ],
+          "latency_ms": 71.83810000424273,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled tribe farmer seeking farm mechanization support.",
+          "expected_scheme_ids": [
+            "agr3fmsstf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "agrasp",
+            "atesgephmesthrt3",
+            "htasthrt3",
+            "agr3fmsstf",
+            "smam",
+            "ssiemafst",
+            "iastasf",
+            "cdgsta",
+            "fssm"
+          ],
+          "latency_ms": 71.84309998410754,
+          "first_relevant_rank": 5,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "I am a scheduled caste farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled caste farmer seeking farm mechanization support.",
+          "expected_scheme_ids": [
+            "agr4fmsscf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "agrasp",
+            "faspalscf",
+            "fssm",
+            "agr3fmsstf",
+            "cmamp",
+            "smam",
+            "aems",
+            "cdgsca",
+            "atesgephmschrt4"
+          ],
+          "latency_ms": 70.86999999592081,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need support under the Abua Awas housing scheme.",
+          "query_representation": "I need support under the Abua Awas housing scheme.",
+          "expected_scheme_ids": [
+            "aay"
+          ],
+          "retrieved_scheme_ids": [
+            "aay",
+            "mgawb",
+            "cmhap",
+            "mmvenay",
+            "aay-goa",
+            "bany",
+            "rassnb",
+            "bay",
+            "sndaygbocwwb",
+            "hasukbocwwb"
+          ],
+          "latency_ms": 72.1182000124827,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am looking for the Akanksha Housing Scheme.",
+          "query_representation": "I am looking for the Akanksha Housing Scheme.",
+          "expected_scheme_ids": [
+            "ahs"
+          ],
+          "retrieved_scheme_ids": [
+            "ahs",
+            "mabay",
+            "rassnb",
+            "nhs-west-bengal",
+            "cmhap",
+            "hasukbocwwb",
+            "v-vhcs",
+            "pi",
+            "cmhr",
+            "slabch"
+          ],
+          "latency_ms": 74.21550000435673,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "expected_scheme_ids": [
+            "cm-swaniyojan-yojana"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mupssee",
+            "mnssby",
+            "mupsese",
+            "wses",
+            "pmegp",
+            "chsipni",
+            "mysyc",
+            "uatdp",
+            "uea"
+          ],
+          "latency_ms": 75.85940000717528,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am unemployed and looking for a chief minister self employment scheme.",
+          "query_representation": "I am unemployed and looking for a chief minister self employment scheme.",
+          "expected_scheme_ids": [
+            "cmses"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mnssby",
+            "mupssee",
+            "pmegp",
+            "ueeupwd",
+            "wses",
+            "uatdp",
+            "mupsese",
+            "uas",
+            "ueas"
+          ],
+          "latency_ms": 75.26800001505762,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and need vocational training to improve my employment prospects.",
+          "query_representation": "I am unemployed and need vocational training to improve my employment prospects.",
+          "expected_scheme_ids": [
+            "vt-pudu"
+          ],
+          "retrieved_scheme_ids": [
+            "vtd",
+            "vt-pudu",
+            "suvesfwpbocwwb",
+            "suvesfwcpbocwwb",
+            "sda2013",
+            "vtdwag",
+            "feotteuyobcamc",
+            "vtvscsgit",
+            "sdtm",
+            "sugtpctrcw-t"
+          ],
+          "latency_ms": 72.9159000038635,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a woman entrepreneur looking for support to start a business.",
+          "query_representation": "I am a woman entrepreneur looking for support to start a business.",
+          "expected_scheme_ids": [
+            "imspesy"
+          ],
+          "retrieved_scheme_ids": [
+            "slswe",
+            "wses",
+            "mssg",
+            "cisscstwe-mesifai",
+            "ttcss",
+            "imspesy",
+            "mupssee",
+            "mmuy",
+            "sfasisa",
+            "iwes"
+          ],
+          "latency_ms": 75.29570002225228,
+          "first_relevant_rank": 6,
+          "reciprocal_rank": 0.16666666666666666
+        },
+        {
+          "query": "I am a destitute widow looking for financial assistance.",
+          "query_representation": "I am a destitute widow looking for financial assistance.",
+          "expected_scheme_ids": [
+            "as-fadw"
+          ],
+          "retrieved_scheme_ids": [
+            "fapnw",
+            "fsdcwdw",
+            "ptwadwc",
+            "fawus",
+            "fawddwhlwb",
+            "as-fadw",
+            "faesmw",
+            "wdwps",
+            "ptwadw",
+            "dwps"
+          ],
+          "latency_ms": 73.31629999680445,
+          "first_relevant_rank": 6,
+          "reciprocal_rank": 0.16666666666666666
+        },
+        {
+          "query": "I am a working woman and need help buying a two wheeler.",
+          "query_representation": "I am a working woman and need help buying a two wheeler.",
+          "expected_scheme_ids": [
+            "atwsfww"
+          ],
+          "retrieved_scheme_ids": [
+            "atwsfww",
+            "ggs-glwb",
+            "sicmtcpd",
+            "dccbfcd",
+            "bsmasukbocwwb",
+            "subsidy-scheme-for-taxi",
+            "scss-glwb",
+            "ggtwsgbocwwb",
+            "gpbbbocwwb",
+            "mts"
+          ],
+          "latency_ms": 90.29580000787973,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste entrepreneur looking for business support.",
+          "query_representation": "I am a scheduled caste entrepreneur looking for business support.",
+          "expected_scheme_ids": [
+            "aabcs"
+          ],
+          "retrieved_scheme_ids": [
+            "sdbppd",
+            "ssboscbpbs",
+            "rs-mesifai",
+            "mdsa-mesifai-vi",
+            "cisscstwe-mesifai",
+            "mupssee",
+            "aipps-mesifai-vi",
+            "spshs",
+            "dpgsslalgsc",
+            "epcmrs"
+          ],
+          "latency_ms": 71.97550000273623,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I need an education loan as a minority student.",
+          "query_representation": "I need an education loan as a minority student.",
+          "expected_scheme_ids": [
+            "aels"
+          ],
+          "retrieved_scheme_ids": [
+            "els-cl1mc",
+            "oels",
+            "els-cl2mc",
+            "els-delhi",
+            "aels",
+            "fatlclnbsmec",
+            "mcm-min",
+            "cels-s",
+            "vpls",
+            "essg"
+          ],
+          "latency_ms": 69.83269998454489,
+          "first_relevant_rank": 5,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "I am starting an industry and need an interest subsidy on a loan.",
+          "query_representation": "I am starting an industry and need an interest subsidy on a loan.",
+          "expected_scheme_ids": [
+            "is-mesifai"
+          ],
+          "retrieved_scheme_ids": [
+            "is-mesifai",
+            "is-mesifai-vi",
+            "isrs",
+            "infs-mesifai",
+            "agsmais",
+            "cis-mesifa-cii",
+            "agslitsis",
+            "hliss-glwb",
+            "rs-mesifai",
+            "islaaa"
+          ],
+          "latency_ms": 74.62179998401552,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need health insurance support in the Andaman and Nicobar Islands.",
+          "query_representation": "I need health insurance support in the Andaman and Nicobar Islands.",
+          "expected_scheme_ids": [
+            "anishi"
+          ],
+          "retrieved_scheme_ids": [
+            "anishi",
+            "maanbocwwb",
+            "anioaas",
+            "anidas",
+            "aniadws",
+            "aniwps",
+            "faanbocwwb",
+            "daanbocwwb",
+            "pbanbocwwb",
+            "ds-aandn"
+          ],
+          "latency_ms": 74.74999999976717,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a pregnant woman seeking nutrition and health support.",
+          "query_representation": "I am a pregnant woman seeking nutrition and health support.",
+          "expected_scheme_ids": [
+            "arogya-lakshmi"
+          ],
+          "retrieved_scheme_ids": [
+            "psgg",
+            "mmyg",
+            "la",
+            "jssk",
+            "kcr-nutrition-kit",
+            "mta",
+            "arogya-lakshmi",
+            "mamata",
+            "mmpyu",
+            "masglwb"
+          ],
+          "latency_ms": 70.59690001187846,
+          "first_relevant_rank": 7,
+          "reciprocal_rank": 0.14285714285714285
+        },
+        {
+          "query": "I am a fisherman and need assistance during the fishing ban period.",
+          "query_representation": "I am a fisherman and need assistance during the fishing ban period.",
+          "expected_scheme_ids": [
+            "wrflsncs-fbps"
+          ],
+          "retrieved_scheme_ids": [
+            "wrflsncs-fbps",
+            "fafpfrgnrgnwa",
+            "lsmfdfbp",
+            "fafvrdfparfv",
+            "fapfpfoobm",
+            "fapcnfclt26ffiw",
+            "fapllf",
+            "fatuvas",
+            "fapbnia",
+            "fgrmb-faascdmf"
+          ],
+          "latency_ms": 72.21909999498166,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen looking for a chief minister pension.",
+          "query_representation": "I am a senior citizen looking for a chief minister pension.",
+          "expected_scheme_ids": [
+            "cmpsmp"
+          ],
+          "retrieved_scheme_ids": [
+            "cmpsmp",
+            "oaa",
+            "cmsasps",
+            "oapsucmupt",
+            "cmdps-sikkim",
+            "oapspbocwwb",
+            "fdbcsc",
+            "oap",
+            "oapsp",
+            "cmses"
+          ],
+          "latency_ms": 68.52369999978691,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen and need free blankets and chappals.",
+          "query_representation": "I am a senior citizen and need free blankets and chappals.",
+          "expected_scheme_ids": [
+            "fdbcsc"
+          ],
+          "retrieved_scheme_ids": [
+            "fdbcsc",
+            "smcrcsc",
+            "gaoah",
+            "ssch",
+            "oah",
+            "oaa",
+            "faoapstbc",
+            "hfta-giapsca",
+            "fssdpp",
+            "mgtocpp"
+          ],
+          "latency_ms": 73.45869997516274,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I have a disability of more than 60 percent and need an allowance.",
+          "query_representation": "I have a disability of more than 60 percent and need an allowance.",
+          "expected_scheme_ids": [
+            "da-60ada"
+          ],
+          "retrieved_scheme_ids": [
+            "da-60ada",
+            "sara",
+            "ueeupwd",
+            "uatdp",
+            "matsap",
+            "gfadap",
+            "matidp",
+            "uatdap",
+            "gtadap",
+            "disabled-pension"
+          ],
+          "latency_ms": 79.02360000298359,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste student seeking an Ambedkar fellowship.",
+          "query_representation": "I am a scheduled caste student seeking an Ambedkar fellowship.",
+          "expected_scheme_ids": [
+            "afs-sc"
+          ],
+          "retrieved_scheme_ids": [
+            "afs-sc",
+            "fsmpscsmsgs",
+            "damcyscs",
+            "rgnfscc",
+            "tce-sc",
+            "dbramascs",
+            "pdfscstc",
+            "pmsscstb",
+            "ccsnfpfscsmap",
+            "scpmsc"
+          ],
+          "latency_ms": 72.9529999953229,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled tribe student seeking an ashram school.",
+          "query_representation": "I am a scheduled tribe student seeking an ashram school.",
+          "expected_scheme_ids": [
+            "asst"
+          ],
+          "retrieved_scheme_ids": [
+            "asst",
+            "stpmsc",
+            "sas",
+            "jsstpmss-2",
+            "rofpsssisspi",
+            "bufdstmsfa",
+            "pmssts",
+            "pre-st",
+            "estascs",
+            "post-st"
+          ],
+          "latency_ms": 79.26600001519546,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a minority student looking for an overseas scholarship.",
+          "query_representation": "I am a minority student looking for an overseas scholarship.",
+          "expected_scheme_ids": [
+            "cmossm"
+          ],
+          "retrieved_scheme_ids": [
+            "cmossm",
+            "presm",
+            "mcm-min",
+            "postsm",
+            "oels",
+            "hpmsm",
+            "nos-sc",
+            "hpms",
+            "pmssfm",
+            "sheambgoc"
+          ],
+          "latency_ms": 78.9468000002671,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a young student interested in the AICTE YUVAK study tour.",
+          "query_representation": "I am a young student interested in the AICTE YUVAK study tour.",
+          "expected_scheme_ids": [
+            "ayuvfak"
+          ],
+          "retrieved_scheme_ids": [
+            "ayuvfak",
+            "aicte-spices",
+            "evtala",
+            "svucy",
+            "ohss",
+            "atdap",
+            "scafe",
+            "sr",
+            "sak-deg",
+            "etftcacotdocs"
+          ],
+          "latency_ms": 134.47059999452904,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am from a minority community and need a large business loan.",
+          "query_representation": "I am from a minority community and need a large business loan.",
+          "expected_scheme_ids": [
+            "bls"
+          ],
+          "retrieved_scheme_ids": [
+            "dlbe",
+            "lsmpcltt",
+            "lsmpcifl",
+            "bls",
+            "nbcfdc-gls",
+            "cls",
+            "lsmpcjl",
+            "vpls",
+            "ses",
+            "tls-cl1mc"
+          ],
+          "latency_ms": 116.42729997402057,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Enhanced stated-profile query, BGE + FAISS (K=10)",
+      "query_mode": "enhanced",
+      "candidate_k": 10,
+      "existing_reranker_applied": false,
+      "metrics": {
+        "precision_at_1": 0.5,
+        "precision_at_3": 0.2222222222222222,
+        "precision_at_5": 0.15333333333333335,
+        "precision_at_10": 0.09333333333333334,
+        "precision_at_20": 0.04666666666666667,
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.7666666666666667,
+        "recall_at_10": 0.9333333333333333,
+        "recall_at_20": 0.9333333333333333,
+        "hit_rate_at_1": 0.5,
+        "hit_rate_at_3": 0.6666666666666666,
+        "hit_rate_at_5": 0.7666666666666667,
+        "hit_rate_at_10": 0.9333333333333333,
+        "hit_rate_at_20": 0.9333333333333333,
+        "mrr": 0.6222619047619048,
+        "latency_ms": {
+          "mean": 83.87450333490658,
+          "median": 83.06140000058804,
+          "p95": 102.49722001317421
+        }
+      },
+      "per_query": [
+        {
+          "query": "I am in class 8 and need a scholarship as a backward class student.",
+          "query_representation": "I am in class 8 and need a scholarship as a backward class student. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "pmsfbcs"
+          ],
+          "retrieved_scheme_ids": [
+            "pmrs",
+            "stss",
+            "bcfsss",
+            "sitviiisbwodap",
+            "sgbcs",
+            "jsbcpmss-3",
+            "fascssmedcpei",
+            "pmsfbcs",
+            "fesfpc",
+            "csspremsobcsi"
+          ],
+          "latency_ms": 105.28830002294853,
+          "first_relevant_rank": 8,
+          "reciprocal_rank": 0.125
+        },
+        {
+          "query": "I am an engineering student seeking support to attend an academic event.",
+          "query_representation": "I am an engineering student seeking support to attend an academic event. education: engineering, student",
+          "expected_scheme_ids": [
+            "ai-tgses"
+          ],
+          "retrieved_scheme_ids": [
+            "sfspbbc",
+            "fascssmedcpei",
+            "ai-tgses",
+            "essstj",
+            "bplsws",
+            "fatlclnbsmec",
+            "mse",
+            "goc",
+            "sfcssots",
+            "sfacohcssefc"
+          ],
+          "latency_ms": 99.08590000122786,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "query": "I am a student who needs the AICTE Swanath scholarship.",
+          "query_representation": "I am a student who needs the AICTE Swanath scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "aicte-ssss"
+          ],
+          "retrieved_scheme_ids": [
+            "aicte-ssss",
+            "fascssmedcpei",
+            "sak-dip",
+            "sak-deg",
+            "psgs-deg",
+            "sitviiisbwodap",
+            "psgs-dip",
+            "pmatcs",
+            "pgssgategpatqsaicte",
+            "fasts-gbsy"
+          ],
+          "latency_ms": 83.16019998164847,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a differently abled degree student looking for an AICTE scholarship.",
+          "query_representation": "I am a differently abled degree student looking for an AICTE scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "sak-deg"
+          ],
+          "retrieved_scheme_ids": [
+            "sak-deg",
+            "sak-dip",
+            "sitviiisbwodap",
+            "saviiisbwodap",
+            "sdas",
+            "aicte-ssss",
+            "asdaps",
+            "ssds-punjab",
+            "tce-swd",
+            "sdsspd"
+          ],
+          "latency_ms": 94.12349999183789,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I grow paddy and need an investment subsidy for my crop.",
+          "query_representation": "I grow paddy and need an investment subsidy for my crop.",
+          "expected_scheme_ids": [
+            "beispgccpts"
+          ],
+          "retrieved_scheme_ids": [
+            "beispgccpts",
+            "qpsd",
+            "ssieemaf",
+            "infs-mesifai",
+            "domoppe",
+            "scfc-cpt",
+            "ssiemafsc",
+            "cis5aciskr-mesifai",
+            "ssiemafst",
+            "islaaa"
+          ],
+          "latency_ms": 75.13030001427978,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a farmer and need assistance to purchase a tractor.",
+          "query_representation": "I am a farmer and need assistance to purchase a tractor. agriculture farmer financial assistance rural livelihood occupation: farmer",
+          "expected_scheme_ids": [
+            "agr50s-apt"
+          ],
+          "retrieved_scheme_ids": [
+            "afphfe",
+            "agr50s-apt",
+            "pcardftc",
+            "sapsf",
+            "sams",
+            "faspalscf",
+            "ota-sfi",
+            "aems",
+            "beispgccpts",
+            "domoppe"
+          ],
+          "latency_ms": 108.39539999142289,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled tribe farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "agr3fmsstf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "faspalscf",
+            "htasthrt3",
+            "agrasp",
+            "agr3fmsstf",
+            "atesgephmesthrt3",
+            "ssiemafst",
+            "cdgsta",
+            "fssm",
+            "iastasf"
+          ],
+          "latency_ms": 96.2621999788098,
+          "first_relevant_rank": 5,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "I am a scheduled caste farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled caste farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "agr4fmsscf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "faspalscf",
+            "fssm",
+            "ihdpsscf",
+            "agrasp",
+            "cmamp",
+            "agr3fmsstf",
+            "chc",
+            "htaschrt4",
+            "aems"
+          ],
+          "latency_ms": 93.41129998210818,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need support under the Abua Awas housing scheme.",
+          "query_representation": "I need support under the Abua Awas housing scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "aay"
+          ],
+          "retrieved_scheme_ids": [
+            "aay",
+            "aay-goa",
+            "avy",
+            "sndaygbocwwb",
+            "mmvenay",
+            "hasukbocwwb",
+            "amapbbocwwb",
+            "mgawb",
+            "cmhap",
+            "grhbbocwwb"
+          ],
+          "latency_ms": 81.29850000841543,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am looking for the Akanksha Housing Scheme.",
+          "query_representation": "I am looking for the Akanksha Housing Scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "ahs"
+          ],
+          "retrieved_scheme_ids": [
+            "ahs",
+            "hasukbocwwb",
+            "mabay",
+            "cmhap",
+            "slabch",
+            "avy",
+            "amapbbocwwb",
+            "grhbbocwwb",
+            "mnsasy",
+            "v-vhcs"
+          ],
+          "latency_ms": 81.33899999666028,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "expected_scheme_ids": [
+            "cm-swaniyojan-yojana"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mupssee",
+            "mnssby",
+            "mupsese",
+            "wses",
+            "pmegp",
+            "chsipni",
+            "mysyc",
+            "uatdp",
+            "uea"
+          ],
+          "latency_ms": 77.94409999041818,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am unemployed and looking for a chief minister self employment scheme.",
+          "query_representation": "I am unemployed and looking for a chief minister self employment scheme.",
+          "expected_scheme_ids": [
+            "cmses"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mnssby",
+            "mupssee",
+            "pmegp",
+            "ueeupwd",
+            "wses",
+            "uatdp",
+            "mupsese",
+            "uas",
+            "ueas"
+          ],
+          "latency_ms": 74.47940000565723,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and need vocational training to improve my employment prospects.",
+          "query_representation": "I am unemployed and need vocational training to improve my employment prospects.",
+          "expected_scheme_ids": [
+            "vt-pudu"
+          ],
+          "retrieved_scheme_ids": [
+            "vtd",
+            "vt-pudu",
+            "suvesfwpbocwwb",
+            "suvesfwcpbocwwb",
+            "sda2013",
+            "vtdwag",
+            "feotteuyobcamc",
+            "vtvscsgit",
+            "sdtm",
+            "sugtpctrcw-t"
+          ],
+          "latency_ms": 72.02700001653284,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a woman entrepreneur looking for support to start a business.",
+          "query_representation": "I am a woman entrepreneur looking for support to start a business. small business entrepreneur enterprise loan credit financial assistance gender: female occupation: entrepreneur",
+          "expected_scheme_ids": [
+            "imspesy"
+          ],
+          "retrieved_scheme_ids": [
+            "slswe",
+            "wses",
+            "cisscstwe-mesifai",
+            "imspesy",
+            "sui",
+            "mssg",
+            "dccbfwe",
+            "ttcss",
+            "iwes",
+            "mupssee"
+          ],
+          "latency_ms": 92.44639999815263,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a destitute widow looking for financial assistance.",
+          "query_representation": "I am a destitute widow looking for financial assistance.",
+          "expected_scheme_ids": [
+            "as-fadw"
+          ],
+          "retrieved_scheme_ids": [
+            "fapnw",
+            "fsdcwdw",
+            "ptwadwc",
+            "fawus",
+            "fawddwhlwb",
+            "as-fadw",
+            "faesmw",
+            "wdwps",
+            "ptwadw",
+            "dwps"
+          ],
+          "latency_ms": 71.21620001271367,
+          "first_relevant_rank": 6,
+          "reciprocal_rank": 0.16666666666666666
+        },
+        {
+          "query": "I am a working woman and need help buying a two wheeler.",
+          "query_representation": "I am a working woman and need help buying a two wheeler. gender: female",
+          "expected_scheme_ids": [
+            "atwsfww"
+          ],
+          "retrieved_scheme_ids": [
+            "atwsfww",
+            "bsmasukbocwwb",
+            "sicmtcpd",
+            "wses",
+            "apafale",
+            "ggs-glwb",
+            "fatcwd-hlwb",
+            "fapsmcbocwwb",
+            "dccbfcd",
+            "mas-glwb"
+          ],
+          "latency_ms": 78.93049999256618,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste entrepreneur looking for business support.",
+          "query_representation": "I am a scheduled caste entrepreneur looking for business support. small business entrepreneur enterprise loan credit financial assistance occupation: entrepreneur caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "aabcs"
+          ],
+          "retrieved_scheme_ids": [
+            "ssboscbpbs",
+            "sdbppd",
+            "issscste",
+            "cegssc",
+            "cisscstwe-mesifai",
+            "sui",
+            "mupssee",
+            "sclcss",
+            "fasetdp",
+            "rs-mesifai"
+          ],
+          "latency_ms": 88.78739998908713,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I need an education loan as a minority student.",
+          "query_representation": "I need an education loan as a minority student. loan credit finance assistance education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "aels"
+          ],
+          "retrieved_scheme_ids": [
+            "els-cl1mc",
+            "els-cl2mc",
+            "oels",
+            "els-delhi",
+            "tls-cl1mc",
+            "mfs-cl1mc",
+            "els",
+            "fafps",
+            "fatlclnbsmec",
+            "aels"
+          ],
+          "latency_ms": 84.27859999937937,
+          "first_relevant_rank": 10,
+          "reciprocal_rank": 0.1
+        },
+        {
+          "query": "I am starting an industry and need an interest subsidy on a loan.",
+          "query_representation": "I am starting an industry and need an interest subsidy on a loan. loan credit finance assistance",
+          "expected_scheme_ids": [
+            "is-mesifai"
+          ],
+          "retrieved_scheme_ids": [
+            "is-mesifai",
+            "is-mesifai-vi",
+            "isrs",
+            "mdsa-mesifai-vi",
+            "infs-mesifai",
+            "agslitsis",
+            "agsmais",
+            "cis-mesifa-cii",
+            "sfasiis",
+            "hliss-glwb"
+          ],
+          "latency_ms": 83.25130000594072,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need health insurance support in the Andaman and Nicobar Islands.",
+          "query_representation": "I need health insurance support in the Andaman and Nicobar Islands. state: Andaman and Nicobar",
+          "expected_scheme_ids": [
+            "anishi"
+          ],
+          "retrieved_scheme_ids": [
+            "anishi",
+            "maanbocwwb",
+            "anioaas",
+            "anidas",
+            "aniadws",
+            "aniwps",
+            "daanbocwwb",
+            "faanbocwwb",
+            "ds-aandn",
+            "pbanbocwwb"
+          ],
+          "latency_ms": 81.36340000783093,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a pregnant woman seeking nutrition and health support.",
+          "query_representation": "I am a pregnant woman seeking nutrition and health support. gender: female",
+          "expected_scheme_ids": [
+            "arogya-lakshmi"
+          ],
+          "retrieved_scheme_ids": [
+            "mmyg",
+            "psgg",
+            "la",
+            "mta",
+            "mmpyu",
+            "kcr-nutrition-kit",
+            "arogya-lakshmi",
+            "masglwb",
+            "jssk",
+            "mamata"
+          ],
+          "latency_ms": 75.39990000077523,
+          "first_relevant_rank": 7,
+          "reciprocal_rank": 0.14285714285714285
+        },
+        {
+          "query": "I am a fisherman and need assistance during the fishing ban period.",
+          "query_representation": "I am a fisherman and need assistance during the fishing ban period. occupation: fisherman",
+          "expected_scheme_ids": [
+            "wrflsncs-fbps"
+          ],
+          "retrieved_scheme_ids": [
+            "wrflsncs-fbps",
+            "fafpfrgnrgnwa",
+            "lsmfdfbp",
+            "fafvrdfparfv",
+            "fapfpfoobm",
+            "fapcnfclt26ffiw",
+            "farfs",
+            "fapllf",
+            "fatuvas",
+            "fgrmb-faascdmf"
+          ],
+          "latency_ms": 75.7105000084266,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen looking for a chief minister pension.",
+          "query_representation": "I am a senior citizen looking for a chief minister pension.",
+          "expected_scheme_ids": [
+            "cmpsmp"
+          ],
+          "retrieved_scheme_ids": [
+            "cmpsmp",
+            "oaa",
+            "cmsasps",
+            "oapsucmupt",
+            "cmdps-sikkim",
+            "oapspbocwwb",
+            "fdbcsc",
+            "oap",
+            "oapsp",
+            "cmses"
+          ],
+          "latency_ms": 68.84110000100918,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen and need free blankets and chappals.",
+          "query_representation": "I am a senior citizen and need free blankets and chappals.",
+          "expected_scheme_ids": [
+            "fdbcsc"
+          ],
+          "retrieved_scheme_ids": [
+            "fdbcsc",
+            "smcrcsc",
+            "gaoah",
+            "ssch",
+            "oah",
+            "oaa",
+            "faoapstbc",
+            "hfta-giapsca",
+            "fssdpp",
+            "mgtocpp"
+          ],
+          "latency_ms": 72.09520001197234,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I have a disability of more than 60 percent and need an allowance.",
+          "query_representation": "I have a disability of more than 60 percent and need an allowance.",
+          "expected_scheme_ids": [
+            "da-60ada"
+          ],
+          "retrieved_scheme_ids": [
+            "da-60ada",
+            "sara",
+            "ueeupwd",
+            "uatdp",
+            "matsap",
+            "gfadap",
+            "matidp",
+            "uatdap",
+            "gtadap",
+            "disabled-pension"
+          ],
+          "latency_ms": 74.13730002008379,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste student seeking an Ambedkar fellowship.",
+          "query_representation": "I am a scheduled caste student seeking an Ambedkar fellowship. education: student caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "afs-sc"
+          ],
+          "retrieved_scheme_ids": [
+            "fsmpscsmsgs",
+            "afs-sc",
+            "damcyscs",
+            "tce-sc",
+            "fbsscsphe",
+            "scpmsc",
+            "pmsscstb",
+            "psscsscspms",
+            "tascs12s",
+            "stpmsc"
+          ],
+          "latency_ms": 82.9626000195276,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe student seeking an ashram school.",
+          "query_representation": "I am a scheduled tribe student seeking an ashram school. education: student, school caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "asst"
+          ],
+          "retrieved_scheme_ids": [
+            "stpmsc",
+            "asst",
+            "fbsscsphe",
+            "tce-sc",
+            "jsstpmss-2",
+            "scast",
+            "scpmsc",
+            "bufdstmsfa",
+            "pre-st",
+            "rosch"
+          ],
+          "latency_ms": 84.11339999292977,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a minority student looking for an overseas scholarship.",
+          "query_representation": "I am a minority student looking for an overseas scholarship. higher education student financial assistance scholarship education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "cmossm"
+          ],
+          "retrieved_scheme_ids": [
+            "presm",
+            "nos-sc",
+            "postsm",
+            "cmossm",
+            "mcm-min",
+            "oels",
+            "sheambgoc",
+            "hpmsm",
+            "css-nos-st",
+            "tce-sc"
+          ],
+          "latency_ms": 84.73050000611693,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a young student interested in the AICTE YUVAK study tour.",
+          "query_representation": "I am a young student interested in the AICTE YUVAK study tour. education: student",
+          "expected_scheme_ids": [
+            "ayuvfak"
+          ],
+          "retrieved_scheme_ids": [
+            "ayuvfak",
+            "aicte-spices",
+            "svucy",
+            "evtala",
+            "sr",
+            "scafe",
+            "sak-deg",
+            "sak-dip",
+            "epy-csts",
+            "damcyobcs"
+          ],
+          "latency_ms": 85.65920000546612,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am from a minority community and need a large business loan.",
+          "query_representation": "I am from a minority community and need a large business loan. small business entrepreneur enterprise loan credit financial assistance loan credit finance assistance caste_category: Minority",
+          "expected_scheme_ids": [
+            "bls"
+          ],
+          "retrieved_scheme_ids": [
+            "dlbe",
+            "mfs-cl1mc",
+            "mfs-cl2mc",
+            "tls-cl1mc",
+            "cls",
+            "ses",
+            "els-cl1mc",
+            "tlscl2mc",
+            "beis",
+            "bls"
+          ],
+          "latency_ms": 90.36649999325164,
+          "first_relevant_rank": 10,
+          "reciprocal_rank": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Enhanced query, BGE + FAISS + existing reranker (K=10)",
+      "query_mode": "enhanced",
+      "candidate_k": 10,
+      "existing_reranker_applied": true,
+      "metrics": {
+        "precision_at_1": 0.43333333333333335,
+        "precision_at_3": 0.2222222222222222,
+        "precision_at_5": 0.15333333333333335,
+        "precision_at_10": 0.09333333333333334,
+        "precision_at_20": 0.04666666666666667,
+        "recall_at_1": 0.43333333333333335,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.7666666666666667,
+        "recall_at_10": 0.9333333333333333,
+        "recall_at_20": 0.9333333333333333,
+        "hit_rate_at_1": 0.43333333333333335,
+        "hit_rate_at_3": 0.6666666666666666,
+        "hit_rate_at_5": 0.7666666666666667,
+        "hit_rate_at_10": 0.9333333333333333,
+        "hit_rate_at_20": 0.9333333333333333,
+        "mrr": 0.5803174603174602,
+        "latency_ms": {
+          "mean": 82.68671666737646,
+          "median": 82.79159999801777,
+          "p95": 96.14251000020886
+        }
+      },
+      "per_query": [
+        {
+          "query": "I am in class 8 and need a scholarship as a backward class student.",
+          "query_representation": "I am in class 8 and need a scholarship as a backward class student. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "pmsfbcs"
+          ],
+          "retrieved_scheme_ids": [
+            "pmrs",
+            "stss",
+            "bcfsss",
+            "sitviiisbwodap",
+            "sgbcs",
+            "jsbcpmss-3",
+            "fascssmedcpei",
+            "pmsfbcs",
+            "fesfpc",
+            "csspremsobcsi"
+          ],
+          "latency_ms": 84.40120000159368,
+          "first_relevant_rank": 8,
+          "reciprocal_rank": 0.125
+        },
+        {
+          "query": "I am an engineering student seeking support to attend an academic event.",
+          "query_representation": "I am an engineering student seeking support to attend an academic event. education: engineering, student",
+          "expected_scheme_ids": [
+            "ai-tgses"
+          ],
+          "retrieved_scheme_ids": [
+            "essstj",
+            "sfspbbc",
+            "fascssmedcpei",
+            "ai-tgses",
+            "bplsws",
+            "fatlclnbsmec",
+            "mse",
+            "goc",
+            "sfcssots",
+            "sfacohcssefc"
+          ],
+          "latency_ms": 81.68239999213256,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a student who needs the AICTE Swanath scholarship.",
+          "query_representation": "I am a student who needs the AICTE Swanath scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "aicte-ssss"
+          ],
+          "retrieved_scheme_ids": [
+            "aicte-ssss",
+            "sak-dip",
+            "sak-deg",
+            "fascssmedcpei",
+            "psgs-deg",
+            "sitviiisbwodap",
+            "psgs-dip",
+            "pmatcs",
+            "pgssgategpatqsaicte",
+            "fasts-gbsy"
+          ],
+          "latency_ms": 86.88459999393672,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a differently abled degree student looking for an AICTE scholarship.",
+          "query_representation": "I am a differently abled degree student looking for an AICTE scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "sak-deg"
+          ],
+          "retrieved_scheme_ids": [
+            "sak-deg",
+            "sak-dip",
+            "aicte-ssss",
+            "tce-swd",
+            "sitviiisbwodap",
+            "saviiisbwodap",
+            "sdas",
+            "asdaps",
+            "ssds-punjab",
+            "sdsspd"
+          ],
+          "latency_ms": 86.88130002701655,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I grow paddy and need an investment subsidy for my crop.",
+          "query_representation": "I grow paddy and need an investment subsidy for my crop.",
+          "expected_scheme_ids": [
+            "beispgccpts"
+          ],
+          "retrieved_scheme_ids": [
+            "beispgccpts",
+            "qpsd",
+            "ssieemaf",
+            "infs-mesifai",
+            "domoppe",
+            "scfc-cpt",
+            "ssiemafsc",
+            "cis5aciskr-mesifai",
+            "ssiemafst",
+            "islaaa"
+          ],
+          "latency_ms": 70.32709999475628,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a farmer and need assistance to purchase a tractor.",
+          "query_representation": "I am a farmer and need assistance to purchase a tractor. agriculture farmer financial assistance rural livelihood occupation: farmer",
+          "expected_scheme_ids": [
+            "agr50s-apt"
+          ],
+          "retrieved_scheme_ids": [
+            "afphfe",
+            "agr50s-apt",
+            "pcardftc",
+            "sapsf",
+            "sams",
+            "faspalscf",
+            "ota-sfi",
+            "aems",
+            "beispgccpts",
+            "domoppe"
+          ],
+          "latency_ms": 80.16650000354275,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled tribe farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "agr3fmsstf"
+          ],
+          "retrieved_scheme_ids": [
+            "htasthrt3",
+            "agrasp",
+            "agr3fmsstf",
+            "atesgephmesthrt3",
+            "ssiemafst",
+            "cdgsta",
+            "fssm",
+            "iastasf"
+          ],
+          "latency_ms": 85.03230000496842,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "query": "I am a scheduled caste farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled caste farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "agr4fmsscf"
+          ],
+          "retrieved_scheme_ids": [
+            "cmamp",
+            "agr4fmsscf",
+            "faspalscf",
+            "fssm",
+            "ihdpsscf",
+            "agrasp",
+            "chc",
+            "htaschrt4",
+            "aems"
+          ],
+          "latency_ms": 96.57009999500588,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I need support under the Abua Awas housing scheme.",
+          "query_representation": "I need support under the Abua Awas housing scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "aay"
+          ],
+          "retrieved_scheme_ids": [
+            "aay",
+            "aay-goa",
+            "avy",
+            "sndaygbocwwb",
+            "mmvenay",
+            "hasukbocwwb",
+            "amapbbocwwb",
+            "mgawb",
+            "cmhap",
+            "grhbbocwwb"
+          ],
+          "latency_ms": 83.1422999908682,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am looking for the Akanksha Housing Scheme.",
+          "query_representation": "I am looking for the Akanksha Housing Scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "ahs"
+          ],
+          "retrieved_scheme_ids": [
+            "mabay",
+            "ahs",
+            "hasukbocwwb",
+            "cmhap",
+            "slabch",
+            "avy",
+            "amapbbocwwb",
+            "grhbbocwwb",
+            "mnsasy",
+            "v-vhcs"
+          ],
+          "latency_ms": 84.80860001873225,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "expected_scheme_ids": [
+            "cm-swaniyojan-yojana"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "pmegp",
+            "chsipni",
+            "mupssee",
+            "mnssby",
+            "mupsese",
+            "wses",
+            "mysyc",
+            "uatdp",
+            "uea"
+          ],
+          "latency_ms": 80.41140000568703,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am unemployed and looking for a chief minister self employment scheme.",
+          "query_representation": "I am unemployed and looking for a chief minister self employment scheme.",
+          "expected_scheme_ids": [
+            "cmses"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "pmegp",
+            "mnssby",
+            "mupssee",
+            "ueeupwd",
+            "wses",
+            "uatdp",
+            "mupsese",
+            "uas",
+            "ueas"
+          ],
+          "latency_ms": 72.39280000794679,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and need vocational training to improve my employment prospects.",
+          "query_representation": "I am unemployed and need vocational training to improve my employment prospects.",
+          "expected_scheme_ids": [
+            "vt-pudu"
+          ],
+          "retrieved_scheme_ids": [
+            "vtd",
+            "vt-pudu",
+            "suvesfwpbocwwb",
+            "suvesfwcpbocwwb",
+            "sda2013",
+            "vtdwag",
+            "feotteuyobcamc",
+            "vtvscsgit",
+            "sdtm",
+            "sugtpctrcw-t"
+          ],
+          "latency_ms": 71.3355999905616,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a woman entrepreneur looking for support to start a business.",
+          "query_representation": "I am a woman entrepreneur looking for support to start a business. small business entrepreneur enterprise loan credit financial assistance gender: female occupation: entrepreneur",
+          "expected_scheme_ids": [
+            "imspesy"
+          ],
+          "retrieved_scheme_ids": [
+            "slswe",
+            "wses",
+            "cisscstwe-mesifai",
+            "imspesy",
+            "sui",
+            "mssg",
+            "dccbfwe",
+            "ttcss",
+            "iwes",
+            "mupssee"
+          ],
+          "latency_ms": 89.97430000454187,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a destitute widow looking for financial assistance.",
+          "query_representation": "I am a destitute widow looking for financial assistance.",
+          "expected_scheme_ids": [
+            "as-fadw"
+          ],
+          "retrieved_scheme_ids": [
+            "fapnw",
+            "fsdcwdw",
+            "ptwadwc",
+            "fawus",
+            "fawddwhlwb",
+            "as-fadw",
+            "faesmw",
+            "wdwps",
+            "ptwadw",
+            "dwps"
+          ],
+          "latency_ms": 66.9717000273522,
+          "first_relevant_rank": 6,
+          "reciprocal_rank": 0.16666666666666666
+        },
+        {
+          "query": "I am a working woman and need help buying a two wheeler.",
+          "query_representation": "I am a working woman and need help buying a two wheeler. gender: female",
+          "expected_scheme_ids": [
+            "atwsfww"
+          ],
+          "retrieved_scheme_ids": [
+            "atwsfww",
+            "bsmasukbocwwb",
+            "sicmtcpd",
+            "wses",
+            "apafale",
+            "ggs-glwb",
+            "fatcwd-hlwb",
+            "fapsmcbocwwb",
+            "dccbfcd",
+            "mas-glwb"
+          ],
+          "latency_ms": 86.73640000051819,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste entrepreneur looking for business support.",
+          "query_representation": "I am a scheduled caste entrepreneur looking for business support. small business entrepreneur enterprise loan credit financial assistance occupation: entrepreneur caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "aabcs"
+          ],
+          "retrieved_scheme_ids": [
+            "cegssc",
+            "sui",
+            "ssboscbpbs",
+            "sclcss",
+            "sdbppd",
+            "issscste",
+            "cisscstwe-mesifai",
+            "mupssee",
+            "fasetdp",
+            "rs-mesifai"
+          ],
+          "latency_ms": 91.99980000266805,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I need an education loan as a minority student.",
+          "query_representation": "I need an education loan as a minority student. loan credit finance assistance education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "aels"
+          ],
+          "retrieved_scheme_ids": [
+            "els-cl1mc",
+            "els-cl2mc",
+            "oels",
+            "els-delhi",
+            "tls-cl1mc",
+            "mfs-cl1mc",
+            "aels"
+          ],
+          "latency_ms": 82.44090000516735,
+          "first_relevant_rank": 7,
+          "reciprocal_rank": 0.14285714285714285
+        },
+        {
+          "query": "I am starting an industry and need an interest subsidy on a loan.",
+          "query_representation": "I am starting an industry and need an interest subsidy on a loan. loan credit finance assistance",
+          "expected_scheme_ids": [
+            "is-mesifai"
+          ],
+          "retrieved_scheme_ids": [
+            "is-mesifai",
+            "is-mesifai-vi",
+            "isrs",
+            "mdsa-mesifai-vi",
+            "infs-mesifai",
+            "agslitsis",
+            "agsmais",
+            "cis-mesifa-cii",
+            "sfasiis",
+            "hliss-glwb"
+          ],
+          "latency_ms": 73.02879999042489,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need health insurance support in the Andaman and Nicobar Islands.",
+          "query_representation": "I need health insurance support in the Andaman and Nicobar Islands. state: Andaman and Nicobar",
+          "expected_scheme_ids": [
+            "anishi"
+          ],
+          "retrieved_scheme_ids": [
+            "anishi",
+            "anidas",
+            "maanbocwwb",
+            "anioaas",
+            "aniadws",
+            "aniwps",
+            "daanbocwwb",
+            "faanbocwwb",
+            "ds-aandn",
+            "pbanbocwwb"
+          ],
+          "latency_ms": 81.46580000175163,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a pregnant woman seeking nutrition and health support.",
+          "query_representation": "I am a pregnant woman seeking nutrition and health support. gender: female",
+          "expected_scheme_ids": [
+            "arogya-lakshmi"
+          ],
+          "retrieved_scheme_ids": [
+            "jssk",
+            "mmyg",
+            "psgg",
+            "la",
+            "mta",
+            "mmpyu",
+            "kcr-nutrition-kit",
+            "arogya-lakshmi",
+            "masglwb",
+            "mamata"
+          ],
+          "latency_ms": 74.73779999418184,
+          "first_relevant_rank": 8,
+          "reciprocal_rank": 0.125
+        },
+        {
+          "query": "I am a fisherman and need assistance during the fishing ban period.",
+          "query_representation": "I am a fisherman and need assistance during the fishing ban period. occupation: fisherman",
+          "expected_scheme_ids": [
+            "wrflsncs-fbps"
+          ],
+          "retrieved_scheme_ids": [
+            "wrflsncs-fbps",
+            "fafpfrgnrgnwa",
+            "lsmfdfbp",
+            "fafvrdfparfv",
+            "fapfpfoobm",
+            "fapcnfclt26ffiw",
+            "farfs",
+            "fapllf",
+            "fatuvas",
+            "fgrmb-faascdmf"
+          ],
+          "latency_ms": 74.7032999934163,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen looking for a chief minister pension.",
+          "query_representation": "I am a senior citizen looking for a chief minister pension.",
+          "expected_scheme_ids": [
+            "cmpsmp"
+          ],
+          "retrieved_scheme_ids": [
+            "cmpsmp",
+            "oaa",
+            "cmsasps",
+            "oapsucmupt",
+            "cmdps-sikkim",
+            "oapspbocwwb",
+            "fdbcsc",
+            "oap",
+            "oapsp",
+            "cmses"
+          ],
+          "latency_ms": 73.19060000008903,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen and need free blankets and chappals.",
+          "query_representation": "I am a senior citizen and need free blankets and chappals.",
+          "expected_scheme_ids": [
+            "fdbcsc"
+          ],
+          "retrieved_scheme_ids": [
+            "fdbcsc",
+            "smcrcsc",
+            "gaoah",
+            "ssch",
+            "oah",
+            "oaa",
+            "faoapstbc",
+            "hfta-giapsca",
+            "fssdpp",
+            "mgtocpp"
+          ],
+          "latency_ms": 71.65120000718161,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I have a disability of more than 60 percent and need an allowance.",
+          "query_representation": "I have a disability of more than 60 percent and need an allowance.",
+          "expected_scheme_ids": [
+            "da-60ada"
+          ],
+          "retrieved_scheme_ids": [
+            "da-60ada",
+            "sara",
+            "ueeupwd",
+            "uatdp",
+            "matsap",
+            "gfadap",
+            "matidp",
+            "uatdap",
+            "gtadap",
+            "disabled-pension"
+          ],
+          "latency_ms": 85.74019998195581,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste student seeking an Ambedkar fellowship.",
+          "query_representation": "I am a scheduled caste student seeking an Ambedkar fellowship. education: student caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "afs-sc"
+          ],
+          "retrieved_scheme_ids": [
+            "tce-sc",
+            "fsmpscsmsgs",
+            "afs-sc",
+            "damcyscs",
+            "fbsscsphe",
+            "scpmsc",
+            "psscsscspms",
+            "tascs12s"
+          ],
+          "latency_ms": 95.61990000656806,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "query": "I am a scheduled tribe student seeking an ashram school.",
+          "query_representation": "I am a scheduled tribe student seeking an ashram school. education: student, school caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "asst"
+          ],
+          "retrieved_scheme_ids": [
+            "pre-st",
+            "stpmsc",
+            "asst",
+            "jsstpmss-2",
+            "scast",
+            "bufdstmsfa"
+          ],
+          "latency_ms": 91.68290000525303,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "query": "I am a minority student looking for an overseas scholarship.",
+          "query_representation": "I am a minority student looking for an overseas scholarship. higher education student financial assistance scholarship education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "cmossm"
+          ],
+          "retrieved_scheme_ids": [
+            "presm",
+            "postsm",
+            "mcm-min",
+            "cmossm",
+            "oels",
+            "sheambgoc",
+            "hpmsm"
+          ],
+          "latency_ms": 106.55539997969754,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a young student interested in the AICTE YUVAK study tour.",
+          "query_representation": "I am a young student interested in the AICTE YUVAK study tour. education: student",
+          "expected_scheme_ids": [
+            "ayuvfak"
+          ],
+          "retrieved_scheme_ids": [
+            "ayuvfak",
+            "aicte-spices",
+            "sak-deg",
+            "sak-dip",
+            "svucy",
+            "evtala",
+            "sr",
+            "scafe",
+            "epy-csts",
+            "damcyobcs"
+          ],
+          "latency_ms": 81.26340000308119,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am from a minority community and need a large business loan.",
+          "query_representation": "I am from a minority community and need a large business loan. small business entrepreneur enterprise loan credit financial assistance loan credit finance assistance caste_category: Minority",
+          "expected_scheme_ids": [
+            "bls"
+          ],
+          "retrieved_scheme_ids": [
+            "dlbe",
+            "mfs-cl1mc",
+            "mfs-cl2mc",
+            "tls-cl1mc",
+            "cls",
+            "ses",
+            "els-cl1mc",
+            "tlscl2mc",
+            "beis",
+            "bls"
+          ],
+          "latency_ms": 88.80289999069646,
+          "first_relevant_rank": 10,
+          "reciprocal_rank": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Enhanced query, BGE + FAISS (K=5)",
+      "query_mode": "enhanced",
+      "candidate_k": 5,
+      "existing_reranker_applied": false,
+      "metrics": {
+        "precision_at_1": 0.5,
+        "precision_at_3": 0.2222222222222222,
+        "precision_at_5": 0.15333333333333335,
+        "precision_at_10": 0.07666666666666667,
+        "precision_at_20": 0.03833333333333334,
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.7666666666666667,
+        "recall_at_10": 0.7666666666666667,
+        "recall_at_20": 0.7666666666666667,
+        "hit_rate_at_1": 0.5,
+        "hit_rate_at_3": 0.6666666666666666,
+        "hit_rate_at_5": 0.7666666666666667,
+        "hit_rate_at_10": 0.7666666666666667,
+        "hit_rate_at_20": 0.7666666666666667,
+        "mrr": 0.6011111111111112,
+        "latency_ms": {
+          "mean": 86.9371466668478,
+          "median": 78.9165000023786,
+          "p95": 126.2941099979798
+        }
+      },
+      "per_query": [
+        {
+          "query": "I am in class 8 and need a scholarship as a backward class student.",
+          "query_representation": "I am in class 8 and need a scholarship as a backward class student. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "pmsfbcs"
+          ],
+          "retrieved_scheme_ids": [
+            "pmrs",
+            "stss",
+            "bcfsss",
+            "sitviiisbwodap",
+            "sgbcs"
+          ],
+          "latency_ms": 87.1947999985423,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am an engineering student seeking support to attend an academic event.",
+          "query_representation": "I am an engineering student seeking support to attend an academic event. education: engineering, student",
+          "expected_scheme_ids": [
+            "ai-tgses"
+          ],
+          "retrieved_scheme_ids": [
+            "sfspbbc",
+            "fascssmedcpei",
+            "ai-tgses",
+            "essstj",
+            "bplsws"
+          ],
+          "latency_ms": 81.67720001074485,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "query": "I am a student who needs the AICTE Swanath scholarship.",
+          "query_representation": "I am a student who needs the AICTE Swanath scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "aicte-ssss"
+          ],
+          "retrieved_scheme_ids": [
+            "aicte-ssss",
+            "fascssmedcpei",
+            "sak-dip",
+            "sak-deg",
+            "psgs-deg"
+          ],
+          "latency_ms": 108.36620000191033,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a differently abled degree student looking for an AICTE scholarship.",
+          "query_representation": "I am a differently abled degree student looking for an AICTE scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "sak-deg"
+          ],
+          "retrieved_scheme_ids": [
+            "sak-deg",
+            "sak-dip",
+            "sitviiisbwodap",
+            "saviiisbwodap",
+            "sdas"
+          ],
+          "latency_ms": 142.24929999909364,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I grow paddy and need an investment subsidy for my crop.",
+          "query_representation": "I grow paddy and need an investment subsidy for my crop.",
+          "expected_scheme_ids": [
+            "beispgccpts"
+          ],
+          "retrieved_scheme_ids": [
+            "beispgccpts",
+            "qpsd",
+            "ssieemaf",
+            "infs-mesifai",
+            "domoppe"
+          ],
+          "latency_ms": 110.59100000420585,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a farmer and need assistance to purchase a tractor.",
+          "query_representation": "I am a farmer and need assistance to purchase a tractor. agriculture farmer financial assistance rural livelihood occupation: farmer",
+          "expected_scheme_ids": [
+            "agr50s-apt"
+          ],
+          "retrieved_scheme_ids": [
+            "afphfe",
+            "agr50s-apt",
+            "pcardftc",
+            "sapsf",
+            "sams"
+          ],
+          "latency_ms": 129.73849999252707,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled tribe farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "agr3fmsstf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "faspalscf",
+            "htasthrt3",
+            "agrasp",
+            "agr3fmsstf"
+          ],
+          "latency_ms": 108.68560001836158,
+          "first_relevant_rank": 5,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "I am a scheduled caste farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled caste farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "agr4fmsscf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "faspalscf",
+            "fssm",
+            "ihdpsscf",
+            "agrasp"
+          ],
+          "latency_ms": 97.44189999764785,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need support under the Abua Awas housing scheme.",
+          "query_representation": "I need support under the Abua Awas housing scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "aay"
+          ],
+          "retrieved_scheme_ids": [
+            "aay",
+            "aay-goa",
+            "avy",
+            "sndaygbocwwb",
+            "mmvenay"
+          ],
+          "latency_ms": 72.68069998826832,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am looking for the Akanksha Housing Scheme.",
+          "query_representation": "I am looking for the Akanksha Housing Scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "ahs"
+          ],
+          "retrieved_scheme_ids": [
+            "ahs",
+            "hasukbocwwb",
+            "mabay",
+            "cmhap",
+            "slabch"
+          ],
+          "latency_ms": 69.51969998772256,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "expected_scheme_ids": [
+            "cm-swaniyojan-yojana"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mupssee",
+            "mnssby",
+            "mupsese",
+            "wses"
+          ],
+          "latency_ms": 65.75619999784976,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am unemployed and looking for a chief minister self employment scheme.",
+          "query_representation": "I am unemployed and looking for a chief minister self employment scheme.",
+          "expected_scheme_ids": [
+            "cmses"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mnssby",
+            "mupssee",
+            "pmegp",
+            "ueeupwd"
+          ],
+          "latency_ms": 65.72340001002885,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and need vocational training to improve my employment prospects.",
+          "query_representation": "I am unemployed and need vocational training to improve my employment prospects.",
+          "expected_scheme_ids": [
+            "vt-pudu"
+          ],
+          "retrieved_scheme_ids": [
+            "vtd",
+            "vt-pudu",
+            "suvesfwpbocwwb",
+            "suvesfwcpbocwwb",
+            "sda2013"
+          ],
+          "latency_ms": 63.50889999885112,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a woman entrepreneur looking for support to start a business.",
+          "query_representation": "I am a woman entrepreneur looking for support to start a business. small business entrepreneur enterprise loan credit financial assistance gender: female occupation: entrepreneur",
+          "expected_scheme_ids": [
+            "imspesy"
+          ],
+          "retrieved_scheme_ids": [
+            "slswe",
+            "wses",
+            "cisscstwe-mesifai",
+            "imspesy",
+            "sui"
+          ],
+          "latency_ms": 78.63740000175312,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a destitute widow looking for financial assistance.",
+          "query_representation": "I am a destitute widow looking for financial assistance.",
+          "expected_scheme_ids": [
+            "as-fadw"
+          ],
+          "retrieved_scheme_ids": [
+            "fapnw",
+            "fsdcwdw",
+            "ptwadwc",
+            "fawus",
+            "fawddwhlwb"
+          ],
+          "latency_ms": 60.78269999125041,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am a working woman and need help buying a two wheeler.",
+          "query_representation": "I am a working woman and need help buying a two wheeler. gender: female",
+          "expected_scheme_ids": [
+            "atwsfww"
+          ],
+          "retrieved_scheme_ids": [
+            "atwsfww",
+            "bsmasukbocwwb",
+            "sicmtcpd",
+            "wses",
+            "apafale"
+          ],
+          "latency_ms": 69.04910001321696,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste entrepreneur looking for business support.",
+          "query_representation": "I am a scheduled caste entrepreneur looking for business support. small business entrepreneur enterprise loan credit financial assistance occupation: entrepreneur caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "aabcs"
+          ],
+          "retrieved_scheme_ids": [
+            "ssboscbpbs",
+            "sdbppd",
+            "issscste",
+            "cegssc",
+            "cisscstwe-mesifai"
+          ],
+          "latency_ms": 79.19560000300407,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I need an education loan as a minority student.",
+          "query_representation": "I need an education loan as a minority student. loan credit finance assistance education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "aels"
+          ],
+          "retrieved_scheme_ids": [
+            "els-cl1mc",
+            "els-cl2mc",
+            "oels",
+            "els-delhi",
+            "tls-cl1mc"
+          ],
+          "latency_ms": 77.63970000087284,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am starting an industry and need an interest subsidy on a loan.",
+          "query_representation": "I am starting an industry and need an interest subsidy on a loan. loan credit finance assistance",
+          "expected_scheme_ids": [
+            "is-mesifai"
+          ],
+          "retrieved_scheme_ids": [
+            "is-mesifai",
+            "is-mesifai-vi",
+            "isrs",
+            "mdsa-mesifai-vi",
+            "infs-mesifai"
+          ],
+          "latency_ms": 73.5704000107944,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need health insurance support in the Andaman and Nicobar Islands.",
+          "query_representation": "I need health insurance support in the Andaman and Nicobar Islands. state: Andaman and Nicobar",
+          "expected_scheme_ids": [
+            "anishi"
+          ],
+          "retrieved_scheme_ids": [
+            "anishi",
+            "maanbocwwb",
+            "anioaas",
+            "anidas",
+            "aniadws"
+          ],
+          "latency_ms": 75.3922000003513,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a pregnant woman seeking nutrition and health support.",
+          "query_representation": "I am a pregnant woman seeking nutrition and health support. gender: female",
+          "expected_scheme_ids": [
+            "arogya-lakshmi"
+          ],
+          "retrieved_scheme_ids": [
+            "mmyg",
+            "psgg",
+            "la",
+            "mta",
+            "mmpyu"
+          ],
+          "latency_ms": 64.88220000755973,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am a fisherman and need assistance during the fishing ban period.",
+          "query_representation": "I am a fisherman and need assistance during the fishing ban period. occupation: fisherman",
+          "expected_scheme_ids": [
+            "wrflsncs-fbps"
+          ],
+          "retrieved_scheme_ids": [
+            "wrflsncs-fbps",
+            "fafpfrgnrgnwa",
+            "lsmfdfbp",
+            "fafvrdfparfv",
+            "fapfpfoobm"
+          ],
+          "latency_ms": 76.75229999586008,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen looking for a chief minister pension.",
+          "query_representation": "I am a senior citizen looking for a chief minister pension.",
+          "expected_scheme_ids": [
+            "cmpsmp"
+          ],
+          "retrieved_scheme_ids": [
+            "cmpsmp",
+            "oaa",
+            "cmsasps",
+            "oapsucmupt",
+            "cmdps-sikkim"
+          ],
+          "latency_ms": 62.94140001409687,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen and need free blankets and chappals.",
+          "query_representation": "I am a senior citizen and need free blankets and chappals.",
+          "expected_scheme_ids": [
+            "fdbcsc"
+          ],
+          "retrieved_scheme_ids": [
+            "fdbcsc",
+            "smcrcsc",
+            "gaoah",
+            "ssch",
+            "oah"
+          ],
+          "latency_ms": 76.80249999975786,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I have a disability of more than 60 percent and need an allowance.",
+          "query_representation": "I have a disability of more than 60 percent and need an allowance.",
+          "expected_scheme_ids": [
+            "da-60ada"
+          ],
+          "retrieved_scheme_ids": [
+            "da-60ada",
+            "sara",
+            "ueeupwd",
+            "uatdp",
+            "matsap"
+          ],
+          "latency_ms": 92.21159998560324,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste student seeking an Ambedkar fellowship.",
+          "query_representation": "I am a scheduled caste student seeking an Ambedkar fellowship. education: student caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "afs-sc"
+          ],
+          "retrieved_scheme_ids": [
+            "fsmpscsmsgs",
+            "afs-sc",
+            "damcyscs",
+            "tce-sc",
+            "fbsscsphe"
+          ],
+          "latency_ms": 94.27589998813346,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe student seeking an ashram school.",
+          "query_representation": "I am a scheduled tribe student seeking an ashram school. education: student, school caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "asst"
+          ],
+          "retrieved_scheme_ids": [
+            "stpmsc",
+            "asst",
+            "fbsscsphe",
+            "tce-sc",
+            "jsstpmss-2"
+          ],
+          "latency_ms": 95.19399999408051,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a minority student looking for an overseas scholarship.",
+          "query_representation": "I am a minority student looking for an overseas scholarship. higher education student financial assistance scholarship education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "cmossm"
+          ],
+          "retrieved_scheme_ids": [
+            "presm",
+            "nos-sc",
+            "postsm",
+            "cmossm",
+            "mcm-min"
+          ],
+          "latency_ms": 102.50159999122843,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a young student interested in the AICTE YUVAK study tour.",
+          "query_representation": "I am a young student interested in the AICTE YUVAK study tour. education: student",
+          "expected_scheme_ids": [
+            "ayuvfak"
+          ],
+          "retrieved_scheme_ids": [
+            "ayuvfak",
+            "aicte-spices",
+            "svucy",
+            "evtala",
+            "sr"
+          ],
+          "latency_ms": 103.06809999747202,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am from a minority community and need a large business loan.",
+          "query_representation": "I am from a minority community and need a large business loan. small business entrepreneur enterprise loan credit financial assistance loan credit finance assistance caste_category: Minority",
+          "expected_scheme_ids": [
+            "bls"
+          ],
+          "retrieved_scheme_ids": [
+            "dlbe",
+            "mfs-cl1mc",
+            "mfs-cl2mc",
+            "tls-cl1mc",
+            "cls"
+          ],
+          "latency_ms": 122.08430000464432,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Enhanced query, BGE + FAISS (K=20)",
+      "query_mode": "enhanced",
+      "candidate_k": 20,
+      "existing_reranker_applied": false,
+      "metrics": {
+        "precision_at_1": 0.5,
+        "precision_at_3": 0.2222222222222222,
+        "precision_at_5": 0.15333333333333335,
+        "precision_at_10": 0.09333333333333334,
+        "precision_at_20": 0.04666666666666667,
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.7666666666666667,
+        "recall_at_10": 0.9333333333333333,
+        "recall_at_20": 0.9333333333333333,
+        "hit_rate_at_1": 0.5,
+        "hit_rate_at_3": 0.6666666666666666,
+        "hit_rate_at_5": 0.7666666666666667,
+        "hit_rate_at_10": 0.9333333333333333,
+        "hit_rate_at_20": 0.9333333333333333,
+        "mrr": 0.6222619047619048,
+        "latency_ms": {
+          "mean": 94.01629666487376,
+          "median": 91.47605000180192,
+          "p95": 129.23406001063995
+        }
+      },
+      "per_query": [
+        {
+          "query": "I am in class 8 and need a scholarship as a backward class student.",
+          "query_representation": "I am in class 8 and need a scholarship as a backward class student. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "pmsfbcs"
+          ],
+          "retrieved_scheme_ids": [
+            "pmrs",
+            "stss",
+            "bcfsss",
+            "sitviiisbwodap",
+            "sgbcs",
+            "jsbcpmss-3",
+            "fascssmedcpei",
+            "pmsfbcs",
+            "fesfpc",
+            "csspremsobcsi",
+            "smstomsssfc",
+            "saviiisbwodap",
+            "gpcs",
+            "sgsts",
+            "dpmsc",
+            "presm",
+            "des-sdspdpgc",
+            "pmstn",
+            "fashceescbcs",
+            "jsbcpmss"
+          ],
+          "latency_ms": 127.78690000413917,
+          "first_relevant_rank": 8,
+          "reciprocal_rank": 0.125
+        },
+        {
+          "query": "I am an engineering student seeking support to attend an academic event.",
+          "query_representation": "I am an engineering student seeking support to attend an academic event. education: engineering, student",
+          "expected_scheme_ids": [
+            "ai-tgses"
+          ],
+          "retrieved_scheme_ids": [
+            "sfspbbc",
+            "fascssmedcpei",
+            "ai-tgses",
+            "essstj",
+            "bplsws",
+            "fatlclnbsmec",
+            "mse",
+            "goc",
+            "sfcssots",
+            "sfacohcssefc",
+            "iirps",
+            "stssts",
+            "mcmsec",
+            "smile-scholarship",
+            "patss",
+            "edsc-st-wistem",
+            "tessdlhp",
+            "tessdl",
+            "prism-c1-pcpm",
+            "aiideals"
+          ],
+          "latency_ms": 130.41810001595877,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "query": "I am a student who needs the AICTE Swanath scholarship.",
+          "query_representation": "I am a student who needs the AICTE Swanath scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "aicte-ssss"
+          ],
+          "retrieved_scheme_ids": [
+            "aicte-ssss",
+            "fascssmedcpei",
+            "sak-dip",
+            "sak-deg",
+            "psgs-deg",
+            "sitviiisbwodap",
+            "psgs-dip",
+            "pmatcs",
+            "pgssgategpatqsaicte",
+            "fasts-gbsy",
+            "fssdu",
+            "saviiisbwodap",
+            "fatssfshsa",
+            "igucy",
+            "els-delhi",
+            "tce-swd",
+            "pre-dis",
+            "fafps",
+            "fatlclnbsmec",
+            "ehttg"
+          ],
+          "latency_ms": 124.14230001741089,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a differently abled degree student looking for an AICTE scholarship.",
+          "query_representation": "I am a differently abled degree student looking for an AICTE scholarship. higher education student financial assistance scholarship education: student",
+          "expected_scheme_ids": [
+            "sak-deg"
+          ],
+          "retrieved_scheme_ids": [
+            "sak-deg",
+            "sak-dip",
+            "sitviiisbwodap",
+            "saviiisbwodap",
+            "sdas",
+            "aicte-ssss",
+            "asdaps",
+            "ssds-punjab",
+            "tce-swd",
+            "sdsspd",
+            "des-sdspdpgc",
+            "ssddap",
+            "pre-dis",
+            "psgs-deg",
+            "pgssgategpatqsaicte",
+            "post-dis",
+            "fascssmedcpei",
+            "psgs-dip",
+            "sgssds",
+            "smile-scholarship"
+          ],
+          "latency_ms": 88.15870000398718,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I grow paddy and need an investment subsidy for my crop.",
+          "query_representation": "I grow paddy and need an investment subsidy for my crop.",
+          "expected_scheme_ids": [
+            "beispgccpts"
+          ],
+          "retrieved_scheme_ids": [
+            "beispgccpts",
+            "qpsd",
+            "ssieemaf",
+            "infs-mesifai",
+            "domoppe",
+            "scfc-cpt",
+            "ssiemafsc",
+            "cis5aciskr-mesifai",
+            "ssiemafst",
+            "islaaa",
+            "is-mesifai-vi",
+            "mvp",
+            "ky",
+            "smsopm",
+            "pibeschc",
+            "ssebbup",
+            "cis-mesifa-cii",
+            "ppsj",
+            "fatuvas",
+            "ssbutsc"
+          ],
+          "latency_ms": 76.18069997988641,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a farmer and need assistance to purchase a tractor.",
+          "query_representation": "I am a farmer and need assistance to purchase a tractor. agriculture farmer financial assistance rural livelihood occupation: farmer",
+          "expected_scheme_ids": [
+            "agr50s-apt"
+          ],
+          "retrieved_scheme_ids": [
+            "afphfe",
+            "agr50s-apt",
+            "pcardftc",
+            "sapsf",
+            "sams",
+            "faspalscf",
+            "ota-sfi",
+            "aems",
+            "beispgccpts",
+            "domoppe",
+            "agrasp",
+            "pmtaispttshgosc",
+            "spfasae",
+            "kdky",
+            "chc",
+            "pibeschc",
+            "aapd",
+            "ky",
+            "fafwaf",
+            "atesgephmesthrt3"
+          ],
+          "latency_ms": 90.42209998006001,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled tribe farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "agr3fmsstf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "faspalscf",
+            "htasthrt3",
+            "agrasp",
+            "agr3fmsstf",
+            "atesgephmesthrt3",
+            "ssiemafst",
+            "cdgsta",
+            "fssm",
+            "iastasf",
+            "chc",
+            "strs",
+            "speoselummapuy",
+            "cmamp",
+            "ihdpsscf",
+            "htaschrt4",
+            "speoscelu",
+            "aems",
+            "fpktnk",
+            "ssst-pts"
+          ],
+          "latency_ms": 107.06429998390377,
+          "first_relevant_rank": 5,
+          "reciprocal_rank": 0.2
+        },
+        {
+          "query": "I am a scheduled caste farmer seeking farm mechanization support.",
+          "query_representation": "I am a scheduled caste farmer seeking farm mechanization support. agriculture farmer financial assistance rural livelihood occupation: farmer caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "agr4fmsscf"
+          ],
+          "retrieved_scheme_ids": [
+            "agr4fmsscf",
+            "faspalscf",
+            "fssm",
+            "ihdpsscf",
+            "agrasp",
+            "cmamp",
+            "agr3fmsstf",
+            "chc",
+            "htaschrt4",
+            "aems",
+            "cdgsca",
+            "sspftsc",
+            "speoscelu",
+            "speoselummapuy",
+            "atesgephmschrt4",
+            "sams",
+            "pmtaispttshgosc",
+            "domafoc",
+            "agr2fmsfotscst",
+            "ota-sfi"
+          ],
+          "latency_ms": 138.39360000565648,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need support under the Abua Awas housing scheme.",
+          "query_representation": "I need support under the Abua Awas housing scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "aay"
+          ],
+          "retrieved_scheme_ids": [
+            "aay",
+            "aay-goa",
+            "avy",
+            "sndaygbocwwb",
+            "mmvenay",
+            "hasukbocwwb",
+            "amapbbocwwb",
+            "mgawb",
+            "cmhap",
+            "grhbbocwwb",
+            "bay",
+            "absy",
+            "gtachcw",
+            "mnsasy",
+            "bany",
+            "fasbbocwwb",
+            "easppsccwrmbocwwb",
+            "aavy",
+            "eaabocwwb",
+            "eafdc"
+          ],
+          "latency_ms": 103.26219999114983,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am looking for the Akanksha Housing Scheme.",
+          "query_representation": "I am looking for the Akanksha Housing Scheme. housing home construction affordable housing assistance",
+          "expected_scheme_ids": [
+            "ahs"
+          ],
+          "retrieved_scheme_ids": [
+            "ahs",
+            "hasukbocwwb",
+            "mabay",
+            "cmhap",
+            "slabch",
+            "avy",
+            "amapbbocwwb",
+            "grhbbocwwb",
+            "mnsasy",
+            "v-vhcs",
+            "aay-goa",
+            "pchcw",
+            "apch-gbocwwb",
+            "cofhft",
+            "aphhbocwwb",
+            "lach",
+            "hssgbocwwb",
+            "glbngs",
+            "cmbocwhrs",
+            "mmvenay"
+          ],
+          "latency_ms": 111.97669999091886,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+          "expected_scheme_ids": [
+            "cm-swaniyojan-yojana"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mupssee",
+            "mnssby",
+            "mupsese",
+            "wses",
+            "pmegp",
+            "chsipni",
+            "mysyc",
+            "uatdp",
+            "uea",
+            "uas",
+            "ueeupwd",
+            "ses-goa",
+            "uyegp",
+            "cmhap",
+            "ueastn",
+            "uatdap",
+            "ueas",
+            "mlgs",
+            "ofojs"
+          ],
+          "latency_ms": 103.82359998766333,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I am unemployed and looking for a chief minister self employment scheme.",
+          "query_representation": "I am unemployed and looking for a chief minister self employment scheme.",
+          "expected_scheme_ids": [
+            "cmses"
+          ],
+          "retrieved_scheme_ids": [
+            "cmses",
+            "mnssby",
+            "mupssee",
+            "pmegp",
+            "ueeupwd",
+            "wses",
+            "uatdp",
+            "mupsese",
+            "uas",
+            "ueas",
+            "ofojs",
+            "mysyc",
+            "cmhap",
+            "chsipni",
+            "uea",
+            "ueastn",
+            "uyegp",
+            "cmhr",
+            "uatdap",
+            "steu"
+          ],
+          "latency_ms": 88.84280000347644,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am unemployed and need vocational training to improve my employment prospects.",
+          "query_representation": "I am unemployed and need vocational training to improve my employment prospects.",
+          "expected_scheme_ids": [
+            "vt-pudu"
+          ],
+          "retrieved_scheme_ids": [
+            "vtd",
+            "vt-pudu",
+            "suvesfwpbocwwb",
+            "suvesfwcpbocwwb",
+            "sda2013",
+            "vtdwag",
+            "feotteuyobcamc",
+            "vtvscsgit",
+            "sdtm",
+            "sugtpctrcw-t",
+            "fasetdp",
+            "vtcta",
+            "yuvasree",
+            "15dsugt",
+            "steu",
+            "ueeupwd",
+            "setctfes",
+            "uas",
+            "vetls",
+            "skaaeti"
+          ],
+          "latency_ms": 91.2157999991905,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a woman entrepreneur looking for support to start a business.",
+          "query_representation": "I am a woman entrepreneur looking for support to start a business. small business entrepreneur enterprise loan credit financial assistance gender: female occupation: entrepreneur",
+          "expected_scheme_ids": [
+            "imspesy"
+          ],
+          "retrieved_scheme_ids": [
+            "slswe",
+            "wses",
+            "cisscstwe-mesifai",
+            "imspesy",
+            "sui",
+            "mssg",
+            "dccbfwe",
+            "ttcss",
+            "iwes",
+            "mupssee",
+            "sesnvmly",
+            "ess",
+            "nssw",
+            "prerana",
+            "mmuy",
+            "ttr",
+            "sfasisa",
+            "is-mesifai",
+            "dccbfww",
+            "needs"
+          ],
+          "latency_ms": 107.5669999991078,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a destitute widow looking for financial assistance.",
+          "query_representation": "I am a destitute widow looking for financial assistance.",
+          "expected_scheme_ids": [
+            "as-fadw"
+          ],
+          "retrieved_scheme_ids": [
+            "fapnw",
+            "fsdcwdw",
+            "ptwadwc",
+            "fawus",
+            "fawddwhlwb",
+            "as-fadw",
+            "faesmw",
+            "wdwps",
+            "ptwadw",
+            "dwps",
+            "marriage-of-daughter-of-sc-widow",
+            "faups",
+            "fawwrcw",
+            "psw",
+            "rmewf-education",
+            "wdenp",
+            "famdpwog",
+            "gsfmoddw",
+            "rmewf-penury",
+            "fawwdf"
+          ],
+          "latency_ms": 80.36149997496977,
+          "first_relevant_rank": 6,
+          "reciprocal_rank": 0.16666666666666666
+        },
+        {
+          "query": "I am a working woman and need help buying a two wheeler.",
+          "query_representation": "I am a working woman and need help buying a two wheeler. gender: female",
+          "expected_scheme_ids": [
+            "atwsfww"
+          ],
+          "retrieved_scheme_ids": [
+            "atwsfww",
+            "bsmasukbocwwb",
+            "sicmtcpd",
+            "wses",
+            "apafale",
+            "ggs-glwb",
+            "fatcwd-hlwb",
+            "fapsmcbocwwb",
+            "dccbfcd",
+            "mas-glwb",
+            "mssg",
+            "gpbbbocwwb",
+            "dduby",
+            "pvcppd",
+            "ipesdrcwhbocwwb",
+            "scss-glwb",
+            "csy-j",
+            "sesnvmly",
+            "mts",
+            "mwfhjwy"
+          ],
+          "latency_ms": 95.83480001310818,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste entrepreneur looking for business support.",
+          "query_representation": "I am a scheduled caste entrepreneur looking for business support. small business entrepreneur enterprise loan credit financial assistance occupation: entrepreneur caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "aabcs"
+          ],
+          "retrieved_scheme_ids": [
+            "ssboscbpbs",
+            "sdbppd",
+            "issscste",
+            "cegssc",
+            "cisscstwe-mesifai",
+            "sui",
+            "mupssee",
+            "sclcss",
+            "fasetdp",
+            "rs-mesifai",
+            "mdsa-mesifai-vi",
+            "siupd",
+            "prerana",
+            "ess",
+            "ses-goa",
+            "fadse",
+            "needs",
+            "sdyp",
+            "mefarsi",
+            "spshs"
+          ],
+          "latency_ms": 91.73630000441335,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "query": "I need an education loan as a minority student.",
+          "query_representation": "I need an education loan as a minority student. loan credit finance assistance education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "aels"
+          ],
+          "retrieved_scheme_ids": [
+            "els-cl1mc",
+            "els-cl2mc",
+            "oels",
+            "els-delhi",
+            "tls-cl1mc",
+            "mfs-cl1mc",
+            "els",
+            "fafps",
+            "fatlclnbsmec",
+            "aels",
+            "tlscl2mc",
+            "mfs-cl2mc",
+            "presm",
+            "fascssmedcpei",
+            "cls",
+            "aelss",
+            "aaelss",
+            "cels-s",
+            "elpd",
+            "tce-sc"
+          ],
+          "latency_ms": 95.27900000102818,
+          "first_relevant_rank": 10,
+          "reciprocal_rank": 0.1
+        },
+        {
+          "query": "I am starting an industry and need an interest subsidy on a loan.",
+          "query_representation": "I am starting an industry and need an interest subsidy on a loan. loan credit finance assistance",
+          "expected_scheme_ids": [
+            "is-mesifai"
+          ],
+          "retrieved_scheme_ids": [
+            "is-mesifai",
+            "is-mesifai-vi",
+            "isrs",
+            "mdsa-mesifai-vi",
+            "infs-mesifai",
+            "agslitsis",
+            "agsmais",
+            "cis-mesifa-cii",
+            "sfasiis",
+            "hliss-glwb",
+            "cistai-mesifai",
+            "islaaa",
+            "rs-mesifai",
+            "aipps-mesifai-vi",
+            "ids-mesifa-cii",
+            "aewc-mesifai-vi",
+            "issscste",
+            "gtcis",
+            "iss2008",
+            "iss-goa"
+          ],
+          "latency_ms": 94.1494999860879,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I need health insurance support in the Andaman and Nicobar Islands.",
+          "query_representation": "I need health insurance support in the Andaman and Nicobar Islands. state: Andaman and Nicobar",
+          "expected_scheme_ids": [
+            "anishi"
+          ],
+          "retrieved_scheme_ids": [
+            "anishi",
+            "maanbocwwb",
+            "anioaas",
+            "anidas",
+            "aniadws",
+            "aniwps",
+            "daanbocwwb",
+            "faanbocwwb",
+            "ds-aandn",
+            "pbanbocwwb",
+            "eaanbocwwb",
+            "ma-anbocwwb",
+            "dbanbocwwb",
+            "mbanbocwwb",
+            "sdaanbocwwb",
+            "faalwd-hlwb",
+            "mcacism-giapsca",
+            "matbhpbocwwb",
+            "sgassobcaniphsaislecxixii",
+            "wbtwsmbma"
+          ],
+          "latency_ms": 97.35809999983758,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a pregnant woman seeking nutrition and health support.",
+          "query_representation": "I am a pregnant woman seeking nutrition and health support. gender: female",
+          "expected_scheme_ids": [
+            "arogya-lakshmi"
+          ],
+          "retrieved_scheme_ids": [
+            "mmyg",
+            "psgg",
+            "la",
+            "mta",
+            "mmpyu",
+            "kcr-nutrition-kit",
+            "arogya-lakshmi",
+            "masglwb",
+            "jssk",
+            "mamata",
+            "dccbfml",
+            "mbttfb",
+            "mbfwb",
+            "jbsyb",
+            "suman",
+            "gfapscplw",
+            "maayu",
+            "mbdakbocwwb",
+            "mafcws",
+            "mmsspsy"
+          ],
+          "latency_ms": 100.86790000787005,
+          "first_relevant_rank": 7,
+          "reciprocal_rank": 0.14285714285714285
+        },
+        {
+          "query": "I am a fisherman and need assistance during the fishing ban period.",
+          "query_representation": "I am a fisherman and need assistance during the fishing ban period. occupation: fisherman",
+          "expected_scheme_ids": [
+            "wrflsncs-fbps"
+          ],
+          "retrieved_scheme_ids": [
+            "wrflsncs-fbps",
+            "fafpfrgnrgnwa",
+            "lsmfdfbp",
+            "fafvrdfparfv",
+            "fapfpfoobm",
+            "fapcnfclt26ffiw",
+            "farfs",
+            "fapllf",
+            "fatuvas",
+            "fgrmb-faascdmf",
+            "facpwfrpfvcf",
+            "wrflsncs-lsa",
+            "ira-wrflsncs",
+            "fapbnia",
+            "spwfrpsmb-faascdmf",
+            "ncrfs",
+            "fatpomo2t5ffttfc",
+            "spfrpcvwnmpcn-faascdmf",
+            "dvrsf",
+            "wrflsncs-idra"
+          ],
+          "latency_ms": 89.37560001504607,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen looking for a chief minister pension.",
+          "query_representation": "I am a senior citizen looking for a chief minister pension.",
+          "expected_scheme_ids": [
+            "cmpsmp"
+          ],
+          "retrieved_scheme_ids": [
+            "cmpsmp",
+            "oaa",
+            "cmsasps",
+            "oapsucmupt",
+            "cmdps-sikkim",
+            "oapspbocwwb",
+            "fdbcsc",
+            "oap",
+            "oapsp",
+            "cmses",
+            "oadp",
+            "mvspy",
+            "cmenspy",
+            "cmat-ap",
+            "pbftcw",
+            "psoap",
+            "ops",
+            "pbbwc60y",
+            "oapc",
+            "jpspn2019"
+          ],
+          "latency_ms": 65.01719998777844,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a senior citizen and need free blankets and chappals.",
+          "query_representation": "I am a senior citizen and need free blankets and chappals.",
+          "expected_scheme_ids": [
+            "fdbcsc"
+          ],
+          "retrieved_scheme_ids": [
+            "fdbcsc",
+            "smcrcsc",
+            "gaoah",
+            "ssch",
+            "oah",
+            "oaa",
+            "faoapstbc",
+            "hfta-giapsca",
+            "fssdpp",
+            "mgtocpp",
+            "fsnbcpw",
+            "hiai",
+            "mcacism-giapsca",
+            "ptupiwoa50yaa",
+            "oapc",
+            "oap",
+            "oadp",
+            "sstsc",
+            "gfaffeoadp",
+            "vbpa"
+          ],
+          "latency_ms": 68.99329999578185,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I have a disability of more than 60 percent and need an allowance.",
+          "query_representation": "I have a disability of more than 60 percent and need an allowance.",
+          "expected_scheme_ids": [
+            "da-60ada"
+          ],
+          "retrieved_scheme_ids": [
+            "da-60ada",
+            "sara",
+            "ueeupwd",
+            "uatdp",
+            "matsap",
+            "gfadap",
+            "matidp",
+            "uatdap",
+            "gtadap",
+            "disabled-pension",
+            "fafpwsn",
+            "ignsap",
+            "anidas",
+            "sopaatdapwhsn",
+            "fat75opd",
+            "fadse",
+            "daors-hlwb",
+            "dpps",
+            "faaadp",
+            "sapwdpfaa"
+          ],
+          "latency_ms": 63.718699995661154,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am a scheduled caste student seeking an Ambedkar fellowship.",
+          "query_representation": "I am a scheduled caste student seeking an Ambedkar fellowship. education: student caste_category: Scheduled Caste",
+          "expected_scheme_ids": [
+            "afs-sc"
+          ],
+          "retrieved_scheme_ids": [
+            "fsmpscsmsgs",
+            "afs-sc",
+            "damcyscs",
+            "tce-sc",
+            "fbsscsphe",
+            "scpmsc",
+            "pmsscstb",
+            "psscsscspms",
+            "tascs12s",
+            "stpmsc",
+            "ptascsss1112ss",
+            "pdfscstc",
+            "nfandshests",
+            "dbramascs",
+            "jsscpmss-1",
+            "csfbscss",
+            "jscpmss",
+            "pmcup",
+            "rcfscspc",
+            "pmsfscs"
+          ],
+          "latency_ms": 74.50260000769049,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a scheduled tribe student seeking an ashram school.",
+          "query_representation": "I am a scheduled tribe student seeking an ashram school. education: student, school caste_category: Scheduled Tribe",
+          "expected_scheme_ids": [
+            "asst"
+          ],
+          "retrieved_scheme_ids": [
+            "stpmsc",
+            "asst",
+            "fbsscsphe",
+            "tce-sc",
+            "jsstpmss-2",
+            "scast",
+            "scpmsc",
+            "bufdstmsfa",
+            "pre-st",
+            "rosch",
+            "pmcup",
+            "sscttti",
+            "jsscpmss-1",
+            "pmsscstb",
+            "sas",
+            "tascs12s",
+            "otfs-t",
+            "sgstsc9t10",
+            "pmssts",
+            "jsstpmss"
+          ],
+          "latency_ms": 77.55329998326488,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "query": "I am a minority student looking for an overseas scholarship.",
+          "query_representation": "I am a minority student looking for an overseas scholarship. higher education student financial assistance scholarship education: student caste_category: Minority",
+          "expected_scheme_ids": [
+            "cmossm"
+          ],
+          "retrieved_scheme_ids": [
+            "presm",
+            "nos-sc",
+            "postsm",
+            "cmossm",
+            "mcm-min",
+            "oels",
+            "sheambgoc",
+            "hpmsm",
+            "css-nos-st",
+            "tce-sc",
+            "hpms",
+            "nos-swd",
+            "fatssfshsa",
+            "mgjsmoss",
+            "bas",
+            "smstomsssfc",
+            "pre-st",
+            "pmssfm",
+            "fascssmedcpei",
+            "fesfpc"
+          ],
+          "latency_ms": 81.3188000174705,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "query": "I am a young student interested in the AICTE YUVAK study tour.",
+          "query_representation": "I am a young student interested in the AICTE YUVAK study tour. education: student",
+          "expected_scheme_ids": [
+            "ayuvfak"
+          ],
+          "retrieved_scheme_ids": [
+            "ayuvfak",
+            "aicte-spices",
+            "svucy",
+            "evtala",
+            "sr",
+            "scafe",
+            "sak-deg",
+            "sak-dip",
+            "epy-csts",
+            "damcyobcs",
+            "ohss",
+            "ai-tgses",
+            "myyyt",
+            "igucy",
+            "fascssmedcpei",
+            "essg",
+            "mbcy",
+            "omps",
+            "atdap",
+            "mvpmeuy"
+          ],
+          "latency_ms": 72.51050000195391,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "query": "I am from a minority community and need a large business loan.",
+          "query_representation": "I am from a minority community and need a large business loan. small business entrepreneur enterprise loan credit financial assistance loan credit finance assistance caste_category: Minority",
+          "expected_scheme_ids": [
+            "bls"
+          ],
+          "retrieved_scheme_ids": [
+            "dlbe",
+            "mfs-cl1mc",
+            "mfs-cl2mc",
+            "tls-cl1mc",
+            "cls",
+            "ses",
+            "els-cl1mc",
+            "tlscl2mc",
+            "beis",
+            "bls",
+            "issscste",
+            "ssboscbpbs",
+            "nbcfdc-gls",
+            "scds",
+            "els-cl2mc",
+            "oels",
+            "prerana",
+            "lsmpcltt",
+            "vpls",
+            "ltltscosmuscp"
+          ],
+          "latency_ms": 82.65699999174103,
+          "first_relevant_rank": 10,
+          "reciprocal_rank": 0.1
+        }
+      ]
+    }
+  ],
+  "failure_analysis": [
+    {
+      "query": "I am unemployed and want to start self-employment through a chief minister scheme.",
+      "target_scheme_id": "cm-swaniyojan-yojana",
+      "target_scheme_name": "Chief Minister's Jeevan Jyoti Swaniyojan Yojana",
+      "target_category": "Skills & Employment",
+      "target_tags": [
+        "Jeevan Jyoti",
+        "Employment",
+        "Youth Empowerment",
+        "Unemployed",
+        "Selfemployed"
+      ],
+      "target_description_excerpt": "The Chief Minister's Jeevan Jyoti Swaniyojan Yojana focuses on providing self-employment opportunities to educated unemployed youth in Assam. It aims to generate income through institutional credit provided by nationalized banks, financial institutions, or organizations. The scheme encompasses employment opportunities in the primary, secondary, and tertiary sectors, such as production, processing, marketing, transportation, small businesses, small industries, and services. The key activities cov",
+      "target_eligibility_excerpt": "1. Age: The applicants should be within the age group of 18-37 years. 2. Education: The minimum educational qualification is completely up to the 10th standard. However, for women undertaking schemes in handloom and sericulture, the minimum educational qualification is relaxed up to Class V. In the case of male youth, the educational qualification is relaxable up to Class VII for activities related to agricultural practices and animal husbandry. 3. Group Approach: The scheme is implemented in a ",
+      "raw_query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+      "enhanced_query_representation": "I am unemployed and want to start self-employment through a chief minister scheme.",
+      "rankings": {
+        "raw": {
+          "target_rank": 32,
+          "top_10": [
+            {
+              "scheme_id": "cmses",
+              "scheme_name": "Chief Minister's Self Employment Scheme",
+              "similarity_score": 0.8373171091079712
+            },
+            {
+              "scheme_id": "mupssee",
+              "scheme_name": "Motivation of Unemployed Persons to Start Self-employed Enterprises",
+              "similarity_score": 0.7804093956947327
+            },
+            {
+              "scheme_id": "mnssby",
+              "scheme_name": "Mukhyamantri Nischay Swayam Sahayata Bhatta Yojna",
+              "similarity_score": 0.7649189233779907
+            },
+            {
+              "scheme_id": "mupsese",
+              "scheme_name": "Motivation Of Unemployed Persons To Start Self-Employed Enterprises Scheme",
+              "similarity_score": 0.764625608921051
+            },
+            {
+              "scheme_id": "wses",
+              "scheme_name": "Women Self Employment Scheme",
+              "similarity_score": 0.7437537312507629
+            },
+            {
+              "scheme_id": "pmegp",
+              "scheme_name": "Prime Minister's Employment Generation Programme",
+              "similarity_score": 0.7425460815429688
+            },
+            {
+              "scheme_id": "chsipni",
+              "scheme_name": "Chief Minister’s Startup/innovation Projects/new Industries",
+              "similarity_score": 0.7419347763061523
+            },
+            {
+              "scheme_id": "mysyc",
+              "scheme_name": "Mukhyamantri Yuva Swarojgar Yojana",
+              "similarity_score": 0.7368755340576172
+            },
+            {
+              "scheme_id": "uatdp",
+              "scheme_name": "Unemployment Allowance to Disabled Persons",
+              "similarity_score": 0.736124575138092
+            },
+            {
+              "scheme_id": "uea",
+              "scheme_name": "Unemployment Allowance",
+              "similarity_score": 0.7358930706977844
+            }
+          ]
+        },
+        "enhanced": {
+          "target_rank": 32,
+          "top_10": [
+            {
+              "scheme_id": "cmses",
+              "scheme_name": "Chief Minister's Self Employment Scheme",
+              "similarity_score": 0.8373171091079712
+            },
+            {
+              "scheme_id": "mupssee",
+              "scheme_name": "Motivation of Unemployed Persons to Start Self-employed Enterprises",
+              "similarity_score": 0.7804093956947327
+            },
+            {
+              "scheme_id": "mnssby",
+              "scheme_name": "Mukhyamantri Nischay Swayam Sahayata Bhatta Yojna",
+              "similarity_score": 0.7649189233779907
+            },
+            {
+              "scheme_id": "mupsese",
+              "scheme_name": "Motivation Of Unemployed Persons To Start Self-Employed Enterprises Scheme",
+              "similarity_score": 0.764625608921051
+            },
+            {
+              "scheme_id": "wses",
+              "scheme_name": "Women Self Employment Scheme",
+              "similarity_score": 0.7437537312507629
+            },
+            {
+              "scheme_id": "pmegp",
+              "scheme_name": "Prime Minister's Employment Generation Programme",
+              "similarity_score": 0.7425460815429688
+            },
+            {
+              "scheme_id": "chsipni",
+              "scheme_name": "Chief Minister’s Startup/innovation Projects/new Industries",
+              "similarity_score": 0.7419347763061523
+            },
+            {
+              "scheme_id": "mysyc",
+              "scheme_name": "Mukhyamantri Yuva Swarojgar Yojana",
+              "similarity_score": 0.7368755340576172
+            },
+            {
+              "scheme_id": "uatdp",
+              "scheme_name": "Unemployment Allowance to Disabled Persons",
+              "similarity_score": 0.736124575138092
+            },
+            {
+              "scheme_id": "uea",
+              "scheme_name": "Unemployment Allowance",
+              "similarity_score": 0.7358930706977844
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query": "I am a scheduled caste entrepreneur looking for business support.",
+      "target_scheme_id": "aabcs",
+      "target_scheme_name": "Annal Ambedkar Business Champions Scheme",
+      "target_category": "Business & Entrepreneurship",
+      "target_tags": [
+        "Ambedkar",
+        "AABCS",
+        "Scheduled Caste",
+        "Scheduled Tribe",
+        "Entrepreneur",
+        "Loan",
+        "Subsidy",
+        "MSME"
+      ],
+      "target_description_excerpt": "The scheme “Annal Ambedkar Business Champions Scheme (AABCS)” was launched by the Department of Micro, Small and Medium Enterprises, Government of Tamil Nadu. The Government of Tamil Nadu noted that the share of persons from Scheduled Caste and Scheduled Tribe communities who avail of various entrepreneurship promotion subsidies from the Government is very low. In order to promote the economic development of SC/ST entrepreneurs, this scheme has been launched by the Government of Tamil Nadu. The ",
+      "target_eligibility_excerpt": "The applicant should be a resident of the State of Tamil Nadu. The beneficiaries shall be persons belonging to SC/ST communities. Enterprises supported under the scheme shall be 100% owned by persons belonging to SC/STs. The enterprises may have any legal personality allowed to conduct business for profit as per prevailing laws which include sole proprietorship, partnership, and company. The scheme can support both new enterprises and expansion of existing enterprises. The eligible enterprises c",
+      "raw_query_representation": "I am a scheduled caste entrepreneur looking for business support.",
+      "enhanced_query_representation": "I am a scheduled caste entrepreneur looking for business support. small business entrepreneur enterprise loan credit financial assistance occupation: entrepreneur caste_category: Scheduled Caste",
+      "rankings": {
+        "raw": {
+          "target_rank": 51,
+          "top_10": [
+            {
+              "scheme_id": "sdbppd",
+              "scheme_name": "Subsidy for Developing Business Premises for Persons with Disabilities",
+              "similarity_score": 0.7422105073928833
+            },
+            {
+              "scheme_id": "ssboscbpbs",
+              "scheme_name": "Scheme for Small Business Owners of Scheduled Castes to Buy a Place of Business/Shop",
+              "similarity_score": 0.7387783527374268
+            },
+            {
+              "scheme_id": "rs-mesifai",
+              "scheme_name": "\"Rent Subsidy\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+              "similarity_score": 0.71640545129776
+            },
+            {
+              "scheme_id": "mdsa-mesifai-vi",
+              "scheme_name": "\"Market Development Support Assistance\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\"",
+              "similarity_score": 0.7046157121658325
+            },
+            {
+              "scheme_id": "cisscstwe-mesifai",
+              "scheme_name": "\"Capital Investment Subsidy: SC/ST/Women Entrepreneurs\" Component of the \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" Scheme",
+              "similarity_score": 0.7015450596809387
+            },
+            {
+              "scheme_id": "mupssee",
+              "scheme_name": "Motivation of Unemployed Persons to Start Self-employed Enterprises",
+              "similarity_score": 0.6986069679260254
+            },
+            {
+              "scheme_id": "aipps-mesifai-vi",
+              "scheme_name": "\"Assistance for Intellectual Property Protection Support\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\"",
+              "similarity_score": 0.6973265409469604
+            },
+            {
+              "scheme_id": "spshs",
+              "scheme_name": "Savitribai Phule Self-Help Scheme",
+              "similarity_score": 0.6956567764282227
+            },
+            {
+              "scheme_id": "dpgsslalgsc",
+              "scheme_name": "Dr. P. G. Solanki Scheme for Loan/Assistance to Law Graduates of Scheduled Caste",
+              "similarity_score": 0.6933033466339111
+            },
+            {
+              "scheme_id": "epcmrs",
+              "scheme_name": "Export Promotion Council Membership Reimbursement Scheme for Scheduled Caste/Scheduled Tribe",
+              "similarity_score": 0.6906096935272217
+            }
+          ]
+        },
+        "enhanced": {
+          "target_rank": 87,
+          "top_10": [
+            {
+              "scheme_id": "ssboscbpbs",
+              "scheme_name": "Scheme for Small Business Owners of Scheduled Castes to Buy a Place of Business/Shop",
+              "similarity_score": 0.7882980704307556
+            },
+            {
+              "scheme_id": "sdbppd",
+              "scheme_name": "Subsidy for Developing Business Premises for Persons with Disabilities",
+              "similarity_score": 0.7700107097625732
+            },
+            {
+              "scheme_id": "issscste",
+              "scheme_name": "Interest Subsidy Scheme for Scheduled Caste/Scheduled Tribe Entrepreneurs",
+              "similarity_score": 0.7665786147117615
+            },
+            {
+              "scheme_id": "cegssc",
+              "scheme_name": "Credit Enhancement Guarantee Scheme For The Scheduled Castes",
+              "similarity_score": 0.7647937536239624
+            },
+            {
+              "scheme_id": "cisscstwe-mesifai",
+              "scheme_name": "\"Capital Investment Subsidy: SC/ST/Women Entrepreneurs\" Component of the \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" Scheme",
+              "similarity_score": 0.7555782794952393
+            },
+            {
+              "scheme_id": "sui",
+              "scheme_name": "Stand-Up India",
+              "similarity_score": 0.7552510499954224
+            },
+            {
+              "scheme_id": "mupssee",
+              "scheme_name": "Motivation of Unemployed Persons to Start Self-employed Enterprises",
+              "similarity_score": 0.7487632632255554
+            },
+            {
+              "scheme_id": "sclcss",
+              "scheme_name": "Special Credit Linked Capital Subsidy Scheme (SCLCSS) for Scheduled Caste/Scheduled Tribe",
+              "similarity_score": 0.74326491355896
+            },
+            {
+              "scheme_id": "fasetdp",
+              "scheme_name": "Financial Assistance To Self-Employment For Trained Disabled Persons",
+              "similarity_score": 0.7410368919372559
+            },
+            {
+              "scheme_id": "rs-mesifai",
+              "scheme_name": "\"Rent Subsidy\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+              "similarity_score": 0.7390856146812439
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "eligibility_note": "Eligibility correctness is not evaluated. The reranker experiment uses existing eligibility statuses only as a ranking feature."
+}

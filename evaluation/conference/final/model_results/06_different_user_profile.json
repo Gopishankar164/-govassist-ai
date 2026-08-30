@@ -1,0 +1,40 @@
+[
+  {
+    "turn": 1,
+    "input": "I am a female entrepreneur from Maharashtra needing a business loan.",
+    "extracted_profile": {
+      "gender": "female",
+      "state": "Maharashtra",
+      "occupation": "entrepreneur",
+      "location": "Maharashtra"
+    },
+    "generated_response": "Based on what you've shared, I found several business-related schemes that may be relevant to you.\n\nI can confirm that you are a female entrepreneur from Maharashtra, but I still need some information such as your income and disability status before determining whether you meet every eligibility requirement.",
+    "latency_ms": 200.30474662780762,
+    "retrieved_schemes": [
+      {
+        "scheme_name": "Scheme For Women Entrepreneurs Mahila Udyam Nidhi (MUN)",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "Gender criterion matches: female.",
+        "benefits": "- The scheme provides financial assistance for projects with a cost up to \u20b910,00,000/-.\n- The assistance includes a Term Loan component covering 65% of the project cost.\n- The assistance includes a Seed Capital component covering 25% of the project cost.\n- The applicant receives a concessional rate of interest that is 0.5% less than the normal interest rate charged for loans.\n- The applicant receives a 50% concession on the investigation fee.\n- The calculated Debt-Equity Ratio (D.E.R) for the project is 1.857:1.\n\n##### ***Repayment and Term Details***\n\n- The repayment period for the Term Loan is 6 to 8 years, which includes a moratorium period of 1 to 2 years.\n- The repayment period for the Seed Capital is 10 years.\n- The Promoter&#39;s contribution required is 10% of the project cost.\n\n##### ***Conditions***\n\n- _Collateral security in the form of immovable property must be offered, in addition to the mortgage or hypothecation of proposed fixed assets._\n- _For units promoted by women entrepreneurs, the value of the immovable property to be offered as security is reduced and fixed at 50% of the loan amount._\n- _The valuation of the properties offered as security must be assessed by engaging Chartered Engineers/valuers from the approved panel of the Corporation._\n\n<br>",
+        "documents": "Documents Required At The Time Of Filing Loan Application (For Loans Up To \u20b910,00,000/-)Copy Of Acknowledgement Of Micro, Small, And Medium Enterprise Registration Certificate Obtained From Industries Department.\nCopy Of Lease Deed For The Work Premises In \u20b910.00 Rupees Stamp Paper.\nCopy Of Sale Deed For The Work Premises (In Case The Premises Is Owned By The Applicant).\nQuotation From Selected Supplier For All Machinery And Equipments Proposed With Detailed Specification And Catalogue (Original To Be Produced).\nTwo Comparative Quotations From Standard Suppliers For All Machinery And Equipments Proposed (Original To Be Produced).\nSelected Machinery Supplier\u2019s Client List With Detailed Postal Address.\nProof For Sale Price Of End Product And Quotations For Main Raw-Materials To Be Used.\nTie-Up Letters For Marketing The Product.\nCopy Of Partnership Deed And Acknowledgement Of Registrar Of Firm (In The Case Of Partnership Concern).\nCopies Of Pan Card, Voters Identity Card, Ration Card, Aadhaar Card, And Bank Pass Book.\nProfitability Statement Detailing Monthly Sales / Income And Expenditure Details.\nConsent Letter To Offer Collateral Security To The Extent Required By Pondicherry Industrial Promotion Development And Investment Corporation Limited.\nInvestigation Fee At 0.50% On The Loan Amount Applied Plus Applicable Service Tax (50% Concession Must Be Paid By Women Entrepreneurs).\nDocuments Required Either During Processing Time Or After Sanction Of LoanApplicable Licence Copies, Including Inspector Of Factories Approval, Municipal / Panchayat Permission, And Pollution Clearance, Etc..\nOriginal Title Deed, Antecedent Title Deeds, Encumbrance Certificate For 30 Years, Valuation Certificate From Approved Panel Valuer Of Pondicherry Industrial Promotion Development And Investment Corporation Limited, Field Measurement Book Copy, Patta Copy, And Legal Opinion Report For Collateral Security Property.",
+        "official_url": "https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf"
+      },
+      {
+        "scheme_name": "Micro Credit Finance",
+        "eligibility_status": "POTENTIALLY_ELIGIBLE",
+        "evidence": "State matches: Maharashtra.",
+        "benefits": "- Financial support ranging from \u20b925,000 to \u20b950,000 to invest in income-generating activities.\n- A low interest rate of 5% per annum, making it easier to repay the loan.\n- \u20b910,000 provided as a subsidy to reduce the financial burden.",
+        "documents": "Passport-size photograph Aadhaar Card Income certificate Caste certificate Residence proof Bank passbook/bank details Any other documents as required",
+        "official_url": null
+      },
+      {
+        "scheme_name": "Financial Assistance To Disabled For Self Employment",
+        "eligibility_status": "INSUFFICIENT_INFORMATION",
+        "evidence": "State matches: Maharashtra.",
+        "benefits": "Financial Assistance of up to \u20b91,50,000/- is provided. 80% loan amount is provided by the Nationalized Bank. 20% subsidy of up to \u20b930,000/- is provided by the Department of Social Justice & Special Assistance.",
+        "documents": "Aadhaar Card. Proof of Age (Birth Certificate, Marksheet of Class 10th/12th, etc). 2-Passport Sized Photograph (Signed Across). Residential Certificate / Domicile Certificate of the State of Maharashtra. Disability Certificate. Income Certificate. Details of the Bank Account (Bank Name, Branch Name, Address, IFSC, etc). Any other document required by the District Social Welfare Office.",
+        "official_url": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,156 @@
+Loading embedding model...
+Loading embedding model BAAI/bge-small-en-v1.5 on device: cpu
+
+Attempting to load OLD index backup...
+
+============================================================
+EVALUATING OLD INDEX
+Vectors: 3397 | Metadata: 3397
+============================================================
+
+QUERY: I am a female engineering student from Tamil Nadu. What government schemes may be relevant to me?
+Latency: 1.04 ms
+  1. Free Education Scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary, and Law) (Score: 0.7613)
+     URL: None | Expected Match: N/A
+  2. Government Service Home - Tamil Nadu (Score: 0.7613)
+     URL: None | Expected Match: N/A
+  3. Scholarships to Students Studying in Central Government Institution like IIT, IIM, IIIT, NIT and Central Universities (Score: 0.7537)
+     URL: None | Expected Match: N/A
+  4. Free Education Scheme (Score: 0.7451)
+     URL: None | Expected Match: N/A
+  5. Government Working Women’s Hostel (Score: 0.7319)
+     URL: None | Expected Match: N/A
+
+QUERY: I am a farmer looking for financial assistance.
+Latency: 1.09 ms
+  1. Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase (Score: 0.7179)
+     URL: None | Expected Match: N/A
+  2. Primary Cooperative Agriculture and Rural Development Bank: For Handloom and Other Non Farm Sector Activities (Score: 0.7096)
+     URL: None | Expected Match: N/A
+  3. Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers (Score: 0.7096)
+     URL: https://esamajkalyan.gujarat.gov.in/ | Expected Match: N/A
+  4. Scheme for Assistance on Purchase of Smartphone by the Farmers (Score: 0.7091)
+     URL: https://ikhedut.gujarat.gov.in/ | Expected Match: N/A
+  5. Primary Cooperative Agriculture and Rural Development Bank: For Animal Husbandry (Score: 0.7046)
+     URL: None | Expected Match: N/A
+
+QUERY: I am a woman entrepreneur looking for government support.
+Latency: 1.05 ms
+  1. Women Self Employment Scheme (Score: 0.6600)
+     URL: None | Expected Match: N/A
+  2. Indira Mahila Shakti Udyam Protsahan Yojana (Score: 0.6497)
+     URL: None | Expected Match: N/A
+  3. Mahila Swavlamban Scheme (Score: 0.6493)
+     URL: None | Expected Match: N/A
+  4. "Capital Investment Subsidy: SC/ST/Women Entrepreneurs" Component of the "Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries" Scheme (Score: 0.6493)
+     URL: None | Expected Match: N/A
+  5. Soft Loan Scheme for Women Entrepreneurs (Score: 0.6455)
+     URL: None | Expected Match: N/A
+
+QUERY: I need financial help for education.
+Latency: 1.12 ms
+  1. Financial Assistance to the Teachers/Lecturers Children who taken loan from Nationalised Banks for studying Medical/Engineering Courses (Score: 0.7267)
+     URL: None | Expected Match: N/A
+  2. Education Loan Scheme - Delhi (Score: 0.6761)
+     URL: None | Expected Match: N/A
+  3. Financial Assistance for Education for the Construction Workers (Score: 0.6759)
+     URL: None | Expected Match: N/A
+  4. Financial Support Scheme (Score: 0.6742)
+     URL: None | Expected Match: N/A
+  5. Higher Educational Finance Assistance Scheme (PBAOCWWB) (Score: 0.6681)
+     URL: None | Expected Match: N/A
+
+QUERY: What government schemes are available?
+Latency: 1.24 ms
+  1. Chief Minister Housing Assistance Programme (Score: 0.6720)
+     URL: None | Expected Match: N/A
+  2. PM – Surya Ghar: Muft Bijli Yojana (Score: 0.6610)
+     URL: None | Expected Match: N/A
+  3. Scheme of Assistance for the Prevention of Alcoholism & Substance (Drugs) Abuse and for Social Defence Services: General Grant-in-Aid Programme for Financial Assistance in the Field of Social Defence (Score: 0.6584)
+     URL: None | Expected Match: N/A
+  4. Scheme of Grant-in-Aid to Voluntary and other Organizations Working for Scheduled Castes (Score: 0.6503)
+     URL: None | Expected Match: N/A
+  5. Grant-in-aid to Non-governmental Organisations (Score: 0.6447)
+     URL: None | Expected Match: N/A
+
+OLD OVERALL LATENCY:
+  Avg: 1.11 ms
+  p50: 1.09 ms
+  p95: 1.22 ms
+
+Attempting to load NEW production index...
+
+============================================================
+EVALUATING NEW INDEX
+Vectors: 4858 | Metadata: 4858
+============================================================
+
+QUERY: I am a female engineering student from Tamil Nadu. What government schemes may be relevant to me?
+Latency: 1.19 ms
+  1. Government Service Home - Tamil Nadu (Score: 0.7783)
+     URL: None | Expected Match: N/A
+  2. Free Education Scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary, and Law) (Score: 0.7770)
+     URL: None | Expected Match: N/A
+  3. Scholarships to Students Studying in Central Government Institution like IIT, IIM, IIIT, NIT and Central Universities (Score: 0.7671)
+     URL: None | Expected Match: N/A
+  4. Free Education Scheme (Score: 0.7561)
+     URL: None | Expected Match: N/A
+  5. Free Education Scholarship for Three-Year Diploma (Polytechnic Courses) (Score: 0.7468)
+     URL: None | Expected Match: N/A
+
+QUERY: I am a farmer looking for financial assistance.
+Latency: 1.46 ms
+  1. Scheme to Encourage Farmers to Add Value to Crops (Score: 0.7287)
+     URL: https://ikhedut.gujarat.gov.in/ | Expected Match: N/A
+  2. Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase (Score: 0.7248)
+     URL: None | Expected Match: N/A
+  3. COP-34 Financial Assistance to Farmer for Interest Subvention (Kishan Credit Card Interest Asst.) (Score: 0.7217)
+     URL: None | Expected Match: N/A
+  4. Primary Cooperative Agriculture and Rural Development Bank: For Handloom and Other Non Farm Sector Activities (Score: 0.7174)
+     URL: None | Expected Match: N/A
+  5. Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers (Score: 0.7136)
+     URL: https://esamajkalyan.gujarat.gov.in/ | Expected Match: N/A
+
+QUERY: I am a woman entrepreneur looking for government support.
+Latency: 1.29 ms
+  1. Indira Mahila Shakti Udyam Protsahan Yojana (Score: 0.6638)
+     URL: None | Expected Match: N/A
+  2. Scheme For Women Entrepreneurs Mahila Udyam Nidhi (MUN) (Score: 0.6627)
+     URL: https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf | Expected Match: N/A
+  3. Women Self Employment Scheme (Score: 0.6597)
+     URL: None | Expected Match: N/A
+  4. "Capital Investment Subsidy: SC/ST/Women Entrepreneurs" Component of the "Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries" Scheme (Score: 0.6553)
+     URL: None | Expected Match: N/A
+  5. Scheme Of Assistance To Women Entrepreneurs (Mahalir Udavi) (Score: 0.6513)
+     URL: https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf | Expected Match: N/A
+
+QUERY: I need financial help for education.
+Latency: 1.98 ms
+  1. Financial Assistance to the Teachers/Lecturers Children who taken loan from Nationalised Banks for studying Medical/Engineering Courses (Score: 0.7286)
+     URL: None | Expected Match: N/A
+  2. Financial Assistance for Education (HPBOCWWB) (Score: 0.6892)
+     URL: None | Expected Match: N/A
+  3. Education Loan Scheme - Delhi (Score: 0.6830)
+     URL: None | Expected Match: N/A
+  4. Higher Educational Finance Assistance Scheme (PBAOCWWB) (Score: 0.6788)
+     URL: None | Expected Match: N/A
+  5. Financial Support Scheme (Score: 0.6777)
+     URL: None | Expected Match: N/A
+
+QUERY: What government schemes are available?
+Latency: 1.29 ms
+  1. Scheme for Setting Up of Industrial Estates (Score: 0.6736)
+     URL: https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf | Expected Match: N/A
+  2. Chief Minister Housing Assistance Programme (Score: 0.6724)
+     URL: None | Expected Match: N/A
+  3. Scheme for Acquisition of Equipment and Others (Score: 0.6689)
+     URL: https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf | Expected Match: N/A
+  4. Scheme for Tourism-related Activities (Score: 0.6668)
+     URL: https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf | Expected Match: N/A
+  5. Refinance Scheme for Technology Development and Modernization (Score: 0.6643)
+     URL: https://pipdic.in/uploads/PIPDIC_docs/user_manual.pdf | Expected Match: N/A
+
+NEW OVERALL LATENCY:
+  Avg: 1.44 ms
+  p50: 1.29 ms
+  p95: 1.88 ms

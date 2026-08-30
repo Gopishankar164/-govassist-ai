@@ -1,0 +1,44 @@
+{
+  "number_tested": 4,
+  "supported_claims": 2,
+  "unsupported_claims": 2,
+  "grounding_rate": 0.5,
+  "details": [
+    {
+      "test_id": 0,
+      "answer": "Financial assistance is available up to \u20b92,00,000.",
+      "supported": [
+        "\u20b92,00,000"
+      ],
+      "unsupported": [],
+      "passed_test": true
+    },
+    {
+      "test_id": 1,
+      "answer": "Every eligible student will receive exactly \u20b92,00,000.",
+      "supported": [],
+      "unsupported": [
+        "\u20b92,00,000"
+      ],
+      "passed_test": true
+    },
+    {
+      "test_id": 2,
+      "answer": "Apply at https://example.gov.in",
+      "supported": [
+        "https://example.gov.in"
+      ],
+      "unsupported": [],
+      "passed_test": true
+    },
+    {
+      "test_id": 3,
+      "answer": "Apply at https://fake.gov.in",
+      "supported": [],
+      "unsupported": [
+        "https://fake.gov.in"
+      ],
+      "passed_test": true
+    }
+  ]
+}

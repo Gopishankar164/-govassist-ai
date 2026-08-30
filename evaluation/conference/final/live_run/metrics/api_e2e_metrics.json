@@ -1,0 +1,6 @@
+{
+  "success_rate": 1.0,
+  "mean_latency": 2237.787866592407,
+  "p95_latency": 2791.2068367004395,
+  "total_queries": 5
+}

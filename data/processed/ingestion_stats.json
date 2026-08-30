@@ -1,0 +1,18 @@
+{
+  "original_records": 4858,
+  "duplicates_removed": 0,
+  "final_records": 4858,
+  "missing_important_fields": {
+    "scheme_name": 0,
+    "details": 2,
+    "benefits": 2,
+    "eligibility": 2
+  },
+  "structured_field_coverage": {
+    "state_known": 3762,
+    "gender_known": 1071,
+    "caste_known": 938,
+    "income_ceiling_known": 592,
+    "age_range_known": 258
+  }
+}

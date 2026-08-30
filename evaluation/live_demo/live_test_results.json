@@ -1,0 +1,8 @@
+{
+  "Signup": "PASS",
+  "Logout": "PASS",
+  "Login": "PASS",
+  "average_latency_ms": 126.88605785369873,
+  "p95_latency_ms": 294.88062858581543,
+  "Conversation_Isolation": "PASS"
+}

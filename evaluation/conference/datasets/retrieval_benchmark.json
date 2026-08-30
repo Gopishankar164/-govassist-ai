@@ -1,0 +1,1502 @@
+[
+    {
+        "query": "I want to know about the Fair Recreational Activity and Non-Competitive Involvement in Sports Urban Connect Scheme (F.R.A.N.C.I.S Urban Connect Scheme).",
+        "expected_scheme_ids": [
+            "francis"
+        ],
+        "category": "Transport & Infrastructure, Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Fair Recreational Activity and Non-Competitive Involvement in Sports Urban Connect Scheme (F.R.A.N.C.I.S Urban Connect Scheme)"
+    },
+    {
+        "query": "I want to know about the Agricultural Skill Development Training Programme For Women Farmers And Farmers.",
+        "expected_scheme_ids": [
+            "asdtpwff"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Agricultural Skill Development Training Programme For Women Farmers And Farmers"
+    },
+    {
+        "query": "I want to know about the One Family One Enterprise Scheme.",
+        "expected_scheme_ids": [
+            "ofoe"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting One Family One Enterprise Scheme"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "mmjvs"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Jan-Van Scheme"
+    },
+    {
+        "query": "I want to know about the Marriage Grant to Orphan Daughter of Ex-Servicemen.",
+        "expected_scheme_ids": [
+            "mgodesm"
+        ],
+        "category": "Social welfare & Empowerment, Women and Child",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Marriage Grant to Orphan Daughter of Ex-Servicemen"
+    },
+    {
+        "query": "I want to know about the Funeral Assistance for the Construction Worker.",
+        "expected_scheme_ids": [
+            "faftcwsb"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Funeral Assistance for the Construction Worker"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "e-yuvasbirace-yuvafugs"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting E-YUVA Scheme: BIRAC\u2019s E-YUVA Fellows (for under graduate students)"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship, Social welfare & Empowerment?",
+        "expected_scheme_ids": [
+            "mky-gujarat"
+        ],
+        "category": "Business & Entrepreneurship, Social welfare & Empowerment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Manav Kalyan Yojana"
+    },
+    {
+        "query": "I want to know about the Digital India Internship Scheme.",
+        "expected_scheme_ids": [
+            "mdiis"
+        ],
+        "category": "Education & Learning, Skills & Employment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Digital India Internship Scheme"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "msks"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Sudharit Kamdhenu Scheme"
+    },
+    {
+        "query": "I want to know about the Free Legal Aid under the Legal Services Authority Act 1987.",
+        "expected_scheme_ids": [
+            "flalsac"
+        ],
+        "category": "Public Safety,Law & Justice",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Free Legal Aid under the Legal Services Authority Act 1987"
+    },
+    {
+        "query": "I want to know about the Asangathit Karmakar Samachar-Patr Hawker Cycle Sahayata Yojana.",
+        "expected_scheme_ids": [
+            "aksphssy"
+        ],
+        "category": "Transport & Infrastructure",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Asangathit Karmakar Samachar-Patr Hawker Cycle Sahayata Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Banking,Financial Services and Insurance.",
+        "expected_scheme_ids": [
+            "aag"
+        ],
+        "category": "Banking,Financial Services and Insurance",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Aponar Apon Ghar"
+    },
+    {
+        "query": "What are the government schemes for Banking,Financial Services and Insurance, Health & Wellness in Tamil Nadu?",
+        "expected_scheme_ids": [
+            "dccbfml"
+        ],
+        "category": "Banking,Financial Services and Insurance, Health & Wellness",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting District Central Cooperative Banks and through its Branches: For Maternity Loan through Self Help Groups"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "ms"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Manabik Scheme"
+    },
+    {
+        "query": "I want to know about the Micro Credit Finance (NSFDC).",
+        "expected_scheme_ids": [
+            "mcfnsfdc"
+        ],
+        "category": "Banking,Financial Services and Insurance, Business & Entrepreneurship",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Micro Credit Finance (NSFDC)"
+    },
+    {
+        "query": "What are the government schemes for Social welfare & Empowerment?",
+        "expected_scheme_ids": [
+            "mgiavoi"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mizoram Grant-in-Aid to Voluntary Organisations and Individuals"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "aes"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Allowance To Eunuchs Scheme"
+    },
+    {
+        "query": "I need financial assistance related to Banking,Financial Services and Insurance.",
+        "expected_scheme_ids": [
+            "nfbsbpl"
+        ],
+        "category": "Banking,Financial Services and Insurance",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Family Benefit Scheme for BPL Families"
+    },
+    {
+        "query": "What are the government schemes for Social welfare & Empowerment in Andhra Pradesh?",
+        "expected_scheme_ids": [
+            "kpsap"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Kalyanamastu Pathakam Scheme - Andhra Pradesh"
+    },
+    {
+        "query": "I want to know about the Mukhyamantri Kalyani Vivah Sahayta Yojana.",
+        "expected_scheme_ids": [
+            "mmkvsy"
+        ],
+        "category": "Social welfare & Empowerment, Women and Child",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Kalyani Vivah Sahayta Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "stpss"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheduled Tribe Purvadasham Scholarship Scheme (Class 1 to 8) - Uttarakhand"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "majkbocwwb"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Marriage Assistance (JKBOCWWB)"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "ghc"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Greenhouse Construction"
+    },
+    {
+        "query": "I want to know about the Mukhyamantri Sukh Ashray Yojana.",
+        "expected_scheme_ids": [
+            "msay"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Sukh Ashray Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "pmsgmb"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting PM \u2013 Surya Ghar: Muft Bijli Yojana"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in Puducherry?",
+        "expected_scheme_ids": [
+            "ghs-pudu"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting \"Grant To Handicrafts Societies\" Component of the \"Development of Handicrafts\" Scheme"
+    },
+    {
+        "query": "What are the government schemes for Education & Learning?",
+        "expected_scheme_ids": [
+            "hoapdvsra"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Hari Om Ashram Prerit Doctor Vikram Sarabhai Research Award"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "apvcrrm"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Assistance for Planting Vegetable Crops for Raw and Ripe Mandap"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "sruw"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme for Relief to the Un-registered Workers"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship, Skills & Employment, Social welfare & Empowerment?",
+        "expected_scheme_ids": [
+            "pm-svanidhi"
+        ],
+        "category": "Business & Entrepreneurship, Skills & Employment, Social welfare & Empowerment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting PM Street Vendor\u2019s AtmaNirbhar Nidhi (PM SVANidhi)"
+    },
+    {
+        "query": "What are the government schemes for Transport & Infrastructure, Education & Learning in Goa?",
+        "expected_scheme_ids": [
+            "gsvec"
+        ],
+        "category": "Transport & Infrastructure, Education & Learning",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Grant-in-aid Scheme to Village Education Committees/Urban Education Committees for minor repairs of Government School buildings"
+    },
+    {
+        "query": "I need financial assistance related to Business & Entrepreneurship.",
+        "expected_scheme_ids": [
+            "mkyh"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mahila Kisan Yojana"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in Gujarat?",
+        "expected_scheme_ids": [
+            "sfailfcs"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme for Financial Assistance to Integrated Logistics Facilities: Capital Subsidy"
+    },
+    {
+        "query": "I want to know about the E-Rikshaw Sahayta Yojana.",
+        "expected_scheme_ids": [
+            "ersych"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting E-Rikshaw Sahayta Yojana"
+    },
+    {
+        "query": "I want to know about the Distribution of Rhizobium.",
+        "expected_scheme_ids": [
+            "dor"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Distribution of Rhizobium"
+    },
+    {
+        "query": "I want to know about the Swabhimaan Scheme.",
+        "expected_scheme_ids": [
+            "ss-dadra-and-nagar-haveli-and-daman-and-diu"
+        ],
+        "category": "Social welfare & Empowerment, Women and Child",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Swabhimaan Scheme"
+    },
+    {
+        "query": "I want to know about the Dr. Ambedkar Medhavi Chhatravriti Yojna to Scheduled Caste Students.",
+        "expected_scheme_ids": [
+            "damcyscs"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Dr. Ambedkar Medhavi Chhatravriti Yojna to Scheduled Caste Students"
+    },
+    {
+        "query": "What are the government schemes for Banking,Financial Services and Insurance?",
+        "expected_scheme_ids": [
+            "svby"
+        ],
+        "category": "Banking,Financial Services and Insurance",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Shri Vajpayee Bankable Yojana"
+    },
+    {
+        "query": "I want to know about the Scheme of Extending Grants for the Publication of Rare Books on Arts.",
+        "expected_scheme_ids": [
+            "soegftporboa"
+        ],
+        "category": "Skills & Employment, Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme of Extending Grants for the Publication of Rare Books on Arts"
+    },
+    {
+        "query": "I need financial assistance related to Business & Entrepreneurship, Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "epscpl"
+        ],
+        "category": "Business & Entrepreneurship, Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Livestock Mission: Genetic Improvement of Pig breeds - Establishment of Pig Semen Collection and Processing Lab"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "bplsws"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting BPL (Below Poverty Line) Student Welfare Scholarship - Technical Education"
+    },
+    {
+        "query": "I want to know about the Assistance to Handloom Artisans - Uttarakhand.",
+        "expected_scheme_ids": [
+            "handloomartisanuk"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Assistance to Handloom Artisans - Uttarakhand"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "nafie"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Award for Individual Excellence"
+    },
+    {
+        "query": "I want to know about the Financial Assistance for Working Women Workers or Wives of Male Workers for Maternity- Haryana Labour Welfare Board.",
+        "expected_scheme_ids": [
+            "fawwwwmwmhlwb"
+        ],
+        "category": "Women and Child, Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Financial Assistance for Working Women Workers or Wives of Male Workers for Maternity- Haryana Labour Welfare Board"
+    },
+    {
+        "query": "I want to know about the Supply of Invalid Carriages (Motorized Tri-cycles) to the Persons With Disabilities.",
+        "expected_scheme_ids": [
+            "sicmtcpd"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Supply of Invalid Carriages (Motorized Tri-cycles) to the Persons With Disabilities"
+    },
+    {
+        "query": "I want to know about the Cycle Scheme for the Children of Construction Workers (P.B.O.C.W.W.B).",
+        "expected_scheme_ids": [
+            "csccwpbocwwb"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Cycle Scheme for the Children of Construction Workers (P.B.O.C.W.W.B)"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment, Science, IT & Communications, Skills & Employment.",
+        "expected_scheme_ids": [
+            "pdutea"
+        ],
+        "category": "Social welfare & Empowerment, Science, IT & Communications, Skills & Employment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Pandit Deendayal Upadhyaya Telecom Excellence Award"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "pmsscs-g"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Post-Matric Scholarships for Scheduled Castes Students- Gujarat"
+    },
+    {
+        "query": "I want to know about the Skill Development Training - 90 Days Residential Skill Development Training Programme.",
+        "expected_scheme_ids": [
+            "sdt-90drsdtp"
+        ],
+        "category": "Skills & Employment, Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Skill Development Training - 90 Days Residential Skill Development Training Programme"
+    },
+    {
+        "query": "I want to know about the Educational Loan Scheme (GMFDC).",
+        "expected_scheme_ids": [
+            "elgmfdcl"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Educational Loan Scheme (GMFDC)"
+    },
+    {
+        "query": "I want to know about the Jharkhand Krishi Rin Mafi Yojana.",
+        "expected_scheme_ids": [
+            "jkrmy"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Jharkhand Krishi Rin Mafi Yojana"
+    },
+    {
+        "query": "I want to know about the Chief Minister\u2019s Solar Rooftop Capital Incentive Scheme.",
+        "expected_scheme_ids": [
+            "cmsrcis"
+        ],
+        "category": "Utility & Sanitation",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Chief Minister\u2019s Solar Rooftop Capital Incentive Scheme"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in West Bengal?",
+        "expected_scheme_ids": [
+            "bmsmesgst"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Banglashree for Micro, Small and Medium Enterprises: Subsidy for State Goods and Services Tax (SGST)"
+    },
+    {
+        "query": "I want to know about the Medhavi Chhatr/Chhatra Shiksha Protsahan Yojana.",
+        "expected_scheme_ids": [
+            "mccspy"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Medhavi Chhatr/Chhatra Shiksha Protsahan Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "pfmeiiao"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Popularisation Of Fishery Machinery/ Equipments/ Implements\u201d For Intensive Aquaculture In Odisha For The Financial Year 2021-22"
+    },
+    {
+        "query": "I want to know about the Dattopant Thengadi Mratak Shramik Aarthik Sahayata Yojana.",
+        "expected_scheme_ids": [
+            "dtlfas"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Dattopant Thengadi Mratak Shramik Aarthik Sahayata Yojana"
+    },
+    {
+        "query": "What are the government schemes for Banking,Financial Services and Insurance, Business & Entrepreneurship in Haryana?",
+        "expected_scheme_ids": [
+            "mfs-cl1mc"
+        ],
+        "category": "Banking,Financial Services and Insurance, Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Micro Finance Scheme- Credit Line 1 for Minority Community"
+    },
+    {
+        "query": "I need financial assistance related to Business & Entrepreneurship.",
+        "expected_scheme_ids": [
+            "bauuyadp"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance to Micro and Small Enterprises (MSE) of SC/ST for Plot Developed by GIDC"
+    },
+    {
+        "query": "What are the government schemes for Health & Wellness, Utility & Sanitation?",
+        "expected_scheme_ids": [
+            "sbm-g-i"
+        ],
+        "category": "Health & Wellness, Utility & Sanitation",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Swachh Bharat Mission \u2013 Grameen PHASE I"
+    },
+    {
+        "query": "I want to know about the PM Vishwakarma.",
+        "expected_scheme_ids": [
+            "pmv"
+        ],
+        "category": "Business & Entrepreneurship, Skills & Employment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting PM Vishwakarma"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment, Health & Wellness.",
+        "expected_scheme_ids": [
+            "chdicbwa"
+        ],
+        "category": "Agriculture,Rural & Environment, Health & Wellness",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Compensation for Human Death or Injury Caused by Wild Animals"
+    },
+    {
+        "query": "I want to know about the Special Education - Tamil Nadu.",
+        "expected_scheme_ids": [
+            "sebwodap"
+        ],
+        "category": "Education & Learning, Social welfare & Empowerment, Skills & Employment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Special Education - Tamil Nadu"
+    },
+    {
+        "query": "I need financial assistance related to Utility & Sanitation, Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "hpmvssp"
+        ],
+        "category": "Utility & Sanitation, Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Himachal Pradesh Maharishi Valmiki Sampoorn Swachata Puraskar (state Sanitation Reward Scheme)"
+    },
+    {
+        "query": "I need financial assistance related to Sports & Culture, Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "srrna"
+        ],
+        "category": "Sports & Culture, Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting State Reward to the Recipient of National Award"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment, Education & Learning.",
+        "expected_scheme_ids": [
+            "mskscy"
+        ],
+        "category": "Social welfare & Empowerment, Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Shaikshanik Chatravriti Yojana"
+    },
+    {
+        "query": "What are the government schemes for Sports & Culture in Uttar Pradesh?",
+        "expected_scheme_ids": [
+            "larlbasdaap"
+        ],
+        "category": "Sports & Culture",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Laxman Award / Rani Laxmi Bai Award Scheme- Differently-abled and Posthumously"
+    },
+    {
+        "query": "I want to know about the National Talent Scholarship Postgraduate.",
+        "expected_scheme_ids": [
+            "nts-pg"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Talent Scholarship Postgraduate"
+    },
+    {
+        "query": "What are the government schemes for Agriculture,Rural & Environment in Bihar?",
+        "expected_scheme_ids": [
+            "cmbky"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Cluster Mei Bagwani Ki Yojana"
+    },
+    {
+        "query": "What are the government schemes for Education & Learning, Social welfare & Empowerment in Chhattisgarh?",
+        "expected_scheme_ids": [
+            "isicsch"
+        ],
+        "category": "Education & Learning, Social welfare & Empowerment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Incentive Scheme in Civil Service (Chhattisgarh)"
+    },
+    {
+        "query": "I want to know about the Working Women Hostel.",
+        "expected_scheme_ids": [
+            "wwhh"
+        ],
+        "category": "Women and Child",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Working Women Hostel"
+    },
+    {
+        "query": "I want to know about the Mukhyamantri Gramin Peyjal Nishchay Yojana.",
+        "expected_scheme_ids": [
+            "mgpny"
+        ],
+        "category": "Utility & Sanitation",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Gramin Peyjal Nishchay Yojana"
+    },
+    {
+        "query": "I want to know about the Home Nursing Scholarship Scheme.",
+        "expected_scheme_ids": [
+            "hnss"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Home Nursing Scholarship Scheme"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "apiaguk"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Admission Process in All Government and Non-Government Schools of the State"
+    },
+    {
+        "query": "What are the government schemes for Social welfare & Empowerment?",
+        "expected_scheme_ids": [
+            "crss"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Supporting Community Radio Movement in India"
+    },
+    {
+        "query": "What are the government schemes for Health & Wellness?",
+        "expected_scheme_ids": [
+            "nikshay"
+        ],
+        "category": "Health & Wellness",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Nikshay Poshan Yojana"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship?",
+        "expected_scheme_ids": [
+            "srtccst"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme for Reimbursement of Testing and Certification Charges for Start-ups and Telecom MSEs"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in Goa?",
+        "expected_scheme_ids": [
+            "mssfsbu"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Market Support Scheme for Smaller Business Units"
+    },
+    {
+        "query": "What are the government schemes for Social welfare & Empowerment, Education & Learning in Andhra Pradesh?",
+        "expected_scheme_ids": [
+            "smtwoc"
+        ],
+        "category": "Social welfare & Empowerment, Education & Learning",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Sanction of Motorized Three Wheeler to Orthopedically Challenged"
+    },
+    {
+        "query": "I need financial assistance related to Transport & Infrastructure.",
+        "expected_scheme_ids": [
+            "badp"
+        ],
+        "category": "Transport & Infrastructure",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Border Areas Development Department"
+    },
+    {
+        "query": "I want to know about the Medical Assistance (NBOCWWB).",
+        "expected_scheme_ids": [
+            "manbocwwb"
+        ],
+        "category": "Health & Wellness",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Medical Assistance (NBOCWWB)"
+    },
+    {
+        "query": "I need financial assistance related to Skills & Employment.",
+        "expected_scheme_ids": [
+            "ads"
+        ],
+        "category": "Skills & Employment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Ashadeepa Scheme"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "rotffssipsic"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Reimbursement of Tution Fee for SC/ST/OBC/Min students in Public Schools in Class I to XII"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "vs-eacdp"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Vidyakiranam Scheme-Educational Assistance To Children Of Disabled Parents"
+    },
+    {
+        "query": "I want to know about the Nationwide Artificial Insemination Programme.",
+        "expected_scheme_ids": [
+            "naip"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Nationwide Artificial Insemination Programme"
+    },
+    {
+        "query": "I want to know about the Chief Minister's Krishi Rinn Yojana.",
+        "expected_scheme_ids": [
+            "cmkry"
+        ],
+        "category": "Agriculture,Rural & Environment, Banking,Financial Services and Insurance",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Chief Minister's Krishi Rinn Yojana"
+    },
+    {
+        "query": "What are the government schemes for Banking,Financial Services and Insurance in Gujarat?",
+        "expected_scheme_ids": [
+            "lascscpt"
+        ],
+        "category": "Banking,Financial Services and Insurance",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Loan Assistance to Scheduled Castes Students for Commercial Pilot Training"
+    },
+    {
+        "query": "I need financial assistance related to Sports & Culture.",
+        "expected_scheme_ids": [
+            "sdaocsg"
+        ],
+        "category": "Sports & Culture",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme for Dronacharya Award for Outstanding Coaches in Sports and Games"
+    },
+    {
+        "query": "What are the government schemes for Health & Wellness in Punjab?",
+        "expected_scheme_ids": [
+            "reodpbocwwb"
+        ],
+        "category": "Health & Wellness",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Reimbursement of Expenditure for Occupational Diseases (P.B.O.C.W.W.B)"
+    },
+    {
+        "query": "I want to know about the Low Tension Power Tariff (LTPT) Subsidy.",
+        "expected_scheme_ids": [
+            "ltpts"
+        ],
+        "category": "Business & Entrepreneurship, Utility & Sanitation",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Low Tension Power Tariff (LTPT) Subsidy"
+    },
+    {
+        "query": "I want to know about the Art Exhibition Assistance in the State.",
+        "expected_scheme_ids": [
+            "aeaits"
+        ],
+        "category": "Sports & Culture",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Art Exhibition Assistance in the State"
+    },
+    {
+        "query": "I want to know about the Unemployment Allowance.",
+        "expected_scheme_ids": [
+            "uea"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Unemployment Allowance"
+    },
+    {
+        "query": "I want to know about the Establishment and Operation of STEM (Science, Technology, Engineering, Mathematics) Laboratories.",
+        "expected_scheme_ids": [
+            "eosteml"
+        ],
+        "category": "Education & Learning, Science, IT & Communications",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Establishment and Operation of STEM (Science, Technology, Engineering, Mathematics) Laboratories"
+    },
+    {
+        "query": "I need financial assistance related to Business & Entrepreneurship.",
+        "expected_scheme_ids": [
+            "gs-west-bengal"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Gatidhara Scheme"
+    },
+    {
+        "query": "What are the government schemes for Agriculture,Rural & Environment?",
+        "expected_scheme_ids": [
+            "nmeo-op"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Mission on Edible Oils- Oil Palm"
+    },
+    {
+        "query": "I want to know about the Mukhyamantri Madad Yojana.",
+        "expected_scheme_ids": [
+            "mmmy"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Madad Yojana"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in Uttarakhand?",
+        "expected_scheme_ids": [
+            "gputpuk"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Grants Provisioned under Uttarakhand Tourism Policy, 2023"
+    },
+    {
+        "query": "I want to know about the Scheme for Cottage and Village Industries (Composite Loan Scheme).",
+        "expected_scheme_ids": [
+            "scvi-cls"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme for Cottage and Village Industries (Composite Loan Scheme)"
+    },
+    {
+        "query": "What are the government schemes for Education & Learning?",
+        "expected_scheme_ids": [
+            "nfandshests"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Fellowship & Scholarship For Higher Education Of Scheduled Tribe (ST) Students"
+    },
+    {
+        "query": "What are the government schemes for Agriculture,Rural & Environment, Business & Entrepreneurship in Uttarakhand?",
+        "expected_scheme_ids": [
+            "asfm"
+        ],
+        "category": "Agriculture,Rural & Environment, Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Allotment of Shops in Kisan Bazaar"
+    },
+    {
+        "query": "I want to know about the SC Girl Child Literacy Incentive Amount - Class 11th.",
+        "expected_scheme_ids": [
+            "scgca"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting SC Girl Child Literacy Incentive Amount - Class 11th"
+    },
+    {
+        "query": "I want to know about the Atal Kisan Jyoti Yojana.",
+        "expected_scheme_ids": [
+            "akjy"
+        ],
+        "category": "Agriculture,Rural & Environment, Utility & Sanitation",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Atal Kisan Jyoti Yojana"
+    },
+    {
+        "query": "What are the government schemes for Health & Wellness, Women and Child in Gujarat?",
+        "expected_scheme_ids": [
+            "vmyg"
+        ],
+        "category": "Health & Wellness, Women and Child",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Vandan Matru Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Skills & Employment.",
+        "expected_scheme_ids": [
+            "sdtm"
+        ],
+        "category": "Skills & Employment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Skill Development Training Manipur"
+    },
+    {
+        "query": "I want to know about the Marathi Drama Competition \u2018A' & \u2018B' Group.",
+        "expected_scheme_ids": [
+            "mdcabg"
+        ],
+        "category": "Sports & Culture",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Marathi Drama Competition \u2018A' & \u2018B' Group"
+    },
+    {
+        "query": "I want to know about the Funeral Assistance.",
+        "expected_scheme_ids": [
+            "fa"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Funeral Assistance"
+    },
+    {
+        "query": "I need financial assistance related to Housing & Shelter.",
+        "expected_scheme_ids": [
+            "maua"
+        ],
+        "category": "Housing & Shelter",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Map Approval through UDAY App"
+    },
+    {
+        "query": "I need financial assistance related to Skills & Employment.",
+        "expected_scheme_ids": [
+            "vtsskvk"
+        ],
+        "category": "Skills & Employment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Various Training and Support Schemes of Kisan Vigyan Kendra - Veer Chandra Singh Garhwali Uttarakhand University of Horticulture and Forestry"
+    },
+    {
+        "query": "I want to know about the Distribution Of Tractor Unit Under CMSGUY.",
+        "expected_scheme_ids": [
+            "dtu-cmsguy"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Distribution Of Tractor Unit Under CMSGUY"
+    },
+    {
+        "query": "I want to know about the Basic Agriculture Training Centre Scheme.",
+        "expected_scheme_ids": [
+            "batcs"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Basic Agriculture Training Centre Scheme"
+    },
+    {
+        "query": "I want to know about the Establishment of Goat Unit (10 +1).",
+        "expected_scheme_ids": [
+            "eogu"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Establishment of Goat Unit (10 +1)"
+    },
+    {
+        "query": "I want to know about the Grant of Mahatma Gandhi Memorial Award for Clean Houses.",
+        "expected_scheme_ids": [
+            "gmgmach"
+        ],
+        "category": "Utility & Sanitation, Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Grant of Mahatma Gandhi Memorial Award for Clean Houses"
+    },
+    {
+        "query": "What are the government schemes for Agriculture,Rural & Environment in Gujarat?",
+        "expected_scheme_ids": [
+            "htagchrt-2"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Harvesting Tools Assistance for General Category (HRT-2)"
+    },
+    {
+        "query": "What are the government schemes for Education & Learning, Banking,Financial Services and Insurance in Gujarat?",
+        "expected_scheme_ids": [
+            "6islbsa"
+        ],
+        "category": "Education & Learning, Banking,Financial Services and Insurance",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting 6% Interest Subsidy on Loans taken through Banks for Study Abroad"
+    },
+    {
+        "query": "What are the government schemes for Social welfare & Empowerment, Women and Child in Rajasthan?",
+        "expected_scheme_ids": [
+            "cmenspy"
+        ],
+        "category": "Social welfare & Empowerment, Women and Child",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Chief Minister Ekal Nari Samman Pension Yojana"
+    },
+    {
+        "query": "I want to know about the Technology Fellowship and Patent Promotion Scheme.",
+        "expected_scheme_ids": [
+            "tfapps"
+        ],
+        "category": "Business & Entrepreneurship, Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Technology Fellowship and Patent Promotion Scheme"
+    },
+    {
+        "query": "What are the government schemes for Utility & Sanitation in Gujarat?",
+        "expected_scheme_ids": [
+            "sjmmsvy"
+        ],
+        "category": "Utility & Sanitation",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Swarnim Jayanti Mukhya Mantri Shaheri Vikas Yojana (SJMMSVY)"
+    },
+    {
+        "query": "I want to know about the Development of Manures & Fertilizers: Assistance for use of Soil Conditioner.",
+        "expected_scheme_ids": [
+            "dmf-scm"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Development of Manures & Fertilizers: Assistance for use of Soil Conditioner"
+    },
+    {
+        "query": "I want to know about the Solar Inverter Charger.",
+        "expected_scheme_ids": [
+            "sic"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Solar Inverter Charger"
+    },
+    {
+        "query": "What are the government schemes for Agriculture,Rural & Environment, Women and Child, Skills & Employment in Haryana?",
+        "expected_scheme_ids": [
+            "msgsy"
+        ],
+        "category": "Agriculture,Rural & Environment, Women and Child, Skills & Employment",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Svadeshi Gau Samvardhan Yojana"
+    },
+    {
+        "query": "I want to know about the ICSSR Doctoral Fellowship.",
+        "expected_scheme_ids": [
+            "doctoral-fellowship"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting ICSSR Doctoral Fellowship"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in Andhra Pradesh?",
+        "expected_scheme_ids": [
+            "40shydcs"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting 40% Subsidy On Hank Yarn, Dyes & Chemicals Scheme"
+    },
+    {
+        "query": "What are the government schemes for Education & Learning?",
+        "expected_scheme_ids": [
+            "ffsfm"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Fellowship For Superannuated Faculty Members"
+    },
+    {
+        "query": "What are the government schemes for Social welfare & Empowerment, Health & Wellness, Utility & Sanitation?",
+        "expected_scheme_ids": [
+            "namaste-ersufaf"
+        ],
+        "category": "Social welfare & Empowerment, Health & Wellness, Utility & Sanitation",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Action for Mechanised Sanitation Ecosystem (NAMASTE) - \"Emergency Response Sanitation Unit (ERSU) Formation and Functionalisation\""
+    },
+    {
+        "query": "What are the government schemes for Education & Learning?",
+        "expected_scheme_ids": [
+            "nssfp"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Solar Science Fellowship Programme"
+    },
+    {
+        "query": "What are the government schemes for Women and Child in Haryana?",
+        "expected_scheme_ids": [
+            "srrwav"
+        ],
+        "category": "Women and Child",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Scheme for Relief and Rehabilitation of Women Acid Victims"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "fpy"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Fal Podharopan Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "pdp"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Potency Development Plan"
+    },
+    {
+        "query": "I need financial assistance related to Skills & Employment.",
+        "expected_scheme_ids": [
+            "sgsscst"
+        ],
+        "category": "Skills & Employment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Shilpi Gram Scheme (Scheduled Caste / Scheduled Tribe)"
+    },
+    {
+        "query": "I need financial assistance related to Business & Entrepreneurship.",
+        "expected_scheme_ids": [
+            "gtcpaliu"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Gujarat Textile Policy: Payroll Assistance (Fiscal Incentives to Labour Intensive Unit)"
+    },
+    {
+        "query": "I need financial assistance related to Education & Learning.",
+        "expected_scheme_ids": [
+            "cmmsiscjl"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Mukhyamantri Medhavi Chhatra Protsahan Scholarship Scheme (Junior Level)"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in West Bengal?",
+        "expected_scheme_ids": [
+            "wbtiswfflcm"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting West Bengal Textile Incentive Scheme: Waiver of Fees for Land Conversion and Mutation"
+    },
+    {
+        "query": "I want to know about the National Handicrafts Development Programme: Direct Benefit to Artisans - Supports to Artisans in Indigent Circumstances.",
+        "expected_scheme_ids": [
+            "nhdp-dba-saic"
+        ],
+        "category": "Sports & Culture, Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting National Handicrafts Development Programme: Direct Benefit to Artisans - Supports to Artisans in Indigent Circumstances"
+    },
+    {
+        "query": "I want to know about the Free Pre-Recruitment Training.",
+        "expected_scheme_ids": [
+            "fprtuk"
+        ],
+        "category": "Skills & Employment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Free Pre-Recruitment Training"
+    },
+    {
+        "query": "What are the government schemes for Transport & Infrastructure?",
+        "expected_scheme_ids": [
+            "iats"
+        ],
+        "category": "Transport & Infrastructure",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Infrastructure and Technology Support"
+    },
+    {
+        "query": "I want to know about the PMMSY: Inputs for Saline /Alkaline Water Aquaculture - Haryana.",
+        "expected_scheme_ids": [
+            "sfifsawa"
+        ],
+        "category": "Agriculture,Rural & Environment, Business & Entrepreneurship",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting PMMSY: Inputs for Saline /Alkaline Water Aquaculture - Haryana"
+    },
+    {
+        "query": "I want to know about the Educational Assistance for Degree Course.",
+        "expected_scheme_ids": [
+            "eafdc"
+        ],
+        "category": "Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Educational Assistance for Degree Course"
+    },
+    {
+        "query": "I need financial assistance related to Banking,Financial Services and Insurance.",
+        "expected_scheme_ids": [
+            "pbby"
+        ],
+        "category": "Banking,Financial Services and Insurance",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Pravasi Bharatiya Bima Yojana"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment, Women and Child.",
+        "expected_scheme_ids": [
+            "ksymplwb"
+        ],
+        "category": "Social welfare & Empowerment, Women and Child",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Kalyani Sahayata Yojana (Madhya Pradesh Labor Welfare Board)"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment, Business & Entrepreneurship.",
+        "expected_scheme_ids": [
+            "ssegu10gcp"
+        ],
+        "category": "Agriculture,Rural & Environment, Business & Entrepreneurship",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Subsidy Scheme For Establishment Of Goat Unit (10+1) For General Category People"
+    },
+    {
+        "query": "I want to know about the Hathkargha Samvardhan Sahayata.",
+        "expected_scheme_ids": [
+            "hss"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Hathkargha Samvardhan Sahayata"
+    },
+    {
+        "query": "I need financial assistance related to Agriculture,Rural & Environment.",
+        "expected_scheme_ids": [
+            "atcisg"
+        ],
+        "category": "Agriculture,Rural & Environment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Assistance to Co-operative Irrigation Societies M. N. R.-10 (General Area)"
+    },
+    {
+        "query": "What are the government schemes for Health & Wellness in Gujarat?",
+        "expected_scheme_ids": [
+            "nss-g"
+        ],
+        "category": "Health & Wellness",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting NAMO Shree Scheme"
+    },
+    {
+        "query": "I want to know about the Garuda Scheme for Funeral Expense.",
+        "expected_scheme_ids": [
+            "gsfe"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Garuda Scheme for Funeral Expense"
+    },
+    {
+        "query": "I want to know about the Sanction of Laptops - Andhra Pradesh.",
+        "expected_scheme_ids": [
+            "solap"
+        ],
+        "category": "Social welfare & Empowerment, Education & Learning",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Sanction of Laptops - Andhra Pradesh"
+    },
+    {
+        "query": "I need financial assistance related to Women and Child, Business & Entrepreneurship.",
+        "expected_scheme_ids": [
+            "nssgbcdc"
+        ],
+        "category": "Women and Child, Business & Entrepreneurship",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting New Swarnima Scheme (GBCDC)"
+    },
+    {
+        "query": "What are the government schemes for Business & Entrepreneurship in Gujarat?",
+        "expected_scheme_ids": [
+            "agmsmezed"
+        ],
+        "category": "Business & Entrepreneurship",
+        "difficulty": "medium",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Financial Support to MSMEs in ZED Certification"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "fp-gbocwwb"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Family Pension (GBOCWWB)"
+    },
+    {
+        "query": "I need financial assistance related to Social welfare & Empowerment.",
+        "expected_scheme_ids": [
+            "spfhavip"
+        ],
+        "category": "Social welfare & Empowerment",
+        "difficulty": "hard",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Smart Phone for Hearing and Visually Impaired Persons"
+    },
+    {
+        "query": "I want to know about the Purchase/Construction of House for the Construction Workers.",
+        "expected_scheme_ids": [
+            "pchcw"
+        ],
+        "category": "Housing & Shelter, Social welfare & Empowerment",
+        "difficulty": "easy",
+        "ground_truth_source": "dataset_procedural",
+        "notes": "Procedurally generated targeting Purchase/Construction of House for the Construction Workers"
+    }
+]
