@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+    <rect width="800" height="450" fill="white"/>
+    
+    <rect x="50" y="50" width="180" height="60" rx="5" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+    <text x="140" y="75" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Evaluation Queries</text>
+    <text x="140" y="95" font-family="sans-serif" font-size="12" text-anchor="middle">(N = 10 Reference Queries)</text>
+
+    <line x1="230" y1="80" x2="280" y2="80" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="280" y="50" width="160" height="60" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+    <text x="360" y="75" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">BGE-Small-EN-v1.5</text>
+    <text x="360" y="95" font-family="sans-serif" font-size="12" text-anchor="middle">(Query Embedding)</text>
+
+    <line x1="440" y1="80" x2="520" y2="80" stroke="black" stroke-width="2"/>
+    <line x1="520" y1="80" x2="520" y2="120" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Old Index Path -->
+    <line x1="520" y1="120" x2="410" y2="150" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="330" y="150" width="160" height="70" rx="5" fill="#ffecb3" stroke="#ffa000" stroke-width="2"/>
+    <text x="410" y="175" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">OLD FAISS Index</text>
+    <text x="410" y="195" font-family="sans-serif" font-size="12" text-anchor="middle">(Baseline Vector Store)</text>
+
+    <!-- New Index Path -->
+    <line x1="520" y1="120" x2="630" y2="150" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="550" y="150" width="160" height="70" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+    <text x="630" y="175" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">NEW FAISS Index</text>
+    <text x="630" y="195" font-family="sans-serif" font-size="12" text-anchor="middle">(Updated Vector Store)</text>
+    
+    <!-- Top-K Retrieval Output -->
+    <line x1="410" y1="220" x2="410" y2="260" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="630" y1="220" x2="630" y2="260" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="300" y="260" width="440" height="150" rx="10" fill="#fce4ec" stroke="#d81b60" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="520" y="290" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Semantic Retrieval Evaluation Metrics</text>
+    
+    <text x="330" y="325" font-family="sans-serif" font-size="14" font-weight="bold">Top-K Validation</text>
+    <text x="330" y="345" font-family="sans-serif" font-size="14">- Similarity Score Ranking</text>
+    <text x="330" y="365" font-family="sans-serif" font-size="14">- Candidate Verification (URL)</text>
+    
+    <text x="550" y="325" font-family="sans-serif" font-size="14" font-weight="bold">Latency Profiling</text>
+    <text x="550" y="345" font-family="sans-serif" font-size="14">- Minimum Latency (ms)</text>
+    <text x="550" y="365" font-family="sans-serif" font-size="14">- Average Latency (ms)</text>
+    <text x="550" y="385" font-family="sans-serif" font-size="14">- Maximum Latency (ms)</text>
+
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+        </marker>
+    </defs>
+</svg>

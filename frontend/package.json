@@ -1,5 +1,5 @@
 {
-  "name": "govassist-frontend",
+  "name": "gov-scheme-assistant-frontend",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -9,20 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "axios": "latest",
+    "@tailwindcss/postcss": "^4.3.3",
+    "axios": "^1.19.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^1.34.0",
-    "react": "latest",
-    "react-dom": "latest",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.84.0",
+    "react-markdown": "^10.1.0",
     "react-router-dom": "^7.18.2",
     "recharts": "^3.10.1",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "^3.4.17",
-    "vite": "latest"
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "3.4",
+    "vite": "^4.4.5"
   }
 }

@@ -1,6 +1,7 @@
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { useEffect, useState, useRef } from 'react'
-import { getUserProfile, login, recommend, chat, register, saveUserProfile } from '../api/client'
+import { getUserProfile, login, recommend, chatStream, register, saveUserProfile } from '../api/client'
+import ReactMarkdown from 'react-markdown'
 import RecommendationCard from '../components/RecommendationCard'
 
 export function Landing() { 
@@ -43,45 +44,101 @@ export function Assistant() {
   const [conversationId, setConversationId] = useState(null);
   const bottomRef = useRef(null);
   
-  // React is imported in vite implicitly usually but we need useRef, wait Pages uses React hooks implicitly.
-  // We'll just use useEffect.
-  
   useEffect(() => {
-    // Scroll to bottom when messages change
     if (bottomRef.current) {
         bottomRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [messages]);
 
+  const abortControllerRef = useRef(null);
+
   const sendMessage = async (text) => {
     if(!text.trim()) return setError('Please describe what support you are looking for.');
     
-    const userMessage = { role: 'user', content: text };
-    setMessages(prev => [...prev, userMessage]);
+    if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+    }
+    abortControllerRef.current = new AbortController();
     
+    const userMessage = { role: 'user', content: text };
+    const assistantMessagePlaceholder = { 
+      role: 'assistant', 
+      content: '', 
+      recommendations: [], 
+      data: null,
+      isStreaming: true
+    };
+    
+    setMessages(prev => [...prev, userMessage, assistantMessagePlaceholder]);
     setLoading(true);
     setError('');
     
-    try { 
-      const result = await chat(text, conversationId);
-      setConversationId(result.conversation_id);
-      
-      const assistantMessage = { 
-        role: 'assistant', 
-        content: result.grounded_answer,
-        recommendations: result.recommendations,
-        data: result
-      };
-      setMessages(prev => [...prev, assistantMessage]);
-    } catch(err) { 
-      const status = err.response?.status; 
-      setError(status === 422 ? 'Please enter a valid query.' : 'GovAssist service is currently unavailable. Please make sure the backend is running.');
-      setMessages(prev => prev.slice(0, -1));
-      setQuery(text); // restore input
-    } finally {
-      setLoading(false);
-    } 
+    let accumulated = '';
+    
+    await chatStream(
+        text, 
+        conversationId, 
+        (metadata) => {
+            setLoading(false);
+            setConversationId(metadata.conversation_id);
+            setMessages(prev => {
+                const newMessages = [...prev];
+                const last = { ...newMessages[newMessages.length - 1] };
+                if (last.role === 'assistant') {
+                    last.recommendations = metadata.recommendations;
+                    last.data = metadata;
+                    newMessages[newMessages.length - 1] = last;
+                }
+                return newMessages;
+            });
+        },
+        (chunk) => {
+            accumulated += chunk;
+            setMessages(prev => {
+                const newMessages = [...prev];
+                const last = { ...newMessages[newMessages.length - 1] };
+                if (last.role === 'assistant') {
+                    last.content = accumulated;
+                    newMessages[newMessages.length - 1] = last;
+                }
+                return newMessages;
+            });
+        },
+        () => {
+            setMessages(prev => {
+                const newMessages = [...prev];
+                const last = { ...newMessages[newMessages.length - 1] };
+                if (last.role === 'assistant') {
+                    last.isStreaming = false;
+                    newMessages[newMessages.length - 1] = last;
+                }
+                return newMessages;
+            });
+        },
+        (err) => {
+            if (err.name === 'AbortError') return;
+            setLoading(false);
+            setError(err.message || 'GovAssist service is currently unavailable.');
+            setMessages(prev => {
+                const last = prev[prev.length - 1];
+                if (last.role === 'assistant' && !last.content) {
+                    return prev.slice(0, -1);
+                }
+                return prev;
+            });
+            setQuery(text);
+        },
+        abortControllerRef.current.signal
+    );
   };
+
+  useEffect(() => {
+    return () => {
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+      }
+    };
+  }, []);
 
   useEffect(() => {
     const draft = localStorage.getItem('govassist-draft-query');
@@ -145,16 +202,17 @@ export function Assistant() {
                   <strong className="text-govnavy">Assistant</strong>
                 </div>
               )}
-              <p className="whitespace-pre-line text-lg m-0">{msg.content}</p>
+              {msg.role === 'assistant' ? (
+                <div className="prose prose-slate prose-lg max-w-none">
+                  <ReactMarkdown>{msg.content}</ReactMarkdown>
+                  {msg.isStreaming && <span className="inline-block w-2 h-4 ml-1 bg-govnavy animate-pulse"></span>}
+                </div>
+              ) : (
+                <p className="whitespace-pre-line text-lg m-0">
+                  {msg.content}
+                </p>
+              )}
             </div>
-            
-            {msg.role === 'assistant' && msg.recommendations && msg.recommendations.length > 0 && (
-              <div className="mt-4 grid gap-4 md:grid-cols-2 text-left">
-                {msg.recommendations.map(s => (
-                  <RecommendationCard key={s.scheme_id} scheme={s} />
-                ))}
-              </div>
-            )}
           </div>
         ))}
         

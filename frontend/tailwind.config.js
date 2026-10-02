@@ -1,18 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-export default { 
-  content: ['./index.html', './src/**/*.{js,jsx}'], 
-  theme: { 
-    extend: { 
-      colors: { 
-        govnavy: '#0b2046', 
-        govgreen: '#1a7a4c', 
-        govlight: '#f8f9fa',
-        ink: '#1e293b' 
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#4f46e5',
+        secondary: '#9333ea',
+        background: '#0f172a',
+        surface: '#1e293b',
+        muted: '#94a3b8'
       }
-    } 
-  }, 
-  plugins: [] 
+    },
+  },
+  plugins: [],
 }

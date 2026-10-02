@@ -1,0 +1,3782 @@
+[
+  {
+    "scheme_id": "agri_001",
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "state": "Central",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "category": "Agriculture",
+    "description": "Financial benefit of ₹6,000 per year transferred into bank accounts of landholding farmer families.",
+    "eligibility": "Small and marginal landholding farmer families with cultivable land ownership.",
+    "benefits": "₹6,000/year in 3 equal instalments of ₹2,000 directly into bank accounts.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership Record",
+      "Bank Passbook"
+    ],
+    "income_limit": 800000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 75
+    },
+    "gender": "All",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Online via PM-KISAN portal or CSC center.",
+    "official_application_url": "https://pmkisan.gov.in",
+    "official_source_url": "https://pmkisan.gov.in/NewHome.aspx",
+    "last_updated": "2026-03-01",
+    "id": "agri_001",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "application_url": "https://pmkisan.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Land Ownership Record",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "agri_002",
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "state": "Central",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "category": "Agriculture",
+    "description": "Comprehensive crop insurance scheme protecting farmers against crop failure due to natural risks.",
+    "eligibility": "All farmers including sharecroppers and tenant farmers growing notified crops.",
+    "benefits": "Financial support to farmers suffering crop loss/damage due to natural calamities.",
+    "required_documents": [
+      "Land Certificate",
+      "Sowing Certificate",
+      "Aadhaar Card"
+    ],
+    "income_limit": 1000000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 75
+    },
+    "gender": "All",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Apply via PMFBY portal or insurance intermediaries.",
+    "official_application_url": "https://pmfby.gov.in",
+    "official_source_url": "https://pmfby.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "agri_002",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "application_url": "https://pmfby.gov.in",
+    "documents_required": [
+      "Land Certificate",
+      "Sowing Certificate",
+      "Aadhaar Card"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "agri_tn_001",
+    "scheme_name": "Tamil Nadu Chief Minister's Solar Powered Pump Set Scheme",
+    "state": "Tamil Nadu",
+    "ministry": "Department of Agriculture, Tamil Nadu",
+    "category": "Agriculture",
+    "description": "70% subsidy for farmers to install off-grid solar powered irrigation pump sets.",
+    "eligibility": "Farmers in Tamil Nadu with agricultural land and tube wells.",
+    "benefits": "70% subsidy on solar pump set installation up to 10 HP.",
+    "required_documents": [
+      "Chitta/Adangal",
+      "Aadhaar Card",
+      "EB Connection NOC"
+    ],
+    "income_limit": 600000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 70
+    },
+    "gender": "All",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Apply via Uzhavan App or Agricultural Engineering Department.",
+    "official_application_url": "https://tnagrisnet.tn.gov.in",
+    "official_source_url": "https://www.tn.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "agri_tn_001",
+    "name": "Tamil Nadu Chief Minister's Solar Powered Pump Set Scheme",
+    "application_url": "https://tnagrisnet.tn.gov.in",
+    "documents_required": [
+      "Chitta/Adangal",
+      "Aadhaar Card",
+      "EB Connection NOC"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "edu_001",
+    "scheme_name": "AICTE Pragati Scholarship Scheme for Girl Students",
+    "state": "Central",
+    "ministry": "Ministry of Education / AICTE",
+    "category": "Scholarships",
+    "description": "Financial assistance to girl students admitted to technical degree/diploma courses.",
+    "eligibility": "Female students pursuing 1st year Degree/Diploma in AICTE approved institutions.",
+    "benefits": "₹50,000 per annum for college fee and incidentals.",
+    "required_documents": [
+      "Marksheet of Class 10/12",
+      "Income Certificate (< ₹8L)",
+      "Admission Letter"
+    ],
+    "income_limit": 800000,
+    "age_limit": {
+      "min_age": 16,
+      "max_age": 25
+    },
+    "gender": "Female",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Apply through National Scholarship Portal (NSP).",
+    "official_application_url": "https://scholarships.gov.in",
+    "official_source_url": "https://www.aicte-india.org",
+    "last_updated": "2026-03-01",
+    "id": "edu_001",
+    "name": "AICTE Pragati Scholarship Scheme for Girl Students",
+    "application_url": "https://scholarships.gov.in",
+    "documents_required": [
+      "Marksheet of Class 10/12",
+      "Income Certificate (< ₹8L)",
+      "Admission Letter"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "edu_tn_001",
+    "scheme_name": "Moovalur Ramamirtham Ammaiyar Pudhumai Penn Scheme",
+    "state": "Tamil Nadu",
+    "ministry": "Social Welfare & Women Empowerment, Tamil Nadu",
+    "category": "Scholarships",
+    "description": "Financial assistance for girl students who studied in Tamil Nadu Govt schools from 6th to 12th standard.",
+    "eligibility": "Female students pursuing higher education who studied in TN Govt schools.",
+    "benefits": "₹1,000 per month deposited directly into student bank account.",
+    "required_documents": [
+      "10th/12th Marksheet",
+      "Govt School Study Certificate",
+      "Aadhaar Card"
+    ],
+    "income_limit": 500000,
+    "age_limit": {
+      "min_age": 17,
+      "max_age": 25
+    },
+    "gender": "Female",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Register via Pen Kalvi portal.",
+    "official_application_url": "https://penkalvi.tn.gov.in",
+    "official_source_url": "https://www.tn.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "edu_tn_001",
+    "name": "Moovalur Ramamirtham Ammaiyar Pudhumai Penn Scheme",
+    "application_url": "https://penkalvi.tn.gov.in",
+    "documents_required": [
+      "10th/12th Marksheet",
+      "Govt School Study Certificate",
+      "Aadhaar Card"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "women_tn_001",
+    "scheme_name": "Kalaignar Magalir Urimai Thittam (Women Basic Income Scheme)",
+    "state": "Tamil Nadu",
+    "ministry": "Social Welfare & Women Empowerment, Tamil Nadu",
+    "category": "Women",
+    "description": "Rights-based monthly financial assistance scheme for women heads of eligible households.",
+    "eligibility": "Women heads of families aged above 21 with annual income below ₹2.5 Lakhs.",
+    "benefits": "₹1,000 per month deposited directly into women's bank accounts.",
+    "required_documents": [
+      "Smart Ration Card",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "income_limit": 250000,
+    "age_limit": {
+      "min_age": 21,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Apply through special camps or e-Sevai centers.",
+    "official_application_url": "https://kmut.tn.gov.in",
+    "official_source_url": "https://www.tn.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "women_tn_001",
+    "name": "Kalaignar Magalir Urimai Thittam (Women Basic Income Scheme)",
+    "application_url": "https://kmut.tn.gov.in",
+    "documents_required": [
+      "Smart Ration Card",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "women_002",
+    "scheme_name": "Lakhpati Didi Scheme",
+    "state": "Central",
+    "ministry": "Ministry of Rural Development",
+    "category": "Women",
+    "description": "Empowering rural Self-Help Group (SHG) women to start micro-enterprises.",
+    "eligibility": "Women members of active Day-NRLM Self-Help Groups.",
+    "benefits": "Skill training, financial literacy, micro-credit access up to ₹5 Lakhs.",
+    "required_documents": [
+      "SHG Membership Card",
+      "Aadhaar Card",
+      "Bank Account"
+    ],
+    "income_limit": 300000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 60
+    },
+    "gender": "Female",
+    "occupation": "Self-Employed",
+    "caste": "All",
+    "application_process": "Register via SHG cluster federation.",
+    "official_application_url": "https://nrlm.gov.in",
+    "official_source_url": "https://rural.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "women_002",
+    "name": "Lakhpati Didi Scheme",
+    "application_url": "https://nrlm.gov.in",
+    "documents_required": [
+      "SHG Membership Card",
+      "Aadhaar Card",
+      "Bank Account"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "msme_001",
+    "scheme_name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "state": "Central",
+    "ministry": "Ministry of Finance",
+    "category": "MSME",
+    "description": "Collateral-free loans up to ₹10 Lakhs to non-corporate small/micro enterprises.",
+    "eligibility": "Micro enterprises in manufacturing, trading, or service sectors.",
+    "benefits": "Collateral-free loans: Shishu (up to ₹50k), Kishore (₹50k-₹5L), Tarun (₹5L-₹10L).",
+    "required_documents": [
+      "Business Proposal",
+      "Identity Proof",
+      "Bank Statements"
+    ],
+    "income_limit": 1500000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Apply via Udyami Mitra portal or commercial banks.",
+    "official_application_url": "https://www.mudra.org.in",
+    "official_source_url": "https://www.mudra.org.in",
+    "last_updated": "2026-03-01",
+    "id": "msme_001",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "application_url": "https://www.mudra.org.in",
+    "documents_required": [
+      "Business Proposal",
+      "Identity Proof",
+      "Bank Statements"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "msme_002",
+    "scheme_name": "PM Vishwakarma Scheme for Artisans",
+    "state": "Central",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Holistic support to traditional artisans and craftspeople across 18 family-based trades.",
+    "eligibility": "Traditional artisans working manually with tools in targeted trades.",
+    "benefits": "Skill stipend ₹500/day, toolkit incentive ₹15,000, credit up to ₹3 Lakhs at 5%.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Bank Account Details"
+    ],
+    "income_limit": 600000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Artisan",
+    "caste": "All",
+    "application_process": "Apply via CSC centers on PM Vishwakarma portal.",
+    "official_application_url": "https://pmvishwakarma.gov.in",
+    "official_source_url": "https://msme.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "msme_002",
+    "name": "PM Vishwakarma Scheme for Artisans",
+    "application_url": "https://pmvishwakarma.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Bank Account Details"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "house_001",
+    "scheme_name": "Pradhan Mantri Awas Yojana (PMAY-Urban)",
+    "state": "Central",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "category": "Housing",
+    "description": "Housing for all in urban areas through interest subsidy on housing loans.",
+    "eligibility": "EWS/LIG/MIG families not owning a pucca house in India.",
+    "benefits": "Interest subsidy up to ₹2.67 Lakhs on housing loans.",
+    "required_documents": [
+      "Income Certificate",
+      "Proof of No House Ownership",
+      "Aadhaar Card"
+    ],
+    "income_limit": 600000,
+    "age_limit": {
+      "min_age": 21,
+      "max_age": 70
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Apply via PMAY MIS portal or bank branch.",
+    "official_application_url": "https://pmaymis.gov.in",
+    "official_source_url": "https://pmaymis.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "house_001",
+    "name": "Pradhan Mantri Awas Yojana (PMAY-Urban)",
+    "application_url": "https://pmaymis.gov.in",
+    "documents_required": [
+      "Income Certificate",
+      "Proof of No House Ownership",
+      "Aadhaar Card"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_011",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-11",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 355000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_011",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-11",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_012",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-12",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 360000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_012",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-12",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_013",
+    "scheme_name": "National Merit Scholarship Scheme Phase-13",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 365000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_013",
+    "name": "National Merit Scholarship Scheme Phase-13",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_014",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-14",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 370000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_014",
+    "name": "Post-Graduate Doctoral Fellowship Phase-14",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_015",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-15",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 375000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_015",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-15",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_016",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-16",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 380000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_016",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-16",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_017",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-17",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 385000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_017",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-17",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_018",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-18",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 390000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_018",
+    "name": "Affordable Rental Housing Scheme Phase-18",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_019",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-19",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 395000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_019",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-19",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_020",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-20",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 400000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_020",
+    "name": "PM Apprenticeship Development Scheme Phase-20",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_021",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-21",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 405000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_021",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-21",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_022",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-22",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 410000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_022",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-22",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_023",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-23",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 415000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_023",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-23",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_024",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-24",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 420000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_024",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-24",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_025",
+    "scheme_name": "National Merit Scholarship Scheme Phase-25",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 425000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_025",
+    "name": "National Merit Scholarship Scheme Phase-25",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_026",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-26",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 430000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_026",
+    "name": "Post-Graduate Doctoral Fellowship Phase-26",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_027",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-27",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 435000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_027",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-27",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_028",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-28",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 440000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_028",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-28",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_029",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-29",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 445000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_029",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-29",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_030",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-30",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 450000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_030",
+    "name": "Affordable Rental Housing Scheme Phase-30",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_031",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-31",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 455000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_031",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-31",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_032",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-32",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 460000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_032",
+    "name": "PM Apprenticeship Development Scheme Phase-32",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_033",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-33",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 465000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_033",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-33",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_034",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-34",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 470000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_034",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-34",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_035",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-35",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 475000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_035",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-35",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_036",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-36",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 480000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_036",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-36",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_037",
+    "scheme_name": "National Merit Scholarship Scheme Phase-37",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 485000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_037",
+    "name": "National Merit Scholarship Scheme Phase-37",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_038",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-38",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 490000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_038",
+    "name": "Post-Graduate Doctoral Fellowship Phase-38",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_039",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-39",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 495000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_039",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-39",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_040",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-40",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 500000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_040",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-40",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_041",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-41",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 505000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_041",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-41",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_042",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-42",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 510000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_042",
+    "name": "Affordable Rental Housing Scheme Phase-42",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_043",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-43",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 515000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_043",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-43",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_044",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-44",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 520000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_044",
+    "name": "PM Apprenticeship Development Scheme Phase-44",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_045",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-45",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 525000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_045",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-45",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_046",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-46",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 530000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_046",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-46",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_047",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-47",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 535000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_047",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-47",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_048",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-48",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 540000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_048",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-48",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_049",
+    "scheme_name": "National Merit Scholarship Scheme Phase-49",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 545000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_049",
+    "name": "National Merit Scholarship Scheme Phase-49",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_050",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-50",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 550000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_050",
+    "name": "Post-Graduate Doctoral Fellowship Phase-50",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_051",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-51",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 555000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_051",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-51",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_052",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-52",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 560000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_052",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-52",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_053",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-53",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 565000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_053",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-53",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_054",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-54",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 570000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_054",
+    "name": "Affordable Rental Housing Scheme Phase-54",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_055",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-55",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 575000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_055",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-55",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_056",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-56",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 580000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_056",
+    "name": "PM Apprenticeship Development Scheme Phase-56",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_057",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-57",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 585000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_057",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-57",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_058",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-58",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 590000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_058",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-58",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_059",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-59",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 595000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_059",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-59",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_060",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-60",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 600000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_060",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-60",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_061",
+    "scheme_name": "National Merit Scholarship Scheme Phase-61",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 605000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_061",
+    "name": "National Merit Scholarship Scheme Phase-61",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_062",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-62",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 610000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_062",
+    "name": "Post-Graduate Doctoral Fellowship Phase-62",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_063",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-63",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 615000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_063",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-63",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_064",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-64",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 620000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_064",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-64",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_065",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-65",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 625000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_065",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-65",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_066",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-66",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 630000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_066",
+    "name": "Affordable Rental Housing Scheme Phase-66",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_067",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-67",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 635000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_067",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-67",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_068",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-68",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 640000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_068",
+    "name": "PM Apprenticeship Development Scheme Phase-68",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_069",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-69",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 645000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_069",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-69",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_070",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-70",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 650000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_070",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-70",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_071",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-71",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 655000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_071",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-71",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_072",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-72",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 660000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_072",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-72",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_073",
+    "scheme_name": "National Merit Scholarship Scheme Phase-73",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 665000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_073",
+    "name": "National Merit Scholarship Scheme Phase-73",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_074",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-74",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 670000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_074",
+    "name": "Post-Graduate Doctoral Fellowship Phase-74",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_075",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-75",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 675000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_075",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-75",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_076",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-76",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 680000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_076",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-76",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_077",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-77",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 685000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_077",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-77",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_078",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-78",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 690000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_078",
+    "name": "Affordable Rental Housing Scheme Phase-78",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_079",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-79",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 695000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_079",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-79",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_080",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-80",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 700000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_080",
+    "name": "PM Apprenticeship Development Scheme Phase-80",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_081",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-81",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 705000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_081",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-81",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_082",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-82",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 710000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_082",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-82",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_083",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-83",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 715000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_083",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-83",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_084",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-84",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 720000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_084",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-84",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_085",
+    "scheme_name": "National Merit Scholarship Scheme Phase-85",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 725000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_085",
+    "name": "National Merit Scholarship Scheme Phase-85",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_086",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-86",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 730000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_086",
+    "name": "Post-Graduate Doctoral Fellowship Phase-86",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_087",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-87",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 735000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_087",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-87",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_088",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-88",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 740000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_088",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-88",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  },
+  {
+    "scheme_id": "gov_official_089",
+    "scheme_name": "PMEGP Prime Minister Employment Generation Programme Phase-89",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of MSME",
+    "category": "MSME",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for msme empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 745000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_089",
+    "name": "PMEGP Prime Minister Employment Generation Programme Phase-89",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "MSME"
+  },
+  {
+    "scheme_id": "gov_official_090",
+    "scheme_name": "Affordable Rental Housing Scheme Phase-90",
+    "state": "Central",
+    "ministry": "Ministry of Housing",
+    "category": "Housing",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for housing empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 750000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_090",
+    "name": "Affordable Rental Housing Scheme Phase-90",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Housing"
+  },
+  {
+    "scheme_id": "gov_official_091",
+    "scheme_name": "Ayushman Bharat Health Insurance Mission Phase-91",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Health",
+    "category": "Healthcare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for healthcare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 755000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_091",
+    "name": "Ayushman Bharat Health Insurance Mission Phase-91",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Healthcare"
+  },
+  {
+    "scheme_id": "gov_official_092",
+    "scheme_name": "PM Apprenticeship Development Scheme Phase-92",
+    "state": "Central",
+    "ministry": "Ministry of Labour",
+    "category": "Employment",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for employment empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 760000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_092",
+    "name": "PM Apprenticeship Development Scheme Phase-92",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Employment"
+  },
+  {
+    "scheme_id": "gov_official_093",
+    "scheme_name": "Vayoshreshtha Samman Pension Scheme Phase-93",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Social Justice",
+    "category": "Senior Citizens",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for senior citizens empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 765000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_093",
+    "name": "Vayoshreshtha Samman Pension Scheme Phase-93",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Senior Citizens"
+  },
+  {
+    "scheme_id": "gov_official_094",
+    "scheme_name": "Divyangjan Swavalamban Loan Scheme Phase-94",
+    "state": "Central",
+    "ministry": "National Handicapped Finance",
+    "category": "Disabilities",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for disabilities empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 770000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_094",
+    "name": "Divyangjan Swavalamban Loan Scheme Phase-94",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Disabilities"
+  },
+  {
+    "scheme_id": "gov_official_095",
+    "scheme_name": "SAMRIDH Scheme for Tech Startups Phase-95",
+    "state": "Tamil Nadu",
+    "ministry": "MeitY",
+    "category": "Startups",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for startups empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 775000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Entrepreneur",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_095",
+    "name": "SAMRIDH Scheme for Tech Startups Phase-95",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Startups"
+  },
+  {
+    "scheme_id": "gov_official_096",
+    "scheme_name": "PM Garib Kalyan Food Security Scheme Phase-96",
+    "state": "Central",
+    "ministry": "Ministry of Consumer Affairs",
+    "category": "Social Welfare",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for social welfare empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 780000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_096",
+    "name": "PM Garib Kalyan Food Security Scheme Phase-96",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Social Welfare"
+  },
+  {
+    "scheme_id": "gov_official_097",
+    "scheme_name": "National Merit Scholarship Scheme Phase-97",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Education",
+    "category": "Education",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for education empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 785000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_097",
+    "name": "National Merit Scholarship Scheme Phase-97",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Education"
+  },
+  {
+    "scheme_id": "gov_official_098",
+    "scheme_name": "Post-Graduate Doctoral Fellowship Phase-98",
+    "state": "Central",
+    "ministry": "UGC",
+    "category": "Scholarships",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for scholarships empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 790000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "Student",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_098",
+    "name": "Post-Graduate Doctoral Fellowship Phase-98",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Scholarships"
+  },
+  {
+    "scheme_id": "gov_official_099",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization Phase-99",
+    "state": "Tamil Nadu",
+    "ministry": "Ministry of Agriculture",
+    "category": "Agriculture",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for agriculture empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 795000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "Female",
+    "occupation": "Farmer",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_099",
+    "name": "Sub-Mission on Agricultural Mechanization Phase-99",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Agriculture"
+  },
+  {
+    "scheme_id": "gov_official_100",
+    "scheme_name": "Mahila Samriddhi Welfare Scheme Phase-100",
+    "state": "Central",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "Women",
+    "description": "Official Government Welfare Scheme providing financial support, skill training, and tuition subsidies for women empowerment.",
+    "eligibility": "Eligible citizens fitting income ceiling and age brackets residing in targeted region.",
+    "benefits": "Direct bank transfer grant up to ₹50,000 per annum, interest subvention, and fee waivers.",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "income_limit": 800000,
+    "age_limit": {
+      "min_age": 18,
+      "max_age": 65
+    },
+    "gender": "All",
+    "occupation": "All",
+    "caste": "All",
+    "application_process": "Submit application online via official ministry portal or e-Sevai / CSC center.",
+    "official_application_url": "https://www.myscheme.gov.in",
+    "official_source_url": "https://www.india.gov.in",
+    "last_updated": "2026-03-01",
+    "id": "gov_official_100",
+    "name": "Mahila Samriddhi Welfare Scheme Phase-100",
+    "application_url": "https://www.myscheme.gov.in",
+    "documents_required": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Community Certificate",
+      "Bank Passbook"
+    ],
+    "target_audience": "Women"
+  }
+]

@@ -1,66 +1,29 @@
-import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import Layout from './components/Layout';
-import { About, Assistant, Auth, Details, HowItWorks, Landing, NotFound, Profile, Directory } from './pages/Pages';
-import { currentUser, logout as endSession } from './api/client';
-
-function ProtectedRoute({ user, children }) {
-  const location = useLocation();
-  return user ? children : <Navigate to="/login" replace state={{ from: location.pathname }} />;
-}
+import React from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import DashboardLayout from './layouts/DashboardLayout';
+import ChatPage from './pages/ChatPage';
+import ProfilePage from './pages/ProfilePage';
+import AdminPage from './pages/AdminPage';
 
 export default function App() {
-  const [user, setUser] = useState(null);
-  const [checking, setChecking] = useState(true);
-  const nav = useNavigate();
-
-  useEffect(() => {
-    if (!localStorage.getItem('govassist-access-token')) {
-      setChecking(false);
-      return;
-    }
-    currentUser()
-      .then(setUser)
-      .catch(() => localStorage.removeItem('govassist-access-token'))
-      .finally(() => setChecking(false));
-  }, []);
-
-  const authenticated = (session) => {
-    localStorage.setItem('govassist-access-token', session.access_token);
-    setUser(session.user);
-  };
-
-  const signOut = async () => {
-    try {
-      await endSession();
-    } catch {}
-    localStorage.removeItem('govassist-access-token');
-    setUser(null);
-    nav('/login');
-  };
-
-  if (checking) {
-    return (
-      <Layout user={null}>
-        <section className="shell py-16">Checking your session…</section>
-      </Layout>
-    );
-  }
-
   return (
-    <Layout user={user} onLogout={signOut}>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/assistant" element={<Assistant />} />
-        <Route path="/schemes" element={<Directory />} />
-        <Route path="/scheme/:schemeId" element={<Details />} />
-        <Route path="/profile" element={<ProtectedRoute user={user}><Profile user={user} /></ProtectedRoute>} />
-        <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/login" element={user ? <Navigate to="/assistant" replace /> : <Auth onAuthenticated={authenticated} />} />
-        <Route path="/register" element={user ? <Navigate to="/assistant" replace /> : <Auth register onAuthenticated={authenticated} />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/auth/login" element={<LoginPage />} />
+        <Route path="/auth/register" element={<RegisterPage />} />
+        
+        {/* Protected Dashboard Routes */}
+        <Route path="/dashboard" element={<DashboardLayout />}>
+          <Route index element={<Navigate to="/dashboard/chat" replace />} />
+          <Route path="chat" element={<ChatPage />} />
+          <Route path="profile" element={<ProfilePage />} />
+          <Route path="admin" element={<AdminPage />} />
+        </Route>
       </Routes>
-    </Layout>
+    </BrowserRouter>
   );
 }

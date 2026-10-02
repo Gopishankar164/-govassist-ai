@@ -2,7 +2,7 @@
   "Signup": "PASS",
   "Logout": "PASS",
   "Login": "PASS",
-  "average_latency_ms": 126.88605785369873,
-  "p95_latency_ms": 294.88062858581543,
+  "average_latency_ms": 108535.66806316376,
+  "p95_latency_ms": 302206.75110816956,
   "Conversation_Isolation": "PASS"
 }

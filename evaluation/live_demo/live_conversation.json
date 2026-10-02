@@ -2,7 +2,7 @@
   {
     "turn": 1,
     "user": "I am 25 years old.",
-    "assistant": "Based on what you've shared, I found several government schemes that may be relevant to you.\n\nI can confirm that you are (25 years old), but I still need some information such as your gender, state and construction-worker status before determining whether you meet every eligibility requirement.",
+    "assistant": "You're 25 years old, which is below the age requirement for the Old Age Pension Scheme (P.B.O.C.W.W.B) and the Old Age Assistance scheme. \n\nFor the Old Age Pension Scheme, you're not eligible because you're under 60 years old. \n\nFor the Old Age Assistance scheme, you're not eligible because you're under 60 years old, but you're not eligible for the 60-69 age range either since you're under 60. \n\nThe State Government-Run Old Age and Infirm Homes scheme doesn't seem to have any age requirement, but you're not eligible because you're under 60 years old.",
     "recommendation_count": 3
   },
   {
@@ -14,49 +14,49 @@
   {
     "turn": 3,
     "user": "I live in Tamil Nadu.",
-    "assistant": "Based on what you've shared, I found several agriculture-related schemes that may be relevant to you.\n\nI've tailored these results because I know you are a farmer from Tamil Nadu (25 years old).",
+    "assistant": "You live in Tamil Nadu, which is great! Based on the schemes I've found, it seems like you might be eligible for a few of them.\n\nFirstly, you're eligible for the \"Farmers Training\" scheme, which offers training to farmers and agricultural laborers to enhance their skills and knowledge. You'll also be eligible for the \"Distribution of Soil Health Card\" scheme, which provides soil health cards to farmers who have paid a prescribed fee.\n\nHowever, I need a bit more information from you to confirm your eligibility for the \"Distribution of Minikits at Free of Cost\" scheme. You need to be a resident of specific districts in Tamil Nadu, including Coimbatore, Dindigul, Erode, and others, and be involved in maize cultivation. Can you tell me which district you live in and what type of farming do you do?",
     "recommendation_count": 3
   },
   {
     "turn": 4,
     "user": "I need a government loan.",
-    "assistant": "Based on what you've shared, I found several agriculture-related schemes that may be relevant to you.\n\nI've tailored these results because I know you are a farmer from Tamil Nadu (25 years old).",
+    "assistant": "You're looking for a government loan. I've checked the available schemes, and I found a few options that might be suitable for you.\n\nYou're a resident of Tamil Nadu, which is great, as most of these schemes are specifically designed for the state. \n\nThere are three schemes that caught my attention: Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase, Primary Cooperative Agriculture and Rural Development Bank: For Handloom and Other Non Farm Sector Activities, and Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation.\n\nAll three schemes are PotentiaLly Eligible for you, as you're a farmer and a resident of Tamil Nadu. However, I need a bit more information to confirm your eligibility.\n\nFor the Tractor Purchase scheme, you'll need to provide proof of land ownership or lease, and a tractor purchase invoice or quotation. \n\nFor the Handloom and Other Non Farm Sector Activities scheme, you'll need to provide proof of agricultural occupation, if applicable.\n\nFor the Minor Irrigation scheme, you'll need to provide proof of land ownership or lease, and any other documents that might be required.\n\nWhich of these schemes sounds most interesting to you, or would you like me to provide more information about each?",
     "recommendation_count": 3
   },
   {
     "turn": 5,
     "user": "What schemes can I get?",
-    "assistant": "Based on what you've shared, I found several agriculture-related schemes that may be relevant to you.\n\nI've tailored these results because I know you are a farmer from Tamil Nadu (25 years old).",
+    "assistant": "You're eligible for a few schemes in Tamil Nadu. \n\nFirstly, you can consider the \"Farmers Training\" scheme, which provides training to farmers and agricultural laborers. You'll need to prove your identity and farming status.\n\nAnother option is the \"Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\" scheme, which offers financial assistance for buying tractors. You'll need to show your identity, address, and proof of land ownership.\n\nLastly, the \"Organizing Block Demonstration\" scheme provides a subsidy for promoting best agricultural practices. You'll need to prove your identity, land ownership, and that you cultivate seed farms with Pulses crops.\n\nThese schemes are all available in Tamil Nadu, but I recommend checking the eligibility criteria more closely to see if you qualify.",
     "recommendation_count": 3
   },
   {
     "turn": 6,
     "user": "Which one is best for me?",
-    "assistant": "Based on your profile, the best option is 'Farmers Training'. It was ranked highest due to your eligibility.",
+    "assistant": "You're looking for a government loan that's tailored to your needs as a farmer in Tamil Nadu.\n\nOut of the three schemes I mentioned earlier, the \"Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\" scheme seems like a great option for you. It provides financial assistance for buying tractors, which can be a significant investment for farmers like you.\n\nThe other two schemes, while still available, might not be as directly relevant to your needs. The \"Farmers Training\" scheme is more focused on skill development, and the \"Organizing Block Demonstration\" scheme is more focused on promoting best agricultural practices.\n\nThat being said, I'd like to confirm a few things with you. Are you planning to use the loan specifically for purchasing a tractor, or do you have other plans in mind?",
     "recommendation_count": 3
   },
   {
     "turn": 7,
     "user": "What are the eligibility requirements?",
-    "assistant": "The eligibility requirements for 'Farmers Training' are:\n- The beneficiary should be a Farmer.\n - The beneficiary should be a resident of Tamil Nadu.\n - The beneficiary should have interest in joining the training to enhance agricultural skills.",
+    "assistant": "To confirm, the eligibility requirements for the \"Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\" scheme are:\n\nYou need to be a resident of Tamil Nadu.\nYou need to be a farmer.\nYou need to be engaged in agriculture activities.\nAnd, you need to have the intention to use the loan specifically for purchasing a tractor.\n\nAdditionally, you'll need to provide some documents, such as your identity proof (Aadhaar, PAN card, etc.), address proof, proof of land ownership or lease, and a tractor purchase invoice or quotation.\n\nIs that correct?",
     "recommendation_count": 3
   },
   {
     "turn": 8,
     "user": "What documents do I need?",
-    "assistant": "For 'Farmers Training', you will need the following documents:\nProof of Identity (Aadhar Card, Voter ID, etc.). Proof of farming or agricultural labor status. Any other documents (if required).",
+    "assistant": "To apply for the \"Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\" scheme, you'll need to provide some documents. According to the eligibility requirements, you'll need to provide:\n\n1. Your identity proof, such as an Aadhaar card or PAN card.\n2. Your address proof, like a utility bill or a rental agreement.\n3. Proof of land ownership or lease, which could be a land deed or a lease agreement.\n4. A tractor purchase invoice or quotation, which will help verify that you're planning to use the loan for purchasing a tractor.\n\nAdditionally, if you're an SC/ST applicant, you'll also need to provide a caste certificate. But don't worry, I'll guide you through the application process if you need help with that.\n\nIs that what you were looking for?",
     "recommendation_count": 3
   },
   {
     "turn": 9,
     "user": "How much financial assistance can I get?",
-    "assistant": "The financial assistance/benefits for 'Farmers Training' are:\n- **Financial assistance:** \u20b95,000/- per training session of 50 Farmers/Agricultural labourers.",
+    "assistant": "You're looking to know how much financial assistance you can get from the \"Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\" scheme.\n\nAccording to the scheme's details, you can get a grant of \u20b95,000/- per training session, which supports up to 50 participants. However, this scheme seems to be focused on training, not tractor purchases.\n\nIf you're interested in the tractor purchase scheme, the financial assistance is a bit different. The scheme covers up to 90% of the tractor's cost, but the exact amount you'll get depends on the cost of the tractor.",
     "recommendation_count": 3
   },
   {
     "turn": 10,
     "user": "Give me the official application link.",
-    "assistant": "The official application link/process for 'Farmers Training' is:\n[Offline]\nStep 1: Collect the application form from the nearest Agricultural Office.\nStep 2: Fill out the application form with the required details and attach mandatory documents (self-attested, if required). \nStep 3: Submit the form to the concerned office:\nVillage Level: Submit the application to the Assistant Agricultural Officer.Block Level: Submit to the Agricultural Officer or Deputy Agricultural Officer.District Level: Submit to the Joint Director of Agriculture.",
+    "assistant": "I'm not able to provide you with the official application link for any of the schemes mentioned. According to the scheme details, there is no application link provided.",
     "recommendation_count": 3
   }
 ]
