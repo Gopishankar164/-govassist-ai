@@ -9,3 +9,4 @@ dist/
 *.db
 *.sqlite
 *.sqlite3
+backend/data/db_schemes.json
